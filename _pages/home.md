@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Home"
+title: "MDPPML - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "MDPPML Research Group at University of Tübingen."
 sitemap: false
 permalink: /
 ---
