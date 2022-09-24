@@ -3,19 +3,18 @@
   info: Group Leader, started Oct 2021
   email: mete.akguen@uni-tuebingen.de
   number_educ: 3
-  education1: Master <a href="https://www.cmpe.boun.edu.tr/">J Boğaziçi University</a>
-  education2: PhD <a href="https://www.cmpe.boun.edu.tr/">J Boğaziçi University</a>
-  education3: Postdoc <a href="https://uni-tuebingen.de/">J University of Tübingen</a>
+  education1: Master <a href="https://www.cmpe.boun.edu.tr/">Boğaziçi University</a>
+  education2: PhD <a href="https://www.cmpe.boun.edu.tr/">Boğaziçi University</a>
+  education3: Postdoc <a href="https://uni-tuebingen.de/">University of Tübingen</a>
 
 
 - name: Ali Burak Ünal
   photo: Jacky.jpg
   info: Postdoc, started Aug 2022
   email: ali-burak.uenal@uni-tuebingen.de
-  number_educ: 3
-  education1: Postdoc with <a href="http://hoffman.physics.harvard.edu">Jenny Hoffman</a>, Harvard University
-  education2: PhD with <a href="https://www.physics.sjtu.edu.cn/en/people/1/jfJia">Jinfeng Jia</a>, Shanghai Jiao Tong University
-  education3: B.S. East China University of Science and Technology
+  number_educ: 2
+  education1: Master <a href="https://w3.cs.bilkent.edu.tr/tr/">Bilkent University</a>
+  education2: PhD <a href="https://uni-tuebingen.de/">University of Tübingen</a>
 
 - name: Jiasen Niu
   photo: Jiasen.png
