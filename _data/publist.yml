@@ -1,10 +1,10 @@
-- title: "Determination of the charge transfer when tunneling into putative Majorana modes in individual vortices in FeTe0.55Se0.045"
-  image: imageaward_edited.png
-  description: Shot noise has been suggested for a long time as a tell-tale probe for Majorana bound states. We are the first to carry out local tunneling shot noise measurements on the putative vortex Majorana states.
-  authors: J-F Ge, KM Bastiaans, D Chatzopoulos, D Cho, WO Tromp, T Benschop, J Niu, G Gu, MP Allan
+- title: "CECILIA: Comprehensive Secure Machine Learning Framework"
+  image:  cecilia.jpeg
+  description: We propose a secure 3-party computation framework, CECILIA, offering PP building blocks to enable complex operations privately. In addition to the adapted and common operations like addition and multiplication, it offers multiplexer, most significant bit and modulus conversion. The first two are novel in terms of methodology and the last one is novel in terms of both functionality and methodology. CECILIA also has two complex novel methods, which are the exact exponential of a public base raised to the power of a secret value and the inverse square root of a secret Gram matrix. 
+  authors: AB Ünal, N Pfeifer, M Akgün
   link:
-    url: https://arxiv.org/abs/2205.10346
-    display: arXiv:2205.10346 (2022)
+    url: https://arxiv.org/pdf/2202.03023
+    display: arXiv:2202.03023 (2022)
   highlight: 1
 
 - title: "Puddle formation, persistent gaps, and non-mean-field breakdown of superconductivity in overdoped (Pb,Bi)2Sr2CuO6+δ"
