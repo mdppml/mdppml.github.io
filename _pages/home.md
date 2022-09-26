@@ -63,6 +63,6 @@ To this end, we develop novel spectroscopic-imaging scanning tunneling microscop
 We are grateful for funding from [BMBF](https://www.bmbf.de/bmbf/de/home/home_node.html).
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Tübingen.jpg" style="width: 160px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_BMF.jpg" style="width: 128px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Tubingen.png" style="width: 160px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_BMBF.png" style="width: 128px">
 </figure>
