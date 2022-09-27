@@ -3,7 +3,7 @@
   info: Group Leader, started October 2021
   email: mete.akguen@uni-tuebingen.de
   number_educ: 3
-  education1: Master at <a href="https://www.cmpe.boun.edu.tr/">Boğaziçi University</a>
+  education1: M.Sc. at <a href="https://www.cmpe.boun.edu.tr/">Boğaziçi University</a>
   education2: PhD with <a href="https://staff.yasar.edu.tr/Create/Cv/VGxSUmVWUkhaek5OYTA1MlRVUm5OVTVVYTNv45$xYSR/tr">M. Ufuk Çağlayan</a> at <a href="https://www.cmpe.boun.edu.tr/">Boğaziçi University</a>
   education3: Postdoc with <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/team/nico-pfeifer/">Nico Pfeifer</a> and  <a href="https://kohlbacherlab.org/oliver_kohlbacher/">Oliver Kohlbacher</a> at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
 
@@ -13,7 +13,7 @@
   info: Postdoc, started August 2022
   email: ali-burak.uenal@uni-tuebingen.de
   number_educ: 2
-  education1: Master with <a href="http://people.sabanciuniv.edu/otastan/">Öznur Taştan</a> at <a href="https://w3.cs.bilkent.edu.tr/tr/">Bilkent University</a>
+  education1: M.Sc. with <a href="http://people.sabanciuniv.edu/otastan/">Öznur Taştan</a> at <a href="https://w3.cs.bilkent.edu.tr/tr/">Bilkent University</a>
   education2: PhD with <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/team/nico-pfeifer/">Nico Pfeifer</a> at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
 
 - name: Arjhun Swaminathan
@@ -21,34 +21,43 @@
   info: PhD Student, started September 2022
   email: arjhun.swaminathan@uni-tuebingen.de
   number_educ: 1
-  education1: Master at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
+  education1: M.Sc. at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
 
 - name: Şeyma Selcan Mağara
   photo: seyma.jpg
   info: PhD Student, started October 2022
   email: selcan.magara@uni-tuebingen.de
   number_educ: 1
-  education1: Master with <a href="http://people.sabanciuniv.edu/~erkays/">Erkay Savaş</a> at <a href="https://www.sabanciuniv.edu/en">Sabancı University</a>
+  education1: M.Sc. with <a href="http://people.sabanciuniv.edu/~erkays/">Erkay Savaş</a> at <a href="https://www.sabanciuniv.edu/en">Sabancı University</a>
 
 - name: Anika Hannemann
   photo: anika.jpeg
   info: PhD Student within a collaboration with the <a href="https://scads.ai/">ScaDS.AI</a>
   email: anika.hannemann@informatik.uni-leipzig.de
   number_educ: 1
-  education1: Master at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
+  education1: M.Sc. at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
 
 - name: Marius de Arruda Botelho Herr
   photo: marius.jpg
   info:  PhD Student within a collaboration with the <a href="http://pfeiferlab.org/">Pfeifer Lab</a>
   email: marius.herr@uni-tuebingen.de
   number_educ: 1
-  education1: Master with <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/team/nico-pfeifer/">Nico Pfeifer</a> at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
+  education1: M.Sc. with <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/team/nico-pfeifer/">Nico Pfeifer</a> at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
+
+- name: Sofiane Ouaari
+  photo: sofiane.jpeg
+  info:  PhD Student within a collaboration with the <a href="http://pfeiferlab.org/">Pfeifer Lab</a>
+  email: sofiane.ouaari@uni-tuebingen.de
+  number_educ: 1
+  education1: M.Sc. at <a href="https://www.elte.hu/en/">Eötvös Loránd University (ELTE)</a>
+
 
 - name: Debora Jutz
   photo: debora.jpg
   info: Master Student
   email: debora-annette-irene.jutz@student.uni-tuebingen.de
-  number_educ: 0
+  number_educ: 1
+  education1: B.Sc. at <a href="https://www.hs-heilbronn.de/en">Heilbronn University</a>
 
 - name: "This could be you !"
   photo: rock.jpg
