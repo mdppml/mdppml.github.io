@@ -59,6 +59,13 @@
   number_educ: 1
   education1: B.Sc. at <a href="https://www.hs-heilbronn.de/en">Heilbronn University</a>
 
+- name: Güliz Akkaya
+  photo: guliz.png
+  info: Master Student within a collaboration with the <a href="https://ceng.iyte.edu.tr">İYTE</a>
+  email: guliz.akkaya@iyte.edu.tr
+  number_educ: 1
+  education1: B.Sc. at <a href="https://www.ieu.edu.tr/en">Izmir University of Economics</a>
+
 - name: "This could be you !"
   photo: rock.jpg
   info: See <a href="http://www.allanlab.org/vacancies">openings</a> for more info
