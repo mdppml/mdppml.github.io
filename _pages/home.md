@@ -45,7 +45,7 @@ We are a research group at the [University of Tübingen](https://uni-tuebingen.d
 
 
 
-To this end, we develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom. We want to be able to build the perfect instruments to answer the  scientific questions we deem most important (see [Research](research)).
+Our research focuses on innovations in the field of security, privacy and AI in the medical context to enable clinical and genomic data sharing and exploitation across a federation of medical institutions, hospitals and research laboratories in a scalable, secure, responsible and privacy-conscious way. It tries to address the main scalability, privacy, security and ethical challenges of data sharing for enabling effective P4 medicine, by defining an optimal balance between usability, scalability and data protection, and deploying an appropriate set of computing tools to make it happen. (see [Research](research)).
 
 
  **We are  looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
