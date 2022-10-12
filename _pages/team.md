@@ -100,5 +100,7 @@ permalink: /team/
 </div>
 
 
+
+
 ## Administrative Support
-<a href="mailto:agnes.molden@uni-tuebingen.de">Agnes Molden</a> is helping us (and other groups) with administration.
+Feel free to contact us for <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/contact/">administrative support</a>.
