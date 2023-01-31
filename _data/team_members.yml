@@ -7,7 +7,6 @@
   education2: PhD with <a href="https://staff.yasar.edu.tr/Create/Cv/VGxSUmVWUkhaek5OYTA1MlRVUm5OVTVVYTNv45$xYSR/tr">M. Ufuk Çağlayan</a> at <a href="https://www.cmpe.boun.edu.tr/">Boğaziçi University</a>
   education3: Postdoc with <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/team/nico-pfeifer/">Nico Pfeifer</a> and  <a href="https://kohlbacherlab.org/oliver_kohlbacher/">Oliver Kohlbacher</a> at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
 
-
 - name: Ali Burak Ünal
   photo: aliburak.jpeg
   info: Postdoc, started August 2022
@@ -50,14 +49,25 @@
   email: sofiane.ouaari@uni-tuebingen.de
   number_educ: 1
   education1: M.Sc. at <a href="https://www.elte.hu/en/">Eötvös Loránd University (ELTE)</a>
-
-
-- name: Debora Jutz
-  photo: debora.jpg
-  info: Master Student
-  email: debora-annette-irene.jutz@student.uni-tuebingen.de
+  
+- name: Cem Ata Baykara
+  photo: 
+  info:  PhD Student, started February 2023 
+  email: cem.baykara@uni-tuebingen.de
   number_educ: 1
-  education1: B.Sc. at <a href="https://www.hs-heilbronn.de/en">Heilbronn University</a>
+  education1: M.Sc. with <a href="https://www.ozyegin.edu.tr/tr/akademik-kadro/kubrakalkan">Kübra Kalkan Çakmakçı</a> at <a href="https://www.ozyegin.edu.tr/">Özyeğin University</a>
+  
+- name: Felicia Saar
+  photo: 
+  info: Master Student
+  email: felicia-caecilia.saar@student.uni-tuebingen.de
+  number_educ: 0
+  
+- name: Noah Dietrich
+  photo: 
+  info: Master Student
+  email: noah.dietrich@student.uni-tuebingen.de
+  number_educ: 0
 
 - name: Güliz Akkaya
   photo: guliz.png
