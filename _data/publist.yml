@@ -1,3 +1,14 @@
+- title: "Robust Representation Learning for Privacy-Preserving Machine Learning: A Multi-Objective Autoencoder Approach"
+  image: multi-objective-autoencoder-approach.png
+  description: Leveraging the power of robust representation learning, our novel framework advances the field of privacy-preserving machine learning (ppML). Traditional ppML techniques either compromise speed or model performance to safeguard data privacy. Our solution employs multi-objective-trained autoencoders to optimize the balance between data utility and privacy. By sharing only the encoded data form, we enable secure utilization of third-party services for intensive model training and hyperparameter tuning. Our empirical validation, across both unimodal and multimodal settings, outperforms current state-of-the-art methods, making data sharing both efficient and confidential.
+  authors: S Ouaari, AB Ünal, M Akgün, N Pfeifer
+  link:
+    url: https://arxiv.org/abs/2309.04427
+    display: arxiv:2309.04427 (2023)
+  highlight: 1
+
+
+
 - title: "A Privacy-Preserving Federated Learning Approach for Kernel methods"
   image: anika_fedker.png
   description: We've introduced FLAKE, a privacy-preserving Federated Learning Approach for Kernel methods on horizontally distributed data. By allowing data sources to mask their data, a centralized instance can generate a Gram matrix, preserving privacy while enabling the training of kernel-based algorithms like Support Vector Machines. We've established that FLAKE safeguards against semi-honest adversaries learning the input data or the number of features. Testing on clinical and synthetic data confirms FLAKE's superior accuracy and efficiency over similar methods. Its data masking and Gram matrix computation times are significantly less than SVM training times, making it highly applicable across various use cases.
