@@ -8,10 +8,11 @@ permalink: /pictures/
 <style>
 .fixed-height-image {
     height: 200px; /* Fixed height */
-    object-fit: scale-down; /* Scales down the image to fit the container while maintaining its aspect ratio */
+    object-fit: cover; /* Ensures the image covers the area, may crop */
     display: block; /* Ensures the image is block-level for proper centering */
     margin-left: auto; /* Centers the image horizontally */
     margin-right: auto;
+    width: auto; /* Adjusts the width automatically to maintain aspect ratio */
 }
 </style>
 
