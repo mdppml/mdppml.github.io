@@ -32,7 +32,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% endif %}
 
 <div class="col-sm-3 clearfix">
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" style="float: left" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" />
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -70,7 +70,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% endif %}
 
 <div class="col-sm-3 clearfix">
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" style="float: left" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" />
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -108,7 +108,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% endif %}
 
 <div class="col-sm-3 clearfix">
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" style="float: left" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" />
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -146,7 +146,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% endif %}
 
 <div class="col-sm-3 clearfix">
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" style="float: left" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" />
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
