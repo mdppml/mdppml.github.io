@@ -56,6 +56,13 @@
   email: cem.baykara@uni-tuebingen.de
   number_educ: 1
   education1: M.Sc. with <a href="https://www.ozyegin.edu.tr/tr/akademik-kadro/kubrakalkan">Kübra Kalkan Çakmakçı</a> at <a href="https://www.ozyegin.edu.tr/">Özyeğin University</a>
+
+- name: Güliz Akkaya
+  photo: guliz.png
+  info: PhD Student within a collaboration with the <a href="https://ceng.iyte.edu.tr">İYTE</a>
+  email: guliz.akkaya@iyte.edu.tr
+  number_educ: 1
+  education1: M.Sc. at <a href="https://ceng.iyte.edu.tr">İYTE</a>
   
 - name: Felicia Saar
   photo: 
@@ -63,18 +70,11 @@
   email: felicia-caecilia.saar@student.uni-tuebingen.de
   number_educ: 0
   
-- name: Noah Dietrich
+- name: Julia Jentsch
   photo: 
   info: Master Student
-  email: noah.dietrich@student.uni-tuebingen.de
+  email: julia.jentsch@student.uni-tuebingen.de
   number_educ: 0
-
-- name: Güliz Akkaya
-  photo: guliz.png
-  info: Master Student within a collaboration with the <a href="https://ceng.iyte.edu.tr">İYTE</a>
-  email: guliz.akkaya@iyte.edu.tr
-  number_educ: 1
-  education1: B.Sc. at <a href="https://www.ieu.edu.tr/en">Izmir University of Economics</a>
 
 - name: "This could be you !"
   photo: rock.jpg
