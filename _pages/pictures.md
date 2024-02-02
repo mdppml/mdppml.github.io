@@ -8,9 +8,9 @@ permalink: /pictures/
 <style>
 .fixed-height-image {
     height: 200px; /* Fixed height */
-    width: auto; /* Width adjusts automatically to maintain aspect ratio */
-    display: block; /* To prevent inline default spacing */
-    margin-left: auto; /* These two margin properties center the image */
+    object-fit: scale-down; /* Scales down the image to fit the container while maintaining its aspect ratio */
+    display: block; /* Ensures the image is block-level for proper centering */
+    margin-left: auto; /* Centers the image horizontally */
     margin-right: auto;
 }
 </style>
