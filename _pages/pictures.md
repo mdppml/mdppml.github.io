@@ -7,9 +7,11 @@ permalink: /pictures/
 
 <style>
 .fixed-height-image {
-    height: 200px; /* Adjust this value as needed */
-    object-fit: contain; /* This makes sure images cover the area without distorting aspect ratio */
-    width: 100%; /* This ensures the image takes the full width of its container */
+    height: 200px; /* Fixed height */
+    width: auto; /* Width adjusts automatically to maintain aspect ratio */
+    display: block; /* To prevent inline default spacing */
+    margin-left: auto; /* These two margin properties center the image */
+    margin-right: auto;
 }
 </style>
 
