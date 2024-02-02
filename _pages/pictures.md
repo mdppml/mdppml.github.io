@@ -9,7 +9,7 @@ permalink: /pictures/
 Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's graduation](#deborasgraduation), [Noah's graduation](#noahsgraduation)
 
 
-## Tübingen
+## <a id="tubingen">Tübingen</a>
 
 #### Gallery
 (Right-click *'view image'* to see a larger image.)
@@ -52,7 +52,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 
 
 
-## Ali's Graduation
+## <a id="alisgraduation">Ali's Graduation</a>
 
 {% assign number_printed = 0 %}
 {% for pic in site.data.pictures_ali %}
@@ -91,7 +91,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 
 <p> &nbsp; </p>
 
-## Debora's Graduation
+## <a id="deborasgraduation">Debora's Graduation</a>
 
 {% assign number_printed = 0 %}
 {% for pic in site.data.pictures_debora %}
@@ -130,7 +130,6 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 
 <p> &nbsp; </p>
 
-## Noah's Graduation
 ## <a id="noahsgraduation">Noah's Graduation</a>
 
 {% assign number_printed = 0 %}
