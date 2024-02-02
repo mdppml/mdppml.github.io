@@ -8,7 +8,7 @@ permalink: /pictures/
 <style>
 .fixed-height-image {
     height: 200px; /* Adjust this value as needed */
-    object-fit: cover; /* This makes sure images cover the area without distorting aspect ratio */
+    object-fit: contain; /* This makes sure images cover the area without distorting aspect ratio */
     width: 100%; /* This ensures the image takes the full width of its container */
 }
 </style>
