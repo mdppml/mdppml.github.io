@@ -5,9 +5,16 @@ excerpt: "MDPPML -- Pictures"
 permalink: /pictures/
 ---
 
+<style>
+.fixed-height-image {
+    height: 200px; /* Adjust this value as needed */
+    object-fit: cover; /* This makes sure images cover the area without distorting aspect ratio */
+    width: 100%; /* This ensures the image takes the full width of its container */
+}
+</style>
+
 # Pictures
 Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's graduation](#deborasgraduation), [Noah's graduation](#noahsgraduation)
-
 
 ## <a id="tubingen">Tübingen</a>
 
@@ -23,7 +30,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% endif %}
 
 <div class="col-sm-3 clearfix">
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" style="float: left" />
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -31,7 +38,6 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% if even_odd > 2 %}
 </div>
 {% endif %}
-
 
 {% endfor %}
 
@@ -50,8 +56,6 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 
 <p> &nbsp; </p>
 
-
-
 ## <a id="alisgraduation">Ali's Graduation</a>
 
 {% assign number_printed = 0 %}
@@ -64,7 +68,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% endif %}
 
 <div class="col-sm-3 clearfix">
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" style="float: left" />
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -72,7 +76,6 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% if even_odd > 2 %}
 </div>
 {% endif %}
-
 
 {% endfor %}
 
@@ -103,7 +106,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% endif %}
 
 <div class="col-sm-3 clearfix">
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" style="float: left" />
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -111,7 +114,6 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% if even_odd > 2 %}
 </div>
 {% endif %}
-
 
 {% endfor %}
 
@@ -142,7 +144,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% endif %}
 
 <div class="col-sm-3 clearfix">
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" style="float: left" />
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -150,7 +152,6 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% if even_odd > 2 %}
 </div>
 {% endif %}
-
 
 {% endfor %}
 
@@ -168,4 +169,3 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% endif %}
 
 <p> &nbsp; </p>
-
