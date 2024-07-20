@@ -1,5 +1,5 @@
 - title: "A privacy-preserving approach for cloud-based protein fold recognition"
-  image: multi-objective-autoencoder-approach.png
+  image: cell_patterns_rkn.png
   description: The complexity and cost of training machine learning models have made cloud-based machine learning as a service (MLaaS) attractive for businesses and researchers. MLaaS eliminates the need for in-house expertise by providing pre-built models and infrastructure. However, it raises data privacy and model security concerns, especially in medical fields like protein fold recognition. We propose a secure three-party computation-based MLaaS solution for privacy-preserving protein fold recognition, protecting both sequence and model privacy. 
   authors: AB Ünal, N Pfeifer, M Akgün
   link:
