@@ -1,3 +1,12 @@
+- title: "A privacy-preserving approach for cloud-based protein fold recognition"
+  image: multi-objective-autoencoder-approach.png
+  description: The complexity and cost of training machine learning models have made cloud-based machine learning as a service (MLaaS) attractive for businesses and researchers. MLaaS eliminates the need for in-house expertise by providing pre-built models and infrastructure. However, it raises data privacy and model security concerns, especially in medical fields like protein fold recognition. We propose a secure three-party computation-based MLaaS solution for privacy-preserving protein fold recognition, protecting both sequence and model privacy. 
+  authors: AB Ünal, N Pfeifer, M Akgün
+  link:
+    url: https://doi.org/10.1016/j.patter.2024.101023
+    display: patterns:2024.101023
+  highlight: 1
+
 - title: "Robust Representation Learning for Privacy-Preserving Machine Learning: A Multi-Objective Autoencoder Approach"
   image: multi-objective-autoencoder-approach.png
   description: Leveraging the power of robust representation learning, our novel framework advances the field of privacy-preserving machine learning (ppML). Traditional ppML techniques either compromise speed or model performance to safeguard data privacy. Our solution employs multi-objective-trained autoencoders to optimize the balance between data utility and privacy. By sharing only the encoded data form, we enable secure utilization of third-party services for intensive model training and hyperparameter tuning. Our empirical validation, across both unimodal and multimodal settings makes data sharing both efficient and confidential.
@@ -6,7 +15,6 @@
     url: https://arxiv.org/abs/2309.04427
     display: arxiv:2309.04427 (2023)
   highlight: 1
-
 
 
 - title: "A Privacy-Preserving Federated Learning Approach for Kernel methods"
