@@ -58,9 +58,12 @@ permalink: /publications/
 ## Full List of publications
 
 {% for publi in site.data.publist %}
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }}</em><br />
-  {% for link in publi.links %}
-    <a href="{{ link.url }}">{{ link.display }}</a><br />
-  {% endfor %}
+  <div>
+    <strong>{{ publi.title }}</strong> <br />
+    <em>{{ publi.authors }}</em><br />
+    {% for link in publi.links %}
+      <a href="{{ link.url }}">{{ link.display }}</a><br />
+    {% endfor %}
+    <br />
+  </div>
 {% endfor %}
