@@ -2,13 +2,22 @@
   image: cell_patterns_rkn.png
   description: The complexity and cost of training machine learning models have made cloud-based machine learning as a service (MLaaS) attractive for businesses and researchers. MLaaS eliminates the need for in-house expertise by providing pre-built models and infrastructure. However, it raises data privacy and model security concerns, especially in medical fields like protein fold recognition. We propose a secure three-party computation-based MLaaS solution for privacy-preserving protein fold recognition, protecting both sequence and model privacy. 
   authors: AB Ünal, N Pfeifer, M Akgün
-  link:
-    url: https://doi.org/10.1016/j.patter.2024.101023
-    display: Cell Patterns 101023 (2024)
-  link:
-    url: https://github.com/mdppml/RKN-as-a-Service
-    display: GitHub Repository 
+  links:
+    - url: https://doi.org/10.1016/j.patter.2024.101023
+      display: Cell Patterns 101023 (2024)
+    - url: https://github.com/mdppml/RKN-as-a-Service
+      display: GitHub Repository 
   highlight: 1
+
+- title: "FHAUC: Privacy Preserving AUC Calculation for Federated Learning using Fully Homomorphic Encryption"
+  image: fhauc.png
+  description: Current research on federated learning primarily focuses on preserving privacy during the training phase. However, model evaluation has not been adequately addressed, despite the potential for significant privacy leaks during this phase as well. In this paper, we demonstrate that the state-of-the-art AUC computation method for federated learning systems, which utilizes differential privacy, still leaks sensitive information about the test data while also requiring a trusted central entity to perform the computations. 
+  authors: CA Baykara, AB Ünal, M Akgün
+  link:
+    url: https://arxiv.org/abs/2403.14428
+    display: arxiv:2403.14428 (2024)
+  highlight: 1
+
 
 - title: "Robust Representation Learning for Privacy-Preserving Machine Learning: A Multi-Objective Autoencoder Approach"
   image: multi-objective-autoencoder-approach.png
@@ -25,8 +34,8 @@
   description: We've introduced FLAKE, a privacy-preserving Federated Learning Approach for Kernel methods on horizontally distributed data. By allowing data sources to mask their data, a centralized instance can generate a Gram matrix, preserving privacy while enabling the training of kernel-based algorithms like Support Vector Machines. We've established that FLAKE safeguards against semi-honest adversaries learning the input data or the number of features. Testing on clinical and synthetic data confirms FLAKE's superior accuracy and efficiency over similar methods. Its data masking and Gram matrix computation times are significantly less than SVM training times, making it highly applicable across various use cases.
   authors: A Hannemann, AB Ünal, A Swaminathan, E Buchmann, M Akgün
   link:
-    url: https://arxiv.org/abs/2306.02677
-    display: arxiv:2306.02677 (2023)
+    url: https://ieeexplore.ieee.org/document/10431639
+    display: IEEE TPS p82-90 (2023) 
   highlight: 1
 
 - title: "CECILIA: Comprehensive Secure Machine Learning Framework"
