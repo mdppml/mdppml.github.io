@@ -5,6 +5,9 @@
   link:
     url: https://doi.org/10.1016/j.patter.2024.101023
     display: Cell Patterns 101023 (2024)
+  link:
+    url: https://github.com/mdppml/RKN-as-a-Service
+    display: GitHub Repository 
   highlight: 1
 
 - title: "Robust Representation Learning for Privacy-Preserving Machine Learning: A Multi-Objective Autoencoder Approach"
