@@ -1,12 +1,12 @@
 - title: "A privacy-preserving approach for cloud-based protein fold recognition"
   image: cell_patterns_rkn.png
-  description: The complexity and cost of training machine learning models have made cloud-based machine learning as a service (MLaaS) attractive for businesses and researchers. MLaaS eliminates the need for in-house expertise by providing pre-built models and infrastructure. However, it raises data privacy and model security concerns, especially in medical fields like protein fold recognition. We propose a secure three-party computation-based MLaaS solution for privacy-preserving protein fold recognition, protecting both sequence and model privacy. 
+  description: The complexity and cost of training machine learning models have made cloud-based machine learning as a service (MLaaS) attractive for businesses and researchers. MLaaS eliminates the need for in-house expertise by providing pre-built models and infrastructure. However, it raises data privacy and model security concerns, especially in medical fields like protein fold recognition. We propose a secure three-party computation-based MLaaS solution for privacy-preserving protein fold recognition, protecting both sequence and model privacy.
   authors: AB Ünal, N Pfeifer, M Akgün
-  link:
-    url: https://doi.org/10.1016/j.patter.2024.101023
-    display: Cell Patterns 101023 (2024)
-    url: https://github.com/mdppml/RKN-as-a-Service
-    display: GitHub Repository
+  links:
+    - url: "https://doi.org/10.1016/j.patter.2024.101023"
+      display: "Cell Patterns 101023 (2024)"
+    - url: "https://github.com/mdppml/RKN-as-a-Service"
+      display: "GitHub Repository"
   highlight: 1
   
 - title: "FHAUC: Privacy Preserving AUC Calculation for Federated Learning using Fully Homomorphic Encryption"
