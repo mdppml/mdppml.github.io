@@ -64,19 +64,13 @@
   number_educ: 1
   education1: M.Sc. at <a href="https://ceng.iyte.edu.tr">İYTE</a>
   
-- name: Felicia Saar
+- name: Peiru Fang
   photo: 
   info: Master Student
-  email: felicia-caecilia.saar@student.uni-tuebingen.de
-  number_educ: 0
-  
-- name: Julia Jentsch
-  photo: 
-  info: Master Student
-  email: julia.jentsch@student.uni-tuebingen.de
+  email: peiru.fang@student.uni-tuebingen.de
   number_educ: 0
 
-- name: "This could be you !"
+- name: "This could be you!"
   photo: rock.jpg
   info: See <a href="http://www.allanlab.org/vacancies">openings</a> for more info
   email: milan.allan@gmail.com
