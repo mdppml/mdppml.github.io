@@ -59,8 +59,8 @@ permalink: /publications/
 
 {% for publi in site.data.publist %}
   <div>
-    <strong>{{ publi.title }}</strong> <br />
-    <em>{{ publi.authors }}</em><br />
+    {{ "<strong>" | append: publi.title | append: "</strong>" | markdownify }} <br />
+    {{ "<em>" | append: publi.authors | append: "</em>" | markdownify }}<br />
     {% for link in publi.links %}
       <a href="{{ link.url }}">{{ link.display }}</a>{% if forloop.last == false %}<br />{% endif %}
     {% endfor %}
