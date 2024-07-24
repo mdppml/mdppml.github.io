@@ -24,9 +24,8 @@
   authors: S Ouaari, AB Ünal, M Akgün, N Pfeifer
   links:
     - url: https://arxiv.org/abs/2309.04427
-    - display: "arxiv:2309.04427 (2023)"
+      display: "arxiv:2309.04427 (2023)"
   highlight: 1
-
 
 - title: "A Privacy-Preserving Federated Learning Approach for Kernel methods"
   image: anika_fedker.png
@@ -34,45 +33,44 @@
   authors: A Hannemann, AB Ünal, A Swaminathan, E Buchmann, M Akgün
   links:
     - url: https://ieeexplore.ieee.org/document/10431639
-    - display: "IEEE TPS p82-90 (2023)"
+      display: "IEEE TPS p82-90 (2023)"
   highlight: 1
 
 - title: "CECILIA: Comprehensive Secure Machine Learning Framework"
-  image:  cecilia.jpeg
-  description: We propose a secure 3-party computation framework, CECILIA, offering PP building blocks to enable complex operations privately. In addition to the adapted and common operations like addition and multiplication, it offers multiplexer, most significant bit and modulus conversion. The first two are novel in terms of methodology and the last one is novel in terms of both functionality and methodology. CECILIA also has two complex novel methods, which are the exact exponential of a public base raised to the power of a secret value and the inverse square root of a secret Gram matrix. 
+  image: cecilia.jpeg
+  description: We propose a secure 3-party computation framework, CECILIA, offering PP building blocks to enable complex operations privately. In addition to the adapted and common operations like addition and multiplication, it offers multiplexer, most significant bit and modulus conversion. The first two are novel in terms of methodology and the last one is novel in terms of both functionality and methodology. CECILIA also has two complex novel methods, which are the exact exponential of a public base raised to the power of a secret value and the inverse square root of a secret Gram matrix.
   authors: AB Ünal, N Pfeifer, M Akgün
   links:
     - url: https://arxiv.org/pdf/2202.03023
-    - display: "arXiv:2202.03023 (2022)"
+      display: "arXiv:2202.03023 (2022)"
   highlight: 1
 
 - title: "Efficient privacy-preserving whole-genome variant queries"
   image: priefvar.pdf
-  description:   Disease–gene association studies are of great importance. However, genomic data are very sensitive when compared to other data types and contains information about individuals and their relatives. We propose a method that uses secure multi-party computation to query genomic databases in a privacy-protected manner. 
+  description: Disease–gene association studies are of great importance. However, genomic data are very sensitive when compared to other data types and contains information about individuals and their relatives. We propose a method that uses secure multi-party computation to query genomic databases in a privacy-protected manner.
   authors: M Akgün, N Pfeifer, O Kohlbacher
   links:
     - url: https://academic.oup.com/bioinformatics/article/38/8/2202/6527622
-    - display: "Bioinformatics 38,8 (2022)"
+      display: "Bioinformatics 38,8 (2022)"
   highlight: 1
 
 - title: "Escaped: Efficient secure and private dot product framework for kernel-based machine learning algorithms with applications in healthcare"
   image: escaped.png
-  description: We introduce ESCAPED, which stands for Efficient SeCure And PrivatE Dot product framework. ESCAPED enables the computation of the dot product of vectors from multiple sources on a third-party, which later trains kernel-based machine learning algorithms, while neither sacrificing privacy nor adding noise
+  description: We introduce ESCAPED, which stands for Efficient SeCure And PrivatE Dot product framework. ESCAPED enables the computation of the dot product of vectors from multiple sources on a third-party, which later trains kernel-based machine learning algorithms, while neither sacrificing privacy nor adding noise.
   authors: AB Ünal, M Akgün, N Pfeifer
   links:
     - url: https://doi.org/10.1609/aaai.v35i11.17199
-    - display: "AAAI 35, 11 (2021)"
+      display: "AAAI 35, 11 (2021)"
   highlight: 1
 
 - title: "ppAURORA: Privacy Preserving Area Under Receiver Operating Characteristic and Precision-Recall Curves with Secure 3-Party Computation"
   image: 
-  description: Computing an AUC as a performance measure to compare the quality of different machine learning models is one of the final steps of many research projects. Many of these methods are trained on privacy-sensitive data and there are several different approaches like differential privacy, federated machine learning and methods based on cryptographic approaches if the datasets cannot be shared or evaluated jointly at one place. In this setting, it can also be a problem to compute the global performance measure like an AUC, since the labels might also contain privacy-sensitive information. There have been approaches based on differential privacy to deal with this problem, but to the best of our knowledge, no exact privacy preserving solution has been introduced. In this paper, we propose an MPC-based framework, called PPAURORA with private merging of sorted lists and novel methods for comparing two secret-shared values, selecting between two secret-shared values, converting the modulus, and performing division to compute the exact AUC as one could obtain on the pooled original test samples. 
+  description: Computing an AUC as a performance measure to compare the quality of different machine learning models is one of the final steps of many research projects. Many of these methods are trained on privacy-sensitive data and there are several different approaches like differential privacy, federated machine learning and methods based on cryptographic approaches if the datasets cannot be shared or evaluated jointly at one place. In this setting, it can also be a problem to compute the global performance measure like an AUC, since the labels might also contain privacy-sensitive information. There have been approaches based on differential privacy to deal with this problem, but to the best of our knowledge, no exact privacy preserving solution has been introduced. In this paper, we propose an MPC-based framework, called PPAURORA with private merging of sorted lists and novel methods for comparing two secret-shared values, selecting between two secret-shared values, converting the modulus, and performing division to compute the exact AUC as one could obtain on the pooled original test samples.
   authors: AB Ünal, N Pfeifer, M Akgün
   links:
     - url: https://arxiv.org/abs/2102.08788
-    - display:  "arXiv:2102.08788 (2021)"
+      display: "arXiv:2102.08788 (2021)"
   highlight: 0
-  news2:
 
 - title: "Identifying disease-causing mutations with privacy protection"
   image: idengen.png
@@ -80,8 +78,5 @@
   authors: M Akgün, AB Ünal, B Ergüner, N Pfeifer, O Kohlbacher
   links:
     - url: https://doi.org/10.1093/bioinformatics/btaa641
-    - display: "Bioinformatics 36,21 (2021)"
+      display: "Bioinformatics 36,21 (2021)"
   highlight: 1
-
-
-  
