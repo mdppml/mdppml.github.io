@@ -15,9 +15,8 @@
   authors: CA Baykara, AB Ünal, M Akgün
   links:
     - url: https://arxiv.org/abs/2403.14428
-    - display: arxiv:2403.14428 (2024)
+      display: "arxiv:2403.14428 (2024)"
   highlight: 1
-
 
 - title: "Robust Representation Learning for Privacy-Preserving Machine Learning: A Multi-Objective Autoencoder Approach"
   image: multi-objective-autoencoder-approach.png
@@ -25,7 +24,7 @@
   authors: S Ouaari, AB Ünal, M Akgün, N Pfeifer
   links:
     - url: https://arxiv.org/abs/2309.04427
-    - display: arxiv:2309.04427 (2023)
+    - display: "arxiv:2309.04427 (2023)"
   highlight: 1
 
 
@@ -35,7 +34,7 @@
   authors: A Hannemann, AB Ünal, A Swaminathan, E Buchmann, M Akgün
   links:
     - url: https://ieeexplore.ieee.org/document/10431639
-    - display: IEEE TPS p82-90 (2023) 
+    - display: "IEEE TPS p82-90 (2023)"
   highlight: 1
 
 - title: "CECILIA: Comprehensive Secure Machine Learning Framework"
@@ -44,7 +43,7 @@
   authors: AB Ünal, N Pfeifer, M Akgün
   links:
     - url: https://arxiv.org/pdf/2202.03023
-    - display: arXiv:2202.03023 (2022)
+    - display: "arXiv:2202.03023 (2022)"
   highlight: 1
 
 - title: "Efficient privacy-preserving whole-genome variant queries"
@@ -53,7 +52,7 @@
   authors: M Akgün, N Pfeifer, O Kohlbacher
   links:
     - url: https://academic.oup.com/bioinformatics/article/38/8/2202/6527622
-    - display: Bioinformatics 38,8 (2022)
+    - display: "Bioinformatics 38,8 (2022)"
   highlight: 1
 
 - title: "Escaped: Efficient secure and private dot product framework for kernel-based machine learning algorithms with applications in healthcare"
@@ -62,7 +61,7 @@
   authors: AB Ünal, M Akgün, N Pfeifer
   links:
     - url: https://doi.org/10.1609/aaai.v35i11.17199
-    - display: AAAI 35, 11 (2021)
+    - display: "AAAI 35, 11 (2021)"
   highlight: 1
 
 - title: "ppAURORA: Privacy Preserving Area Under Receiver Operating Characteristic and Precision-Recall Curves with Secure 3-Party Computation"
@@ -71,7 +70,7 @@
   authors: AB Ünal, N Pfeifer, M Akgün
   links:
     - url: https://arxiv.org/abs/2102.08788
-    - display:  arXiv:2102.08788 (2021)
+    - display:  "arXiv:2102.08788 (2021)"
   highlight: 0
   news2:
 
@@ -81,7 +80,7 @@
   authors: M Akgün, AB Ünal, B Ergüner, N Pfeifer, O Kohlbacher
   links:
     - url: https://doi.org/10.1093/bioinformatics/btaa641
-    - display: Bioinformatics 36,21 (2021)
+    - display: "Bioinformatics 36,21 (2021)"
   highlight: 1
 
 
