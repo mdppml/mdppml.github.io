@@ -62,8 +62,8 @@ permalink: /publications/
     <strong>{{ publi.title }}</strong><br />
     <em>{{ publi.authors }}</em><br />
     {% for link in publi.links %}
-      <a href="{{ link.url }}">{{ link.display }}</a>{% if forloop.last == false %}<br />{% endif %}
+      <a href="{{ link.url }}">{{ link.display }}</a><br />
     {% endfor %}
-    <br /><br />
+    <br />
   </div>
 {% endfor %}
