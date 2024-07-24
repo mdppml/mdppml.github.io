@@ -8,9 +8,7 @@ permalink: /publications/
 
 # Publications
 
-## Group highlights
-
-**At the end of this page, you can find the [full list of publications](#full-list-of-publications).**
+## List of Publications
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -55,15 +53,4 @@ permalink: /publications/
 
 <p> &nbsp; </p>
 
-## Full List of publications
 
-{% for publi in site.data.publist %}
-  <div>
-    <strong>{{ publi.title }}</strong><br />
-    <em>{{ publi.authors }}</em><br />
-    {% for link in publi.links %}
-      <a href="{{ link.url }}">{{ link.display }}</a><br />
-    {% endfor %}
-    <br />
-  </div>
-{% endfor %}
