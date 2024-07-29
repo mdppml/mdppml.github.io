@@ -1,3 +1,11 @@
+- title: "Dynamic k-anonymity for Electronic Health Records: A Topological Framework"
+  image: anonymity.png
+  description: 
+With the rapid digitization of Electronic Health Records (EHRs), fast and adaptive data anonymization methods have become crucial. While topological data analysis (TDA) tools have been proposed to anonymize static datasets—creating multiple generalizations for different anonymization needs from a single computation—their application to dynamic datasets remains unexplored. Our work adapts existing methodologies to dynamic settings by developing an improved version of weighted persistence barcodes that track higher-dimensional holes in data, allowing real-time editing of persistence information.
+  authors: A Swaminathan, M Akgün
+  links:
+  highlight: 1
+  
 - title: "A privacy-preserving approach for cloud-based protein fold recognition"
   image: cell_patterns_rkn.png
   description: The complexity and cost of training machine learning models have made cloud-based machine learning as a service (MLaaS) attractive for businesses and researchers. MLaaS eliminates the need for in-house expertise by providing pre-built models and infrastructure. However, it raises data privacy and model security concerns, especially in medical fields like protein fold recognition. We propose a secure three-party computation-based MLaaS solution for privacy-preserving protein fold recognition, protecting both sequence and model privacy.
