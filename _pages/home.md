@@ -61,6 +61,5 @@ Our research focuses on innovations in the field of security, privacy and AI in 
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/dfg_logo_englisch_blau_en.jpg" style="width: 160px; margin-bottom:10px; margin-left:20px"/> 
 </figure>
 <figure> 
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/DIFUTURE.png" style="width: 160px; margin-bottom:10px; margin-left:20px"/>  
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_MII.png" style="width: 128px; margin-bottom:10px; margin-left:20px"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/DIFUTURE.png" style="width: 160px; margin-bottom:10px; margin-left:20px"/> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_MII.png" style="width: 128px; margin-bottom:10px; margin-left:20px"/>
 </figure>
