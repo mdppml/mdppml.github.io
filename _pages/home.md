@@ -56,9 +56,9 @@ Our research focuses on innovations in the field of security, privacy and AI in 
 
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Tubingen.png" style="width: 160px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_BMBF.png" style="width: 128px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/dfg_logo_englisch_blau_en.jpg" style="width: 160px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/DIFUTURE.png" style="width: 160px">  
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_MII.png" style="width: 160px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Tubingen.png" style="width: 160px hspace: 20">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_BMBF.png" style="width: 128px hspace: 20">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/dfg_logo_englisch_blau_en.jpg" style="width: 160px hspace: 20">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/DIFUTURE.png" style="width: 160px hspace: 20">  
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_MII.png" style="width: 160px hspace: 20">
 </figure>
