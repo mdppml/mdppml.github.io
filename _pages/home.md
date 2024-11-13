@@ -62,5 +62,5 @@ Our research focuses on innovations in the field of security, privacy and AI in 
 </figure>
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/DIFUTURE.png" style="width: 160px; margin-left:20px">  
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_MII.png" style="width: 160px; margin-left:20px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_MII.png" style="width: 128px; margin-left:20px">
 </figure>
