@@ -55,12 +55,12 @@ Our research focuses on innovations in the field of security, privacy and AI in 
  **We are  looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 
-<figure class="fourth">
+<figure>
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Tubingen.png" style="width: 160px; margin-bottom:10px; margin-left:20px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_BMBF.png" style="width: 128px; margin-left:20px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/dfg_logo_englisch_blau_en.jpg" style="width: 160px; margin-left:20px">
 </figure>
-<figure class="fourth">
+<figure>
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/DIFUTURE.png" style="width: 160px; margin-left:20px">  
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_MII.png" style="width: 128px; margin-left:20px">
 </figure>
