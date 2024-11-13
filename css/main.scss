@@ -91,3 +91,15 @@ firstp {
     margin-right: 30px;
 }
 
+
+#homeid {
+	display: flex;
+	align-items: center;
+  }
+  
+  .logo {
+	max-width: 50px; /* Adjust the size as needed */
+	height: auto;
+	margin-right: 10px; /* Space between the logo and the heading */
+  }
+
