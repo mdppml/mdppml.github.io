@@ -76,22 +76,6 @@
   email: 
   number_educ: 0
 
-- name: Laura Achauer
-  photo: 
-  info: Working Student (Hiwi)
-  email: 
-  number_educ: 0  
-
-- name: Emin Şahin Mektepli
-  info: Intern
-  number_educ: 1
-  education1: <a href="https://www.ozyegin.edu.tr/en">Özyeğin University, Turkey</a>
-  
-- name: İpek Motorcu 
-  info: Intern
-  number_educ: 1
-  education1: <a href="https://www.ozyegin.edu.tr/en">Özyeğin University, Turkey</a>
-
 
 - name: "This could be you!"
   photo: rock.jpg
