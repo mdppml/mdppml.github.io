@@ -7,6 +7,14 @@
       display: "MIRACUM-DIFUTURE Symposium 2024"
   highlight: 1
 
+- title: "Distributed and Secure Kernel-Based Quantum Machine Learning"
+  image: distributed_quantum.png
+  description: While advancements in secure quantum machine learning are notable, the development of secure and distributed quantum analogues of kernel-based machine learning techniques remains underexplored. In this work, we present a novel approach for securely computing common kernels, including polynomial, radial basis function (RBF), and Laplacian kernels, when data is distributed, using quantum feature maps.
+  authors: A Swaminathan, M Akgün
+  links:
+    - url: https://arxiv.org/pdf/2408.10265
+      display: "arxiv"
+  highlight: 1
 
 - title: "Dynamic k-anonymity for Electronic Health Records: A Topological Framework"
   image: anonymity.png
