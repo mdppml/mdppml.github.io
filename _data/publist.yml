@@ -7,6 +7,15 @@
       display: "MIRACUM-DIFUTURE Symposium 2024"
   highlight: 1
 
+- title: "PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies"
+  image: ppgwas.png
+  description: We present a novel algorithm PP-GWAS designed to improve upon existing standards in terms of computational efficiency and scalability without sacrificing data privacy. This algorithm employs randomized encoding within a distributed architecture to perform stacked ridge regression on a Linear Mixed Model to ensure rigorous analysis. Experimental evaluation with real world and synthetic data indicates that PP-GWAS can achieve computational speeds twice as fast as similar state-of-the-art algorithms while using lesser computational resources, all while adhering to a robust security model that caters to an all-but-one semi-honest adversary setting. 
+  authors: A Swaminathan, A Hannemann, AB Ünal, N Pfeifer, M Akgün
+  links:
+    - url: https://arxiv.org/pdf/2410.08122
+      display: "arXiv:2410.08122"
+  highlight: 1
+
 - title: "Distributed and Secure Kernel-Based Quantum Machine Learning"
   image: distributed_quantum.png
   description: While advancements in secure quantum machine learning are notable, the development of secure and distributed quantum analogues of kernel-based machine learning techniques remains underexplored. In this work, we present a novel approach for securely computing common kernels, including polynomial, radial basis function (RBF), and Laplacian kernels, when data is distributed, using quantum feature maps.
@@ -34,6 +43,15 @@
       display: "Cell Patterns 101023 (2024)"
     - url: "https://github.com/mdppml/RKN-as-a-Service"
       display: "GitHub Repository"
+  highlight: 1
+
+- title: "Private, Efficient and Scalable Kernel Learning for Medical Image Analysis"
+  image: okra.png
+  description: Addressing the need for efficient privacy- preserving methods on distributed image data, we introduce OKRA (Or- thonormal K-fRAmes), a novel randomized encoding-based approach for kernel-based machine learning. This technique, tailored for widely used kernel functions, significantly enhances scalability and speed compared to current state-of-the-art solutions. Through experiments conducted on various clinical image datasets, we evaluated model quality, computa- tional performance, and resource overhead. Additionally, our method outperforms comparable approaches.  
+  authors: A Hannemann*, A Swaminathan*, AB Ünal, M Akgün
+  links:
+    - url: "https://www.bioinformatics-sannio.org/cibb2024/"
+      display: "CIBB (2024)"
   highlight: 1
   
 - title: "FHAUC: Privacy Preserving AUC Calculation for Federated Learning using Fully Homomorphic Encryption"
