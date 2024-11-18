@@ -1,3 +1,13 @@
+- title: "Privacy Preserving Federated Unsupervised Domain Adaptation with Application to Age Prediction from DNA Methylation Data"
+  image: freda.png
+  description: We introduce FREDA (FedeRatEd Domain Adaptation), a novel framework for privacy-preserving federated unsupervised domain adaptation in high-dimensional data, with a focus on age prediction from DNA methylation across various tissues. Unlike centralized methods that require combined access to source and target domain data, FREDA ensures data privacy through federated learning, secure aggregation, and randomized encoding. Our evaluations demonstrate that FREDA achieves performance comparable to centralized methods, even in distributed environments, while effectively addressing the distribution shift problem across different domains and preserving the privacy of participants' local data.
+  authors: CA Baykara, AB Ünal, N Pfeifer, M Akgün
+  links:
+    - url: https://www.difuture.de/wp-content/uploads/2024/10/Ali-Burak-Uenal.pdf
+      display: "MIRACUM-DIFUTURE Symposium 2024"
+  highlight: 1
+
+
 - title: "Dynamic k-anonymity for Electronic Health Records: A Topological Framework"
   image: anonymity.png
   description: With the rapid digitization of Electronic Health Records (EHRs), fast and adaptive data anonymization methods have become crucial. While topological data analysis (TDA) tools have been proposed to anonymize static datasets—creating multiple generalizations for different anonymization needs from a single computation—their application to dynamic datasets remains unexplored. Our work adapts existing methodologies to dynamic settings by developing an improved version of weighted persistence barcodes that track higher-dimensional holes in data, allowing real-time editing of persistence information.
