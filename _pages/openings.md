@@ -20,6 +20,25 @@ If you are interested in working with us as a PhD student or postdoc, please sen
 
 We especially welcome postdocs with fellowships. I'd be happy to support you, also after you apply to our group. 
 
+# PhD Student Position – Privacy-Preserving Rare Disease Analysis
+
+We are seeking a highly motivated PhD candidate to join our DFG-funded project on **privacy-preserving rare disease analysis**. The project focuses on developing secure methods for variant filtering, prioritization, and rare-variant association studies.
+
+**Responsibilities include:**  
+- Research on secure algorithms and protocols  
+- Development and integration of methods for variant analysis  
+- Implementation within an open-source framework  
+- Dissemination of research findings
+
+**Requirements:**  
+- Master’s degree (or equivalent) in Computer Science, Bioinformatics, Mathematics, or related fields  
+- Interest or background in cryptography, machine learning, or bioinformatics  
+- Strong programming skills and analytical abilities
+
+For further details and application instructions, please [download the full PDF](./PhD_Position_Details.pdf).
+
+**Application Deadline:** 30.04.2025
+
 ### Master projects
 If you are a Master student at University of Tübingen looking for a Master project, contact me (or any group member) per email or stop by my office.
 
