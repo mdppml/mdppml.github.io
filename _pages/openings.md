@@ -35,7 +35,7 @@ We are seeking a highly motivated PhD candidate to join our DFG-funded project o
 - Interest or background in cryptography, machine learning, or bioinformatics  
 - Strong programming skills and analytical abilities
 
-For further details and application instructions, please [download the full PDF](./PhD_Position_Details.pdf).
+For further details and application instructions, please [download the full PDF](./downloads/PhD_Student_in_Privacy_Preserving_Rare_Disease_Analysis.pdf).
 
 **Application Deadline:** 30.04.2025
 
