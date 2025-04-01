@@ -1,3 +1,7 @@
+- date: 31 March 2025
+  headline: "A TMLR publication!"
+  detail: "We are happy to share that our paper [*Distributed and Secure Kernel-Based Quantum Machine Learning*](https://openreview.net/forum?id=3jdI0aEW3k) is accepted to Transactions on Machine Learning Research."
+
 - date: 01 October 2024
   headline: "Second place in the Junior Research Group Competition at MII"
   detail: "With our research work, [*Privacy-Preserving Federated Unsupervised Domain Adaptation with Application to Age Prediction from DNA Methylation Data*](https://www.miracum.org/das-konsortium/events/miracum-difuture-symposium-2024/), we were awarded second place in the Junior Research Group Competition at MII."
@@ -19,7 +23,7 @@
   detail: "We are happy to share that our paper [*A privacy-preserving approach for cloud-based protein fold recognition*](https://www.cell.com/patterns/fulltext/S2666-3899(24)00156-9) is accepted to Cell Patterns."
 
 - date: 05 July 2024
-  headline: "A CIBB 2024 acceptance!"
+  headline: "A CIBB 2024 publication!"
   detail: "We are happy to share that our paper [*Privacy-preserving Distributed Kernel Learning for Medical Image Analysis*](https://arxiv.org/abs/2306.02677) is accepted to CIBB 2024."
 
 - date: 11 September 2023
