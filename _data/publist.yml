@@ -39,7 +39,7 @@
   description: With the rapid digitization of Electronic Health Records (EHRs), fast and adaptive data anonymization methods have become crucial. While topological data analysis (TDA) tools have been proposed to anonymize static datasets—creating multiple generalizations for different anonymization needs from a single computation—their application to dynamic datasets remains unexplored. Our work adapts existing methodologies to dynamic settings by developing an improved version of weighted persistence barcodes that track higher-dimensional holes in data, allowing real-time editing of persistence information.
   authors: A Swaminathan, M Akgün
   links:
-    - url: https://deic.uab.cat/dpm/dpm2024/program.html
+    - url: https://link.springer.com/chapter/10.1007/978-3-031-82349-7_10
       display: "DPM 2024"
   highlight: 1
   
