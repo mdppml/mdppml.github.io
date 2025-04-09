@@ -76,6 +76,12 @@
   email: 
   number_educ: 0
 
+- name: Huzaifa Khan
+  photo: 
+  info: Intern 
+  email: 
+  number_educ: 1
+  education1: Masters Student in Population-Based Medicine at <a href="https://www.medizin.uni-tuebingen.de/de/das-klinikum/einrichtungen/institute/gesundheitswissenschaften/population-based-medicine">Universitätsklinikum Tübingen</a>
 
 - name: "This could be you!"
   photo: rock.jpg
