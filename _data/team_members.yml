@@ -83,8 +83,8 @@
   number_educ: 1
   education1: Masters Student in Population-Based Medicine at Eberhard Karls Universität Tübingen
 
-- name: "This could be you!"
-  photo: rock.jpg
+- name: "Want to join us?"
+  photo: 
   info: See <a href="https://mdppml.github.io/vacancies">openings</a> for more info
   email: mete.akguen@uni-tuebingen.de
   number_educ: 0
