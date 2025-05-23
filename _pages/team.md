@@ -76,28 +76,45 @@ permalink: /team/
 ## Former members
 <div class="row">
 
-<div class="col-sm-4 clearfix">
-<h4>Visitors</h4>
-{% for member in site.data.alumni_visitors %}
-{{ member.name }}
-{% endfor %}
+  <div class="col-sm-3 clearfix">
+    <h4>Postdocs</h4>
+    <ul>
+    {% for member in site.data.alumni_postdocs %}
+      <li>{{ member.name }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div class="col-sm-3 clearfix">
+    <h4>PhD Students</h4>
+    <ul>
+    {% for member in site.data.alumni_phd %}
+      <li>{{ member.name }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+
+
+  <div class="col-sm-3 clearfix">
+    <h4>Master's Students</h4>
+    <ul>
+    {% for member in site.data.alumni_msc %}
+      <li>{{ member.name }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div class="col-sm-3 clearfix">
+    <h4>Visitors</h4>
+    <ul>
+    {% for member in site.data.alumni_visitors %}
+      <li>{{ member.name }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+
 </div>
 
-<div class="col-sm-4 clearfix">
-<h4>PhD students</h4>
-{% for member in site.data.alumni_phd %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
-<h4>Master Students</h4>
-{% for member in site.data.alumni_msc %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-</div>
 
 
 
