@@ -3,7 +3,7 @@ title: "MDPPML - Vacancies"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
-permalink: /vacancies
+permalink: /vacancies/
 ---
 
 # Open positions
