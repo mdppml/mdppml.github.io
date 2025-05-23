@@ -1,4 +1,4 @@
-- name: Mete Akgün
+- name: Dr. Mete Akgün
   photo: mete.jpg
   info: Group Leader, started October 2021
   email: mete.akguen@uni-tuebingen.de
@@ -6,14 +6,6 @@
   education1: M.Sc. at <a href="https://www.cmpe.boun.edu.tr/">Boğaziçi University</a>
   education2: PhD with <a href="https://staff.yasar.edu.tr/Create/Cv/VGxSUmVWUkhaek5OYTA1MlRVUm5OVTVVYTNv45$xYSR/tr">M. Ufuk Çağlayan</a> at <a href="https://www.cmpe.boun.edu.tr/">Boğaziçi University</a>
   education3: Postdoc with <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/team/nico-pfeifer/">Nico Pfeifer</a> and  <a href="https://kohlbacherlab.org/oliver_kohlbacher/">Oliver Kohlbacher</a> at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
-
-- name: Ali Burak Ünal
-  photo: aliburak.jpeg
-  info: Postdoc, started August 2022
-  email: ali-burak.uenal@uni-tuebingen.de
-  number_educ: 2
-  education1: M.Sc. with <a href="http://people.sabanciuniv.edu/otastan/">Öznur Taştan</a> at <a href="https://w3.cs.bilkent.edu.tr/tr/">Bilkent University</a>
-  education2: PhD with <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/team/nico-pfeifer/">Nico Pfeifer</a> at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
 
 - name: Arjhun Swaminathan
   photo: arjhun.png
@@ -36,13 +28,6 @@
   number_educ: 1
   education1: M.Sc. at <a href="https://www.bwi.de/">BWI GmbH Bonn</a>
 
-- name: Marius de Arruda Botelho Herr
-  photo: marius.jpg
-  info:  PhD Student within a collaboration with the <a href="http://pfeiferlab.org/">Pfeifer Lab</a>
-  email: marius.herr@uni-tuebingen.de
-  number_educ: 1
-  education1: M.Sc. with <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/team/nico-pfeifer/">Nico Pfeifer</a> at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
-
 - name: Sofiane Ouaari
   photo: sofiane.jpg
   info:  PhD Student within a collaboration with the <a href="http://pfeiferlab.org/">Pfeifer Lab</a>
@@ -64,12 +49,6 @@
   number_educ: 1
   education1: M.Sc. at <a href="https://ceng.iyte.edu.tr">İYTE</a>
   
-- name: Peiru Fang
-  photo: 
-  info: Master Student
-  email: peiru.fang@student.uni-tuebingen.de
-  number_educ: 0
-
 - name: Larissa Reichart
   photo: larissa.jpg
   info: Working Student (Hiwi)
