@@ -90,12 +90,6 @@ permalink: /team/
 {% endfor %}
 </div>
 
-<div class="col-sm-4 clearfix">
-<h4>Master's Students</h4>
-{% for member in site.data.alumni_msc %}
-{{ member.name }}
-{% endfor %}
-</div>
 
 <div class="col-sm-4 clearfix">
 <h4>Visitors</h4>
@@ -104,6 +98,12 @@ permalink: /team/
 {% endfor %}
 </div>
 
+<div class="col-sm-4 clearfix">
+<h4>Master's Students</h4>
+{% for member in site.data.alumni_msc %}
+{{ member.name }}
+{% endfor %}
+</div>
 
 </div>
 
