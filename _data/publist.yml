@@ -68,7 +68,7 @@
   description: Addressing the need for efficient privacy- preserving methods on distributed image data, we introduce OKRA (Or- thonormal K-fRAmes), a novel randomized encoding-based approach for kernel-based machine learning. This technique, tailored for widely used kernel functions, significantly enhances scalability and speed compared to current state-of-the-art solutions. Through experiments conducted on various clinical image datasets, we evaluated model quality, computa- tional performance, and resource overhead. Additionally, our method outperforms comparable approaches.  
   authors: A Hannemann*, A Swaminathan*, AB Ünal, M Akgün
   links:
-    - url: "https://www.bioinformatics-sannio.org/cibb2024/"
+    - url: "https://link.springer.com/book/10.1007/978-3-031-89704-7"
       display: "CIBB (2024)"
   highlight: 1
   
