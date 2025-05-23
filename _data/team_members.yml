@@ -21,6 +21,13 @@
   number_educ: 1
   education1: M.Sc. with <a href="http://people.sabanciuniv.edu/~erkays/">Erkay Savaş</a> at <a href="https://www.sabanciuniv.edu/en">Sabancı University</a>
 
+- name: Cem Ata Baykara
+  photo: Cem.jpeg
+  info:  PhD Student, started February 2023 
+  email: cem.baykara@uni-tuebingen.de
+  number_educ: 1
+  education1: M.Sc. with <a href="https://www.ozyegin.edu.tr/tr/akademik-kadro/kubrakalkan">Kübra Kalkan Çakmakçı</a> at <a href="https://www.ozyegin.edu.tr/">Özyeğin University</a>
+
 - name: Anika Hannemann
   photo: anika.jpeg
   info: PhD Student within a collaboration with the <a href="https://scads.ai/">ScaDS.AI</a>
@@ -34,13 +41,6 @@
   email: sofiane.ouaari@uni-tuebingen.de
   number_educ: 1
   education1: M.Sc. at <a href="https://www.elte.hu/en/">Eötvös Loránd University (ELTE)</a>
-  
-- name: Cem Ata Baykara
-  photo: Cem.jpeg
-  info:  PhD Student, started February 2023 
-  email: cem.baykara@uni-tuebingen.de
-  number_educ: 1
-  education1: M.Sc. with <a href="https://www.ozyegin.edu.tr/tr/akademik-kadro/kubrakalkan">Kübra Kalkan Çakmakçı</a> at <a href="https://www.ozyegin.edu.tr/">Özyeğin University</a>
 
 - name: Güliz Akkaya
   photo: guliz.png
