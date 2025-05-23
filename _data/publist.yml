@@ -1,3 +1,12 @@
+- title: "Accelerating Targeted Hard-Label Adversarial Attacks in Low-Query Black-Box Settings"
+  image: adv_ml.png
+  description: We propose Targeted Edge-informed Attack (TEA), a novel attack that utilizes edge information from the target image to carefully perturb it, thereby producing an adversarial image that is closer to the source image while still achieving the desired target classification. Our approach consistently outperforms current state-of-the-art methods across different models in low query settings (nearly 70% fewer queries are used), a scenario especially relevant in real-world applications with limited queries and black-box access. Furthermore, by efficiently generating a suitable adversarial example, TEA provides an improved target initialization for established geometry-based attacks.
+  authors: A Swaminathan, M Akgün
+  links:
+    - url: https://arxiv.org/abs/2505.16313
+      display: "arXiv:2505.16313"
+  highlight: 1
+
 - title: "Accelerating Privacy-Preserving Medical Record Linkage: A Three-Party MPC Approach"
   image: mpc_hospital.png
   description: This work addresses the critical challenge of securely linking medical records across institutions while preserving patient privacy. Integrating data from various sources in healthcare can provide comprehensive insights into disease progression and treatment outcomes. However, strict privacy regulations often limit the ability to share this data. To tackle this, we propose a three-party Multi-Party Computation (MPC) Record Linkage method that ensures sensitive data remains confidential throughout the linkage process. By eliminating the need for Bloom filters and using bigram-based string similarity computations in a three-party framework, the method not only enhances privacy but also achieves an impressive up to 14x faster performance compared to state-of-the-art solutions. This scalable approach offers a practical solution for large-scale, privacy-preserving healthcare data integration.
