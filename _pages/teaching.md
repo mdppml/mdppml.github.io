@@ -8,7 +8,7 @@ permalink: /teaching/
 
 # Teaching
 
-### Introduction to Cryptography
+### INFO4451 Introduction to Cryptography
 *University of Tübingen, Summer Semester*
 
 **Lecturer:** Mete Akgün
@@ -30,7 +30,7 @@ Cryptography is fundamental to the security of modern communications, data stora
 
 This course aims to provide a comprehensive foundation in cryptography, equipping students with the knowledge needed to understand and apply cryptographic techniques in various security contexts.
 
-### Secure Processing of Medical Data: Privacy-Enhancing Technologies in Practice
+### MEDZ4260 Secure Processing of Medical Data: Privacy-Enhancing Technologies in Practice
 *University of Tübingen, Winter Semester*
 
 **Lecturers:** Mete Akgün, Şeyma Selcan Mağara, Cem Ata Baykara
@@ -42,7 +42,7 @@ This practical course offers students hands-on experience with privacy-enhancing
 
 The course fosters a collaborative learning environment where students enhance their practical skills and theoretical knowledge in privacy technologies.
 
-### Data Privacy
+### MEDZ4521 Computer Science Methods for Privacy Preservation in Biomedical Studies: Data Privacy 
 *University of Tübingen, Winter Semester*
 
 **Lecturers:** Mete Akgün, Şeyma Selcan Mağara
