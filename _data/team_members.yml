@@ -28,6 +28,13 @@
   number_educ: 1
   education1: M.Sc. with <a href="https://www.ozyegin.edu.tr/tr/akademik-kadro/kubrakalkan">Kübra Kalkan Çakmakçı</a> at <a href="https://www.ozyegin.edu.tr/">Özyeğin University</a>
 
+- name: Hanru Zhang
+  photo: hanru.jpeg
+  info:  PhD Student, started August 2025 
+  email: hanru.zhang@uni-tuebingen.de
+  number_educ: 1
+  education1: M.Sc. at <a href="https://imprs-mmfd.tuebingen.mpg.de/">IMPRS MMFD</a>
+
 - name: Anika Hannemann
   photo: anika.jpeg
   info: PhD Student within a collaboration with the <a href="https://scads.ai/">ScaDS.AI</a>
@@ -51,16 +58,15 @@
   
 - name: Larissa Reichart
   photo: larissa.jpg
-  info: Working Student (Hiwi)
+  info: M.Sc Student
   email: 
   number_educ: 0
 
 - name: Huzaifa Khan
   photo: huzaifa.jpeg
-  info: Intern 
+  info: M.Sc Student 
   email: 
-  number_educ: 1
-  education1: Masters Student in Population-Based Medicine at University of Tübingen
+  number_educ: 0
 
 - name: "Want to join us?"
   photo: 
