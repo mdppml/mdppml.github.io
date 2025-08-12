@@ -1,3 +1,12 @@
+- title: "Enabling Privacy-preserving Model Evaluation in Federated Learning via Fully Homomorphic Encryption"
+  image: fhauc.png
+  description: Current research on federated learning primarily focuses on preserving privacy during the training phase. However, model evaluation has not been adequately addressed, despite the potential for significant privacy leaks during this phase as well. In this paper, we demonstrate that the state-of-the-art AUC computation method for federated learning systems, which utilizes differential privacy, still leaks sensitive information about the test data while also requiring a trusted central entity to perform the computations. 
+  authors: CA Baykara, AB Ünal, M Akgün
+  links:
+    - url: https://arxiv.org/abs/2403.14428
+      display: "IEEE TPS (2025)"
+  highlight: 1
+
 - title: "Accelerating Targeted Hard-Label Adversarial Attacks in Low-Query Black-Box Settings"
   image: adv_ml.png
   description: We propose Targeted Edge-informed Attack (TEA), a novel attack that utilizes edge information from the target image to carefully perturb it, thereby producing an adversarial image that is closer to the source image while still achieving the desired target classification. Our approach consistently outperforms current state-of-the-art methods across different models in low query settings (nearly 70% fewer queries are used), a scenario especially relevant in real-world applications with limited queries and black-box access. Furthermore, by efficiently generating a suitable adversarial example, TEA provides an improved target initialization for established geometry-based attacks.
@@ -72,15 +81,6 @@
       display: "CIBB (2024)"
   highlight: 1
   
-- title: "FHAUC: Privacy Preserving AUC Calculation for Federated Learning using Fully Homomorphic Encryption"
-  image: fhauc.png
-  description: Current research on federated learning primarily focuses on preserving privacy during the training phase. However, model evaluation has not been adequately addressed, despite the potential for significant privacy leaks during this phase as well. In this paper, we demonstrate that the state-of-the-art AUC computation method for federated learning systems, which utilizes differential privacy, still leaks sensitive information about the test data while also requiring a trusted central entity to perform the computations. 
-  authors: CA Baykara, AB Ünal, M Akgün
-  links:
-    - url: https://arxiv.org/abs/2403.14428
-      display: "arxiv:2403.14428 (2024)"
-  highlight: 1
-
 - title: "Robust Representation Learning for Privacy-Preserving Machine Learning: A Multi-Objective Autoencoder Approach"
   image: multi-objective-autoencoder-approach.png
   description: Leveraging the power of robust representation learning, our novel framework advances the field of privacy-preserving machine learning (ppML). Traditional ppML techniques either compromise speed or model performance to safeguard data privacy. Our solution employs multi-objective-trained autoencoders to optimize the balance between data utility and privacy. By sharing only the encoded data form, we enable secure utilization of third-party services for intensive model training and hyperparameter tuning. Our empirical validation, across both unimodal and multimodal settings makes data sharing both efficient and confidential.
