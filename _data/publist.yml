@@ -1,6 +1,16 @@
+- title: "PRISM: Privacy-preserving Rare Disease Analysis using Fully Homomorphic Encryption"
+  image: prism.png
+  description: We present PRISM, a novel privacy-preserving framework based on fully homomorphic encryption (FHE) that facilitates rare disease variant analysis across multiple institutions without exposing sensitive genomic information. To address the challenges of centralized trust, PRISM is built upon a threshold FHE scheme. This approach decentralizes key management across participating institutions and ensures no single entity can unilaterally decrypt sensitive data. Our method filters disease-causing variants under recessive, dominant, and de novo inheritance models entirely on encrypted data.
+  authors: G Akkaya, N Erdoğmuş, M Akgün
+  links:
+    - url: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaf468/8240325?login=false
+      display: "Bioinformatics (2025)"
+  highlight: 1
+
+
 - title: "Secure and Efficient Logistic Regression with Secret-Sharing MPC and Differential Privacy"
   image: logreg.png
-  description: Machine learning models are being increasingly deployed in sensitive applications where data privacy and model security are of paramount importance. This paper introduces a novel privacy-preserving approach for logistic regression that integrates secret sharing-based multi-party computation (MPC) with differential privacy (DP). Our approach ensures input data confidentiality during training via a three-party MPC protocol that supports mini-batch gradient descent, reducing computational and communication overhead compared to prior MPC methods. To protect the model against membership inference and inversion attacks, we implement DP through direct gradient perturbation that scales efficiently to high-dimensional data while preserving strong $\epsilon$-differential privacy guarantees. Experimental results demonstrate that our approach achieves state-of-the-art efficiency without compromising privacy or model accuracy. By addressing both collaborative training privacy and model-level vulnerabilities, our work enables the secure adoption of logistic regression in scenarios requiring strict data confidentiality and robust post-deployment privacy.
+  description: Machine learning models are being increasingly deployed in sensitive applications where data privacy and model security are of paramount importance. This paper introduces a novel privacy-preserving approach for logistic regression that integrates secret sharing-based multi-party computation (MPC) with differential privacy (DP). Our approach ensures input data confidentiality during training via a three-party MPC protocol that supports mini-batch gradient descent, reducing computational and communication overhead compared to prior MPC methods. To protect the model against membership inference and inversion attacks, we implement DP through direct gradient perturbation that scales efficiently to high-dimensional data while preserving strong \(\epsilon\)-differential privacy guarantees. 
   authors: SS Magara, I Motorcu, ES Mektepli, CA Baykara, AB Ünal, M Akgün
   links:
     - url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11126887
