@@ -1,3 +1,15 @@
+- date: 25 August 2025
+  headline: "An IEEE Access publication!"
+  detail: "We are happy to share that our paper [*Robust Representation Learning for Privacy-Preserving Machine Learning: A Multi-Objective Autoencoder Approach](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11142865) is accepted to IEEE Access."
+
+- date: 18 August 2025
+  headline: "A Bioinformatics publication!"
+  detail: "We are happy to share that our paper [*Privacy-Preserving Federated Unsupervised Domain Adaptation for Regression on Small-Scale and High-Dimensional Biological Data](https://arxiv.org/pdf/2411.17287) is accepted to IEEE Access."
+
+- date: 18 August 2025
+  headline: "An Bioinformatics publication!"
+  detail: "We are happy to share that our paper [*PRISM: Privacy-preserving Rare Disease Analysis using Fully Homomorphic Encryption](https://pubmed.ncbi.nlm.nih.gov/40848286/) is accepted to IEEE Access."
+
 - date: 12 August 2025
   headline: "An IEEE Access publication!"
   detail: "We are happy to share that our paper [*Secure and Efficient Logistic Regression with Secret-Sharing MPC and Differential Privacy](https://ieeexplore.ieee.org/document/11126887) is accepted to IEEE Access."
