@@ -1,3 +1,13 @@
+- title: "Secure and Efficient Logistic Regression with Secret-Sharing MPC and Differential Privacy"
+  image: logreg.png
+  description: Machine learning models are being increasingly deployed in sensitive applications where data privacy and model security are of paramount importance. This paper introduces a novel privacy-preserving approach for logistic regression that integrates secret sharing-based multi-party computation (MPC) with differential privacy (DP). Our approach ensures input data confidentiality during training via a three-party MPC protocol that supports mini-batch gradient descent, reducing computational and communication overhead compared to prior MPC methods. To protect the model against membership inference and inversion attacks, we implement DP through direct gradient perturbation that scales efficiently to high-dimensional data while preserving strong $\epsilon$-differential privacy guarantees. Experimental results demonstrate that our approach achieves state-of-the-art efficiency without compromising privacy or model accuracy. By addressing both collaborative training privacy and model-level vulnerabilities, our work enables the secure adoption of logistic regression in scenarios requiring strict data confidentiality and robust post-deployment privacy.
+  authors: SS Magara, I Motorcu, ES Mektepli, CA Baykara, AB Ünal, M Akgün
+  links:
+    - url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11126887
+      display: "IEEE Access (2025)"
+  highlight: 1
+
+
 - title: "Enabling Privacy-preserving Model Evaluation in Federated Learning via Fully Homomorphic Encryption"
   image: fhauc.png
   description: Current research on federated learning primarily focuses on preserving privacy during the training phase. However, model evaluation has not been adequately addressed, despite the potential for significant privacy leaks during this phase as well. In this paper, we demonstrate that the state-of-the-art AUC computation method for federated learning systems, which utilizes differential privacy, still leaks sensitive information about the test data while also requiring a trusted central entity to perform the computations. 
