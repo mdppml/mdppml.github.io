@@ -1,3 +1,12 @@
+- title: "Robust Representation Learning for Privacy-Preserving Machine Learning: A Multi-Objective Autoencoder Approach"
+  image: rrl.png
+  description: Several domains increasingly rely on machine learning in their applications. The resulting heavy dependence on data has led to the emergence of various laws and regulations around data ethics and privacy and growing awareness of the need for privacy-preserving machine learning (ppML). Current ppML techniques utilize methods that are either purely based on cryptography, such as homomorphic encryption, or that introduce noise into the input, such as differential privacy. The main criticism given to those techniques is the fact that they either are too slow or they trade off a model’s performance for improved confidentiality. To address this performance reduction, we aim to leverage robust representation learning as a way of encoding our data while optimising the privacy-utility trade-off.
+  authors: S Ouaari, AB Ünal, M Akgün, N Pfeifer
+  links:
+    - url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11142865
+      display: "IEEE Access (2025)"
+  highlight: 1
+
 - title: "PRISM: Privacy-preserving Rare Disease Analysis using Fully Homomorphic Encryption"
   image: prism.png
   description: We present PRISM, a novel privacy-preserving framework based on fully homomorphic encryption (FHE) that facilitates rare disease variant analysis across multiple institutions without exposing sensitive genomic information. To address the challenges of centralized trust, PRISM is built upon a threshold FHE scheme. This approach decentralizes key management across participating institutions and ensures no single entity can unilaterally decrypt sensitive data. Our method filters disease-causing variants under recessive, dominant, and de novo inheritance models entirely on encrypted data.
@@ -7,6 +16,14 @@
       display: "Bioinformatics (2025)"
   highlight: 1
 
+- title: "Privacy-Preserving Federated Unsupervised Domain Adaptation for Regression on Small-Scale and High-Dimensional Biological Data"
+  image: freda.png
+  description: In this work, we propose freda, a privacy-preserving federated method for unsupervised domain adaptation in regression tasks. Unlike deep learning-based FDA approaches, freda is the first method to enable the federated training of Gaussian Processes to model complex feature relationships while ensuring complete data privacy through randomized encoding and secure aggregation. This allows for effective domain adaptation without direct access to raw data, making it wellsuited for applications involving high-dimensional, heterogeneous datasets.
+  authors: CA Baykara, AB Ünal, N Pfeifer, M Akgün
+  links:
+    - url: https://www.difuture.de/wp-content/uploads/2024/10/Ali-Burak-Uenal.pdf
+      display: "Bioinformatics (2025)"
+  highlight: 1
 
 - title: "Secure and Efficient Logistic Regression with Secret-Sharing MPC and Differential Privacy"
   image: logreg.png
@@ -45,14 +62,6 @@
       display: "arXiv:2410.21605"
   highlight: 1
 
-- title: "Privacy Preserving Federated Unsupervised Domain Adaptation with Application to Age Prediction from DNA Methylation Data"
-  image: freda.png
-  description: We introduce FREDA (FedeRatEd Domain Adaptation), a novel framework for privacy-preserving federated unsupervised domain adaptation in high-dimensional data, with a focus on age prediction from DNA methylation across various tissues. Unlike centralized methods that require combined access to source and target domain data, FREDA ensures data privacy through federated learning, secure aggregation, and randomized encoding. Our evaluations demonstrate that FREDA achieves performance comparable to centralized methods, even in distributed environments, while effectively addressing the distribution shift problem across different domains and preserving the privacy of participants' local data.
-  authors: CA Baykara, AB Ünal, N Pfeifer, M Akgün
-  links:
-    - url: https://www.difuture.de/wp-content/uploads/2024/10/Ali-Burak-Uenal.pdf
-      display: "MIRACUM-DIFUTURE Symposium 2024"
-  highlight: 1
 
 - title: "PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies"
   image: ppgwas.png
