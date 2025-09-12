@@ -68,6 +68,12 @@
   email: 
   number_educ: 0
 
+- name: Nadja Buttke
+  photo: nadja.jpeg
+  info: M.Sc Student 
+  email: 
+  number_educ: 0
+
 - name: "Want to join us?"
   photo: 
   info: See <a href="https://mdppml.github.io/vacancies">openings</a> for more info
