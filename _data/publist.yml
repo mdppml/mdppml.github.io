@@ -58,8 +58,8 @@
   description: This work addresses the critical challenge of securely linking medical records across institutions while preserving patient privacy. Integrating data from various sources in healthcare can provide comprehensive insights into disease progression and treatment outcomes. However, strict privacy regulations often limit the ability to share this data. To tackle this, we propose a three-party Multi-Party Computation (MPC) Record Linkage method that ensures sensitive data remains confidential throughout the linkage process. By eliminating the need for Bloom filters and using bigram-based string similarity computations in a three-party framework, the method not only enhances privacy but also achieves an impressive up to 14x faster performance compared to state-of-the-art solutions. This scalable approach offers a practical solution for large-scale, privacy-preserving healthcare data integration.
   authors: ŞS Mağara, Noah Dietrich, AB Ünal, M Akgün
   links:
-    - url: https://arxiv.org/abs/2410.21605
-      display: "arXiv:2410.21605"
+    - url: https://www.sciencedirect.com/science/article/pii/S1532046425001492
+      display: "Journal of Biomedical Informatics (2025)"
   highlight: 1
 
 
