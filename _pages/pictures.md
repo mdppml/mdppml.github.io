@@ -18,7 +18,7 @@ permalink: /pictures/
 </style>
 
 # Pictures
-Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's graduation](#deborasgraduation), [Noah's graduation](#noahsgraduation)
+Jump to: [Tübingen](#tubingen), [IEEE Healthcom 2024](#ieeehealthcom2024), [Ali's PhD Defence](#alisgraduation), [Debora's Masters Defence](#deborasgraduation), [Noah's Masters Defence](#noahsgraduation), [Harlin's Visit](#harlinsvisit), [Larissa's Masters Defence](#larissasgraduation), [EURIPS 2025](#eurips2025)
 
 ## <a id="tubingen">Tübingen</a>
 
@@ -291,7 +291,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 
 <p> &nbsp; </p>
 
-## <a id="larissasgraduation">EURIPS 2025</a>
+## <a id="eurips2025">EURIPS 2025</a>
 
 {% assign number_printed = 0 %}
 {% for pic in site.data.pictures_eurips2025 %}
