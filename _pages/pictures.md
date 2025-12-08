@@ -101,7 +101,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 
 
 
-## <a id="alisgraduation">Ali's Graduation</a>
+## <a id="alisgraduation">Ali's PhD Defence</a>
 
 {% assign number_printed = 0 %}
 {% for pic in site.data.pictures_ali %}
@@ -139,7 +139,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 
 <p> &nbsp; </p>
 
-## <a id="deborasgraduation">Debora's Graduation</a>
+## <a id="deborasgraduation">Debora's Masters Defence</a>
 
 {% assign number_printed = 0 %}
 {% for pic in site.data.pictures_debora %}
@@ -177,7 +177,7 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 
 <p> &nbsp; </p>
 
-## <a id="noahsgraduation">Noah's Graduation</a>
+## <a id="noahsgraduation">Noah's Masters Defence</a>
 
 {% assign number_printed = 0 %}
 {% for pic in site.data.pictures_noah %}
@@ -252,3 +252,80 @@ Jump to: [Tübingen](#tubingen), [Ali's graduation](#alisgraduation), [Debora's 
 {% endif %}
 
 <p> &nbsp; </p>
+
+## <a id="larissasgraduation">Larissa's Masters Defence</a>
+
+{% assign number_printed = 0 %}
+{% for pic in site.data.pictures_larissa %}
+
+{% assign even_odd = number_printed | modulo: 4 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-3 clearfix">
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" />
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd > 2 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 4 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% if even_odd == 2 %}
+</div>
+{% endif %}
+
+{% if even_odd == 3 %}
+</div>
+{% endif %}
+
+<p> &nbsp; </p>
+
+## <a id="larissasgraduation">EURIPS 2025</a>
+
+{% assign number_printed = 0 %}
+{% for pic in site.data.pictures_eurips2025 %}
+
+{% assign even_odd = number_printed | modulo: 4 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-3 clearfix">
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive fixed-height-image" />
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd > 2 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 4 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% if even_odd == 2 %}
+</div>
+{% endif %}
+
+{% if even_odd == 3 %}
+</div>
+{% endif %}
+
+<p> &nbsp; </p>
+
