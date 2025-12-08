@@ -35,6 +35,13 @@
   number_educ: 1
   education1: M.Sc. at <a href="https://imprs-mmfd.tuebingen.mpg.de/">IMPRS MMFD</a>
 
+- name: Larissa Reichart
+  photo: larissa.jpg
+  info:  PhD Student, started August 2025 
+  email: larissa.reichart@uni-tuebingen.de
+  number_educ: 1
+  education1: M.Sc. at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
+
 - name: Sofiane Ouaari
   photo: sofiane.jpg
   info:  PhD Student within a collaboration with the <a href="http://pfeiferlab.org/">Pfeifer Lab</a>
@@ -48,12 +55,6 @@
   email: guliz.akkaya@iyte.edu.tr
   number_educ: 1
   education1: M.Sc. at <a href="https://ceng.iyte.edu.tr">İYTE</a>
-  
-- name: Larissa Reichart
-  photo: larissa.jpg
-  info: M.Sc Student
-  email: 
-  number_educ: 0
 
 - name: Huzaifa Khan
   photo: huzaifa.jpeg
