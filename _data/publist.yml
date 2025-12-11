@@ -1,3 +1,21 @@
+- title: "Accelerating Targeted Hard-Label Adversarial Attacks in Low-Query Black-Box Settings"
+  image: adv_ml.png
+  description: We propose Targeted Edge-informed Attack (TEA), a novel attack that utilizes edge information from the target image to carefully perturb it, thereby producing an adversarial image that is closer to the source image while still achieving the desired target classification. Our approach consistently outperforms current state-of-the-art methods across different models in low query settings (nearly 70% fewer queries are used), a scenario especially relevant in real-world applications with limited queries and black-box access. Furthermore, by efficiently generating a suitable adversarial example, TEA provides an improved target initialization for established geometry-based attacks.
+  authors: A Swaminathan, M Akgün
+  links:
+    - url: https://arxiv.org/abs/2505.16313
+      display: "SaTML 2026"
+  highlight: 1
+
+- title: "PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies"
+  image: ppgwas.png
+  description: We present a novel algorithm PP-GWAS designed to improve upon existing standards in terms of computational efficiency and scalability without sacrificing data privacy. This algorithm employs randomized encoding within a distributed architecture to perform stacked ridge regression on a Linear Mixed Model to ensure rigorous analysis. Experimental evaluation with real world and synthetic data indicates that PP-GWAS can achieve computational speeds twice as fast as similar state-of-the-art algorithms while using lesser computational resources, all while adhering to a robust security model that caters to an all-but-one semi-honest adversary setting. 
+  authors: A Swaminathan, A Hannemann, AB Ünal, N Pfeifer, M Akgün
+  links:
+    - url: https://www.nature.com/articles/s41467-025-66771-z
+      display: "Nature Communications (2025)"
+  highlight: 1
+
 - title: "Robust Representation Learning for Privacy-Preserving Machine Learning: A Multi-Objective Autoencoder Approach"
   image: rrl.png
   description: Several domains increasingly rely on machine learning in their applications. The resulting heavy dependence on data has led to the emergence of various laws and regulations around data ethics and privacy and growing awareness of the need for privacy-preserving machine learning (ppML). Current ppML techniques utilize methods that are either purely based on cryptography, such as homomorphic encryption, or that introduce noise into the input, such as differential privacy. The main criticism given to those techniques is the fact that they either are too slow or they trade off a model’s performance for improved confidentiality. To address this performance reduction, we aim to leverage robust representation learning as a way of encoding our data while optimising the privacy-utility trade-off.
@@ -44,15 +62,6 @@
       display: "IEEE TPS (2025)"
   highlight: 1
 
-- title: "Accelerating Targeted Hard-Label Adversarial Attacks in Low-Query Black-Box Settings"
-  image: adv_ml.png
-  description: We propose Targeted Edge-informed Attack (TEA), a novel attack that utilizes edge information from the target image to carefully perturb it, thereby producing an adversarial image that is closer to the source image while still achieving the desired target classification. Our approach consistently outperforms current state-of-the-art methods across different models in low query settings (nearly 70% fewer queries are used), a scenario especially relevant in real-world applications with limited queries and black-box access. Furthermore, by efficiently generating a suitable adversarial example, TEA provides an improved target initialization for established geometry-based attacks.
-  authors: A Swaminathan, M Akgün
-  links:
-    - url: https://arxiv.org/abs/2505.16313
-      display: "arXiv:2505.16313"
-  highlight: 1
-
 - title: "Accelerating Privacy-Preserving Medical Record Linkage: A Three-Party MPC Approach"
   image: mpc_hospital.png
   description: This work addresses the critical challenge of securely linking medical records across institutions while preserving patient privacy. Integrating data from various sources in healthcare can provide comprehensive insights into disease progression and treatment outcomes. However, strict privacy regulations often limit the ability to share this data. To tackle this, we propose a three-party Multi-Party Computation (MPC) Record Linkage method that ensures sensitive data remains confidential throughout the linkage process. By eliminating the need for Bloom filters and using bigram-based string similarity computations in a three-party framework, the method not only enhances privacy but also achieves an impressive up to 14x faster performance compared to state-of-the-art solutions. This scalable approach offers a practical solution for large-scale, privacy-preserving healthcare data integration.
@@ -60,16 +69,6 @@
   links:
     - url: https://www.sciencedirect.com/science/article/pii/S1532046425001492
       display: "Journal of Biomedical Informatics (2025)"
-  highlight: 1
-
-
-- title: "PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies"
-  image: ppgwas.png
-  description: We present a novel algorithm PP-GWAS designed to improve upon existing standards in terms of computational efficiency and scalability without sacrificing data privacy. This algorithm employs randomized encoding within a distributed architecture to perform stacked ridge regression on a Linear Mixed Model to ensure rigorous analysis. Experimental evaluation with real world and synthetic data indicates that PP-GWAS can achieve computational speeds twice as fast as similar state-of-the-art algorithms while using lesser computational resources, all while adhering to a robust security model that caters to an all-but-one semi-honest adversary setting. 
-  authors: A Swaminathan, A Hannemann, AB Ünal, N Pfeifer, M Akgün
-  links:
-    - url: https://www.nature.com/articles/s41467-025-66771-z
-      display: "Nature Communications (2025)"
   highlight: 1
 
 - title: "Distributed and Secure Kernel-Based Quantum Machine Learning"
