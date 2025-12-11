@@ -1,6 +1,10 @@
+- date: 11 December 2025
+  headline: "A SaTML acceptance!"
+  detail: "We are happy to share that our paper [*Accelerating Targeted Hard-Label Adversarial Attacks in Low-Query Black-Box Settings*](https://arxiv.org/pdf/2505.16313) is accepted to SaTML 2026."
+
 - date: 14 November 2025
   headline: "A Nature Communications publication"
-  detail: "We are happy to share that our paper [*PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies*](https://www.nature.com/articles/s41467-025-66771-z) is accepted to IEEE Access."
+  detail: "We are happy to share that our paper [*PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies*](https://www.nature.com/articles/s41467-025-66771-z) is accepted to Nature Communications."
 
 - date: 25 August 2025
   headline: "An IEEE Access publication!"
