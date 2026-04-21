@@ -40,7 +40,7 @@
   info:  PhD Student, started January 2026
   email: larissa.reichart@uni-tuebingen.de
   number_educ: 1
-  education1: M.Sc. at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
+  education1: M.Sc. with <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/about-us/our-team/">Mete Akgün</a> at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
 
 - name: Sofiane Ouaari
   photo: sofiane.jpg
@@ -55,12 +55,6 @@
   email: guliz.akkaya@iyte.edu.tr
   number_educ: 1
   education1: M.Sc. at <a href="https://ceng.iyte.edu.tr">İYTE</a>
-
-- name: Huzaifa Khan
-  photo: huzaifa.jpeg
-  info: M.Sc Student 
-  email: 
-  number_educ: 0
 
 - name: Nadja Buttke
   photo: nadja.jpeg
@@ -78,6 +72,24 @@
   photo: kotzur.jpeg
   info: M.Sc Student 
   email: 
+  number_educ: 0
+
+- name: Johannes Haselberger
+  photo: johannes.jpeg
+  info: M.Sc Student
+  email:
+  number_educ: 0
+
+- name: Peiru Fang
+  photo: 
+  info: M.Sc Student
+  email:
+  number_educ: 0
+
+- name: Ezra Strupp
+  photo: 
+  info: M.Sc Student
+  email:
   number_educ: 0
 
 - name: "Want to join us?"
