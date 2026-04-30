@@ -1,3 +1,21 @@
+- title: "Unsupervised Multi-Source Federated Domain Adaptation under Domain Diversity through Group-Wise Discrepancy Minimization"
+  image: gala.png
+  description: We propose GALA, a scalable and robust federated UMDA framework that introduces two key components: (1) a novel inter-group discrepancy minimization objective that efficiently approximates full pairwise domain alignment without quadratic computation; and (2) a temperature-controlled, centroid-based weighting strategy that dynamically prioritizes source domains based on alignment with the target. Together, these components enable stable and parallelizable training across large numbers of heterogeneous sources. To evaluate performance in high-diversity scenarios, we introduce Digit-18, a new benchmark comprising 18 digit datasets with varied synthetic and real-world domain shifts. Extensive experiments show that GALA consistently achieves competitive or state-of-the-art results on standard benchmarks and significantly outperforms prior methods in diverse multi-source settings where others fail to converge.
+  authors: L Reichart, CA Baykara, AB Ünal, H Lee, M Akgün
+  links:
+    - url: https://arxiv.org/abs/2510.08150
+      display: "ICML (2026)"
+  highlight: 1
+
+- title: "Position Paper: Trustworthy Model Context Protocol Enables Responsible Agentic AI!"
+  image: mcp.png
+  description: As a standard and interface between agents and tools, the Model Context Protocol (MCP) is a natural enforcement point—any improvements to it automatically propagate to every system that adopts it. By examining MCP through the lens of the EU Commission’s ethics guidelines for trustworthy AI, we identify three elements: fundamental shifts in how trustworthiness operates, the critical challenges those shifts create, and the strategic intervention points where protocol-level mechanisms can drive ecosystem-wide impact. We show how MCP’s architecture already offers a foundation for trustworthiness and propose practical enhancements to strengthen it, arguing that a trustworthy MCP is essential for responsible agentic AI deployments.
+  authors: A Swaminathan, A Hannemann
+  links:
+    - url: https://www.techrxiv.org/doi/full/10.36227/techrxiv.177100996.69474432/v1
+      display: "ICML (2026)"
+  highlight: 1
+
 - title: "Accelerating Targeted Hard-Label Adversarial Attacks in Low-Query Black-Box Settings"
   image: adv_ml.png
   description: We propose Targeted Edge-informed Attack (TEA), a novel attack that utilizes edge information from the target image to carefully perturb it, thereby producing an adversarial image that is closer to the source image while still achieving the desired target classification. Our approach consistently outperforms current state-of-the-art methods across different models in low query settings (nearly 70% fewer queries are used), a scenario especially relevant in real-world applications with limited queries and black-box access. Furthermore, by efficiently generating a suitable adversarial example, TEA provides an improved target initialization for established geometry-based attacks.
