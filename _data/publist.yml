@@ -5,8 +5,7 @@
     (1) an inter-group discrepancy minimization objective that approximates full pair-wise domain alignment
     without quadratic computation; and
     (2) a temperature-controlled, centroid-based weighting strategy that dynamically prioritizes source domains
-    based on alignment with the target. Together, these components enable stable and parallelizable training
-    across large numbers of heterogeneous sources. To evaluate high-diversity scenarios, we introduce **Digit-18**,
+    based on alignment with the target. To evaluate high-diversity scenarios, we introduce Digit-18,
     a benchmark of 18 digit datasets with varied synthetic and real-world domain shifts. Extensive experiments
     show that GALA matches or exceeds state-of-the-art performance on standard benchmarks and decisively outperforms
     prior methods in diverse multi-source settings where others fail to converge.
