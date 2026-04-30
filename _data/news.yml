@@ -1,3 +1,7 @@
+- date: 30 April 2026
+  headline: "An ICML acceptance!"
+  detail: "We are happy to share that our paper [*Position Paper: Trustworthy Model Context Protocol Enables Responsible Agentic AI!*](https://www.techrxiv.org/doi/full/10.36227/techrxiv.177100996.69474432/v1) is accepted to ICML 2026."
+
 - date: 11 December 2025
   headline: "A SaTML acceptance!"
   detail: "We are happy to share that our paper [*Accelerating Targeted Hard-Label Adversarial Attacks in Low-Query Black-Box Settings*](https://arxiv.org/pdf/2505.16313) is accepted to SaTML 2026."
