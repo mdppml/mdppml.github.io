@@ -15,7 +15,7 @@
       display: "ICML (2026)"
   highlight: 1
 
-- title: "Position Paper: Trustworthy Model Context Protocol Enables Responsible Agentic AI!"
+- title: "Position: Trustworthy Model Context Protocol Enables Responsible Agentic AI!"
   image: mcp.png
   description: >
     As a standard and interface between agents and tools, the Model Context Protocol (MCP) is a natural
