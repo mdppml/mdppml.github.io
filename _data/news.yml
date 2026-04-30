@@ -1,10 +1,6 @@
 - date: 30 April 2026
-  headline: "An ICML acceptance!"
-  detail: "We are happy to share that our paper [*Unsupervised Multi-Source Federated Domain Adaptation under Domain Diversity through Group-Wise Discrepancy Minimization*](https://arxiv.org/abs/2510.08150) is accepted to ICML 2026."
-
-- date: 30 April 2026
-  headline: "An ICML acceptance!"
-  detail: "We are happy to share that our paper [*Position Paper: Trustworthy Model Context Protocol Enables Responsible Agentic AI!*](https://www.techrxiv.org/doi/full/10.36227/techrxiv.177100996.69474432/v1) is accepted to ICML 2026."
+  headline: "ICML acceptances!"
+  detail: "We are happy to share that our paper [*Unsupervised Multi-Source Federated Domain Adaptation under Domain Diversity through Group-Wise Discrepancy Minimization*](https://arxiv.org/abs/2510.08150) and [*Position Paper: Trustworthy Model Context Protocol Enables Responsible Agentic AI!*](https://www.techrxiv.org/doi/full/10.36227/techrxiv.177100996.69474432/v1) are accepted to ICML 2026."
 
 - date: 11 December 2025
   headline: "A SaTML acceptance!"
