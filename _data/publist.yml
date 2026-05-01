@@ -20,7 +20,7 @@
   description: >
     As a standard and interface between agents and tools, the Model Context Protocol (MCP) is a natural
     enforcement point—improvements to it automatically propagate to every adopting system. Examining MCP
-    through the EU Commission’s ethics guidelines for trustworthy AI, we identify fundamental shifts in how
+    through the European Commission’s ethics guidelines for trustworthy AI, we identify fundamental shifts in how
     trustworthiness operates, the challenges those shifts create, and strategic intervention points where
     protocol-level mechanisms can drive ecosystem-wide impact. We show how MCP’s architecture already offers
     a foundation for trustworthiness and propose practical enhancements to strengthen it, arguing that a
