@@ -1,3 +1,17 @@
+- title: "Empirical Evidence for Simply Connected Decision Regions in Image Classifiers"
+  image: simply.png
+  description: >
+    Understanding the topology of decision regions is central to explaining the inner workings of deep neural networks. 
+    Prior empirical work has provided evidence that these regions are path connected. 
+    We study a stronger topological question: whether closed loops inside a decision region can be contracted without leaving that region. 
+    To this end, we propose an iterative quad-mesh filling procedure that constructs 
+    a finite-resolution label-preserving surface bounded by a given loop and lying entirely within the same decision region. 
+  authors: A Swaminathan, M Akgün
+  links:
+    - url: https://arxiv.org/abs/2605.06380
+      display: "arXiv:2605.06380 (2026)"
+  highlight: 1
+
 - title: "Unsupervised Multi-Source Federated Domain Adaptation under Domain Diversity through Group-Wise Discrepancy Minimization"
   image: gala.png
   description: >
