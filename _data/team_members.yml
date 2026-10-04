@@ -67,12 +67,6 @@
   email:
   number_educ: 0
 
-- name: Ezra Strupp
-  photo: placeholder.jpg
-  info: M.Sc Student
-  email:
-  number_educ: 0
-
 - name: "Want to join us?"
   photo: placeholder.jpg
   info: See <a href="https://mdppml.github.io/vacancies">openings</a> for more info
