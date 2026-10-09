@@ -1,16 +1,100 @@
 ---
 layout: default
 ---
-  
-<div id="homeid" class="col-sm-8 d-flex align-items-center">
-   <div class="row">
-      <div class="col-sm-2"><img src="../images/logopic/LOGO_mdppml@0.5x.png" alt="Logo" class="logo"></div>
-      <div class="col-sm-10"> <h1>MDPPML Research Group</h1></div>
-   </div>
-   {{ content }}
-</div>
+<section class="hero">
+  <div class="wrap">
+    <h1 class="hero__title">
+      <span class="hero__line"><span class="ini">M</span>edical <span class="ini">D</span>ata <span class="ini">P</span>rivacy and</span>
+      <span class="hero__line"><span class="nowrap"><span class="ini">P</span>rivacy-Preserving</span> <span class="ini">M</span>achine <span class="ini">L</span>earning</span>
+    </h1>
+    <div class="hero__lede">
+      {{ content }}
+    </div>
+    <p class="hero__actions">
+      <a class="button button--primary" href="{{ site.baseurl }}/research/">Read about our research</a>
+      <a class="button" href="{{ site.baseurl }}/team/">Meet the team</a>
+    </p>
+  </div>
+  {% if page.group_photo %}
+  <div class="wrap">
+    <figure class="hero__photo">
+      <img src="{{ site.baseurl }}{{ page.group_photo }}-1600.jpg"
+           srcset="{{ site.baseurl }}{{ page.group_photo }}-800.jpg 800w, {{ site.baseurl }}{{ page.group_photo }}-1600.jpg 1600w"
+           sizes="(min-width: 72rem) 67rem, calc(100vw - 2.5rem)"
+           width="1600" height="666" alt="{{ page.group_photo_alt }}">
+    </figure>
+  </div>
+  {% endif %}
+</section>
 
+<section class="section" aria-labelledby="work-heading">
+  <div class="wrap split">
+    <div class="split__aside">
+      <h2 id="work-heading">What we work on</h2>
+      <p>All of it is privacy-preserving: institutions get joint results without handing over patient data.</p>
+      <p class="section__more"><a href="{{ site.baseurl }}/research/">More about our research</a></p>
+    </div>
+    <dl class="themes">
+      {% for theme in site.data.research_themes %}
+      <div class="theme">
+        <dt>{{ theme.name }}</dt>
+        <dd>{{ theme.summary }}</dd>
+      </div>
+      {% endfor %}
+    </dl>
+  </div>
+</section>
 
-<div id="newsid" class="col-sm-4">
-  {% include news.html %}
-</div>
+<section class="section">
+  <div class="wrap updates">
+    <div>
+      <h2>Recent papers</h2>
+      <ol class="paper-list">
+        {% for publi in site.data.publist limit:4 %}
+        <li class="paper">
+          <h3 class="paper__title"><a href="{{ publi.links[0].url }}">{{ publi.title }}</a></h3>
+          <p class="paper__meta"><span class="venue">{% if publi.venue %}{{ publi.venue }} {{ publi.year }}{% else %}{{ publi.links[0].display }}{% endif %}</span> {{ publi.authors }}</p>
+        </li>
+        {% endfor %}
+      </ol>
+      <p class="section__more"><a href="{{ site.baseurl }}/publications/">All publications</a></p>
+    </div>
+
+    <div>
+      <h2>News</h2>
+      <ul class="news-list">
+        {% for article in site.data.news limit:4 %}
+        <li class="news-item">
+          <time>{{ article.date }}</time>
+          <div class="news-item__text">
+            <p class="news-item__headline">{{ article.headline }}</p>
+            {% if article.detail %}{{ article.detail | markdownify }}{% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+      <p class="section__more"><a href="{{ site.baseurl }}/allnews.html">All news</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="join" aria-labelledby="join-heading">
+  <div class="wrap join__inner">
+    <div>
+      <h2 id="join-heading">Join the group</h2>
+      <p>We are looking for PhD students, postdocs and Master's students who want to work on privacy-preserving machine learning for medicine.</p>
+    </div>
+    <a class="button button--primary" href="{{ site.baseurl }}/vacancies/">See open positions</a>
+  </div>
+</section>
+
+<section class="partners" aria-labelledby="partners-heading">
+  <div class="wrap">
+    <h2 id="partners-heading" class="partners__heading">Funding and partners</h2>
+    <ul class="partners__list">
+      {% for partner in site.data.partners %}
+      <li><a href="{{ partner.url }}"><img src="{{ site.baseurl }}/images/partners/{{ partner.logo }}" alt="{{ partner.name }}" height="44"></a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

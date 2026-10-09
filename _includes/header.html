@@ -1,27 +1,24 @@
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-	<div class="navbar-header">		
-	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-		<div class="row">
-			<div class="col-sm-2"><img src="../images/logopic/LOGO_mdppml@0.5x.png" alt="Logo" class="logosmall"></div>
-			<div class="col-sm-10"><a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">MDPPML @ University of Tübingen</a></div>
-		</div>
-	</div>
-	<div class="collapse navbar-collapse" id="navbar-collapse-1">
-	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/team/">Team</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/research/">Research</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/publications/">Publications</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/teaching/">Teaching</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/vacancies/">Vacancies</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/pictures/">(Pics)</a></li>
-	  </ul>
-	</div>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="{{ site.baseurl }}/" aria-label="MDPPML, University of Tübingen: home">
+      <img class="brand__mark" src="{{ site.baseurl }}/images/logopic/mdppml-mark.png" alt="" width="42" height="36">
+      <span class="brand__text">
+        <span class="brand__name">MDPPML</span>
+        <span class="brand__place">University of Tübingen</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+    {% assign nav_items = "Team|/team/;Research|/research/;Publications|/publications/;Teaching|/teaching/;Open positions|/vacancies/;Pictures|/pictures/" | split: ";" %}
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+        {% for item in nav_items %}
+        {% assign parts = item | split: "|" %}
+        <li><a href="{{ site.baseurl }}{{ parts[1] }}"{% if page.url == parts[1] %} aria-current="page"{% endif %}>{{ parts[0] }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
   </div>
-</div>
+</header>

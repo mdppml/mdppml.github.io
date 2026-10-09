@@ -1,0 +1,45 @@
+---
+title: "MDPPML - Publications"
+layout: gridlay
+excerpt: "Papers and preprints from the MDPPML group at the University of Tübingen."
+sitemap: false
+permalink: /publications/
+---
+{% comment %}
+  Entries come from _data/publist.yml (newest first) and are grouped by their `year` field.
+  Only entries with `highlight: 1` are listed. `venue` is shown next to the authors;
+  if it is missing, the first link's display text is used instead.
+{% endcomment %}
+{% assign pubs = site.data.publist | where: "highlight", 1 %}
+{% assign years = pubs | map: "year" | compact | uniq %}
+
+<header class="page-intro">
+  <h1>Publications</h1>
+  <p class="lede">Papers and preprints from the group, newest first.</p>
+  <nav class="year-nav" aria-label="Jump to year">
+    {% for year in years %}<a href="#y{{ year }}">{{ year }}</a>{% endfor %}
+  </nav>
+</header>
+
+{% for year in years %}
+<section class="pub-year" id="y{{ year }}" aria-labelledby="y{{ year }}-label">
+  <h2 class="pub-year__label" id="y{{ year }}-label">{{ year }}</h2>
+  <ol class="pub-list">
+    {% for publi in pubs %}{% if publi.year == year %}
+    {% include publication.html publi=publi %}
+    {% endif %}{% endfor %}
+  </ol>
+</section>
+{% endfor %}
+
+{% capture undated %}{% for publi in pubs %}{% unless publi.year %}x{% endunless %}{% endfor %}{% endcapture %}
+{% if undated != "" %}
+<section class="pub-year" id="other" aria-labelledby="other-label">
+  <h2 class="pub-year__label" id="other-label">Other</h2>
+  <ol class="pub-list">
+    {% for publi in pubs %}{% unless publi.year %}
+    {% include publication.html publi=publi %}
+    {% endunless %}{% endfor %}
+  </ol>
+</section>
+{% endif %}

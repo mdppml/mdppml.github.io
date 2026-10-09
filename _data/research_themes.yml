@@ -1,0 +1,24 @@
+# Research themes shown on the homepage ("What we work on").
+# Every theme is privacy-preserving, so names leave out the "Privacy-Preserving" prefix.
+# Longer descriptions live on the Research page (_pages/research.md).
+
+- name: Similar patient queries
+  summary: Finding patients with similar profiles across institutions' biomedical data, without revealing who they are.
+
+- name: Medical record linkage
+  summary: Matching records of the same patient across sources to uncover new relationships between diseases.
+
+- name: Genome-wide association studies
+  summary: Identifying genetic variants linked to phenotypes across sites, in a way that scales with cohort size.
+
+- name: Secure multi-party computation
+  summary: CECILIA, our three-party framework, extends private machine learning beyond CNNs to RKNs, LSTMs and GANs.
+
+- name: Collaborative model evaluation
+  summary: Letting clients evaluate models on pooled test data without exposing that data to each other.
+
+- name: Explainable machine learning
+  summary: Model explanations that stay useful without leaking the training data behind them.
+
+- name: Federated learning
+  summary: Keeping data and model updates protected throughout collaborative training on high-dimensional medical data.

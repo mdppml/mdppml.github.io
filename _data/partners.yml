@@ -1,0 +1,22 @@
+# Funders and partners shown at the bottom of the homepage.
+# Logos live in images/partners/ (trimmed, 112px tall = 2x the display height).
+
+- name: University of Tübingen
+  logo: tuebingen.png
+  url: https://uni-tuebingen.de/en/
+
+- name: Federal Ministry of Education and Research (BMBF)
+  logo: bmbf.png
+  url: https://www.bmbf.de/
+
+- name: German Research Foundation (DFG)
+  logo: dfg.png
+  url: https://www.dfg.de/
+
+- name: DIFUTURE
+  logo: difuture.png
+  url: https://difuture.de/
+
+- name: Medical Informatics Initiative Germany
+  logo: mii.png
+  url: https://www.medizininformatik-initiative.de/

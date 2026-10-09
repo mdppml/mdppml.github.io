@@ -1,0 +1,19 @@
+{% assign p = include.publi %}
+<li class="pub">
+  {% if p.image %}<img class="pub__thumb" src="{{ site.baseurl }}/images/pubpic/{{ p.image }}" alt="" loading="lazy" decoding="async" width="168" height="112">{% endif %}
+  <div class="pub__body">
+    <h3 class="pub__title">{% if p.links[0].url %}<a href="{{ p.links[0].url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+    <p class="pub__meta"><span class="venue">{% if p.venue %}{{ p.venue }}{% else %}{{ p.links[0].display }}{% endif %}</span> {{ p.authors }}</p>
+    {% if p.news1 and p.news1 != "" %}<p class="pub__note">{{ p.news1 }}</p>{% endif %}
+    {% if p.news2 and p.news2 != "" %}<p class="pub__note pub__note--secondary">{{ p.news2 }}</p>{% endif %}
+    {% if p.description %}
+    <details class="pub__abstract">
+      <summary>Abstract</summary>
+      <div class="pub__abstract-text">{{ p.description | markdownify }}</div>
+    </details>
+    {% endif %}
+    <p class="pub__links{% unless p.description %} pub__links--plain{% endunless %}">
+      {% for link in p.links %}<a href="{{ link.url }}">{% if forloop.first %}Paper{% else %}{{ link.display }}{% endif %}</a>{% endfor %}
+    </p>
+  </div>
+</li>
