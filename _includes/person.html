@@ -1,0 +1,10 @@
+{% assign m = include.member %}
+{% assign role = m.info | strip %}
+<li class="person">
+  <img class="person__photo" src="{{ site.baseurl }}/images/teampic/{{ m.photo }}" alt="" loading="lazy" decoding="async" width="300" height="300">
+  <h3 class="person__name">{{ m.name }}</h3>
+  {% unless role == "" or role == "M.Sc Student" %}<p class="person__role">{{ role | replace: ", started", " since" }}</p>{% endunless %}
+  {% capture edu %}{% for i in (1..5) %}{% assign key = "education" | append: i %}{% if m[key] and m[key] != "" %}<span class="person__edu-line">{{ m[key] }}</span>{% endif %}{% endfor %}{% endcapture %}
+  {% assign edu = edu | strip %}
+  {% if edu != "" %}<p class="person__edu">{{ edu }}</p>{% endif %}
+</li>

@@ -1,0 +1,23 @@
+# Research areas on the Research page. Each theme in research_themes.yml belongs to one area (theme.area = area.id).
+# The figure is taken from one of the group's papers; figure_paper must match a title in publist.yml.
+
+- id: biomedical
+  name: Privacy-preserving biomedical data analysis
+  summary: Analyses that need data from several hospitals or labs, carried out without revealing patient records to the other parties.
+  figure: /images/pubpic/ppgwas.png
+  figure_alt: Diagram of masked data from several sites sent to third-party computational resources that return GWAS results
+  figure_paper: "PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies"
+
+- id: secure-ml
+  name: Secure computation for machine learning
+  summary: Cryptographic protocols that train, run and evaluate machine learning models on data that no single party can see.
+  figure: /images/pubpic/logreg.png
+  figure_alt: Three hospitals secret-share their data with two computing parties and a helper inside an MPC framework
+  figure_paper: "Secure and Efficient Logistic Regression with Secret-Sharing MPC and Differential Privacy"
+
+- id: trustworthy
+  name: Federated and trustworthy machine learning
+  summary: Learning across institutions without pooling data, and understanding when models leak information or can be attacked.
+  figure: /images/pubpic/adv_ml.png
+  figure_alt: Source and target images with edge maps, illustrating a targeted adversarial attack
+  figure_paper: "Accelerating Targeted Hard-Label Adversarial Attacks in Low-Query Black-Box Settings"

@@ -1,24 +1,80 @@
-# Research themes shown on the homepage ("What we work on").
+# Research themes.
+# - Homepage ("What we work on") shows name + summary.
+# - Research page shows name + description, grouped by area (see research_areas.yml),
+#   with key papers taken from publist.yml entries whose `themes` list contains this theme's id.
 # Every theme is privacy-preserving, so names leave out the "Privacy-Preserving" prefix.
-# Longer descriptions live on the Research page (_pages/research.md).
 
-- name: Similar patient queries
+- id: genomics
+  area: biomedical
+  name: Genomic data analysis
+  summary: Genome-wide association studies, variant queries and rare disease analysis across sites, without exposing anyone's genome.
+  description: >
+    Genomic data reveal information about individuals and their relatives, which makes sharing them across
+    sites especially sensitive. We design privacy-preserving methods for genome-wide association studies that
+    scale with cohort size, for querying whole-genome variant databases, and for identifying disease-causing
+    variants in rare diseases across institutions.
+
+- id: patient-queries
+  area: biomedical
+  name: Similar patient queries
   summary: Finding patients with similar profiles across institutions' biomedical data, without revealing who they are.
+  description: >
+    We develop methods for querying similar patients across diverse biomedical data types while preserving
+    individual privacy. Finding comparable patients in other cohorts helps to understand treatment responses
+    and disease progression, especially when working with large patient cohorts.
 
-- name: Medical record linkage
+- id: record-linkage
+  area: biomedical
+  name: Medical record linkage
   summary: Matching records of the same patient across sources to uncover new relationships between diseases.
+  description: >
+    Combining patient data from different sources can uncover new relationships between diseases and medical
+    indications. We improve privacy-preserving record linkage (PPRL) so that records of the same patient can be
+    matched efficiently and securely, without compromising privacy.
 
-- name: Genome-wide association studies
-  summary: Identifying genetic variants linked to phenotypes across sites, in a way that scales with cohort size.
-
-- name: Secure multi-party computation
+- id: mpc
+  area: secure-ml
+  name: Secure multi-party computation
   summary: CECILIA, our three-party framework, extends private machine learning beyond CNNs to RKNs, LSTMs and GANs.
+  description: >
+    We develop our own three-party computation framework, CECILIA, and extend privacy-preserving machine learning
+    beyond convolutional neural networks to recurrent kernel networks (RKNs), long short-term memory networks
+    (LSTMs) and generative adversarial networks (GANs), addressing the challenge of running these models
+    efficiently while the data stays secret-shared.
 
-- name: Collaborative model evaluation
+- id: evaluation
+  area: secure-ml
+  name: Collaborative model evaluation
   summary: Letting clients evaluate models on pooled test data without exposing that data to each other.
+  description: >
+    We develop methods that let clients evaluate machine learning models on pooled test data without
+    compromising privacy. This matters for clients with limited data who need to assess models trained on
+    aggregated datasets, and it supports collaborative architectures such as federated learning.
 
-- name: Explainable machine learning
-  summary: Model explanations that stay useful without leaking the training data behind them.
-
-- name: Federated learning
+- id: federated
+  area: trustworthy
+  name: Federated learning
   summary: Keeping data and model updates protected throughout collaborative training on high-dimensional medical data.
+  description: >
+    We address the privacy challenges of federated learning, particularly with high-dimensional medical data,
+    and develop frameworks that keep model updates and data protected throughout collaborative training. Recent
+    work extends this to federated domain adaptation, where the data at different sites follow different
+    distributions.
+
+- id: explainable
+  area: trustworthy
+  name: Explainable machine learning
+  summary: Model explanations that stay useful without leaking the training data behind them.
+  description: >
+    Model explanations can expose sensitive training data. We study these privacy risks and design methods that
+    provide insightful explanations while protecting the individuals whose data was used in training, making
+    machine learning models more trustworthy.
+
+- id: ai-security
+  area: trustworthy
+  name: Secure and trustworthy AI
+  summary: How machine learning models can be attacked, and what it takes to make AI systems, including agentic ones, trustworthy.
+  description: >
+    We study how machine learning models can be attacked and what makes them trustworthy: targeted adversarial
+    attacks in black-box settings with few queries, the geometry of image classifiers' decision regions, and
+    protocol-level safeguards for agentic AI systems.

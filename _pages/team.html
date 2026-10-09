@@ -1,0 +1,93 @@
+---
+title: "MDPPML - Team"
+layout: default
+excerpt: "Members and alumni of the MDPPML group at the University of Tübingen."
+sitemap: false
+permalink: /team/
+---
+{% comment %}
+  Members come from _data/team_members.yml and are grouped by their `info` text:
+  "Group Leader" -> featured at the top, "Postdoc" -> Postdocs, "PhD" -> PhD students, "M.Sc" -> Master's students.
+  Anyone matching none of these is listed under "Members". Alumni come from _data/alumni_*.yml ("Name, Year").
+{% endcomment %}
+{% assign members = site.data.team_members %}
+{% assign leaders = members | where_exp: "m", "m.info contains 'Group Leader'" %}
+{% assign postdocs = members | where_exp: "m", "m.info contains 'Postdoc'" %}
+{% assign phds = members | where_exp: "m", "m.info contains 'PhD'" %}
+{% assign mscs = members | where_exp: "m", "m.info contains 'M.Sc'" %}
+
+<div class="wrap page-body team">
+
+  <header class="page-intro team__intro">
+    <h1>Team</h1>
+    <p class="lede">We are computer scientists at the University of Tübingen working on privacy-preserving machine learning for medicine.</p>
+  </header>
+
+  {% for m in leaders %}
+  <section class="leader" aria-label="Group leader">
+    <img class="leader__photo" src="{{ site.baseurl }}/images/teampic/{{ m.photo }}" alt="" width="240" height="240">
+    <div>
+      <h2 class="leader__name">{{ m.name }}</h2>
+      <p class="leader__role">{{ m.info | replace: ", started", " since" }}</p>
+      <h3 class="leader__label">Background</h3>
+      <ul class="leader__cv">
+        {% for i in (1..5) %}{% assign key = "education" | append: i %}{% if m[key] and m[key] != "" %}
+        <li>{{ m[key] }}</li>
+        {% endif %}{% endfor %}
+      </ul>
+    </div>
+  </section>
+  {% endfor %}
+
+  {% if postdocs.size > 0 %}
+  <section class="people-group" aria-labelledby="postdocs-title">
+    <h2 id="postdocs-title">Postdocs</h2>
+    <ul class="people">
+      {% for m in postdocs %}{% include person.html member=m %}{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <section class="people-group" aria-labelledby="phd-title">
+    <h2 id="phd-title">PhD students</h2>
+    <ul class="people">
+      {% for m in phds %}{% include person.html member=m %}{% endfor %}
+      <li class="person person--join">
+        <div class="person__slot">
+          <p>We are looking for PhD students and postdocs.</p>
+          <p><a href="{{ site.baseurl }}/vacancies/">See open positions</a></p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  {% if mscs.size > 0 %}
+  <section class="people-group" aria-labelledby="msc-title">
+    <h2 id="msc-title">Master's students</h2>
+    <ul class="people">
+      {% for m in mscs %}{% include person.html member=m %}{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% capture others %}{% for m in members %}{% unless m.info contains 'Group Leader' or m.info contains 'Postdoc' or m.info contains 'PhD' or m.info contains 'M.Sc' %}{% include person.html member=m %}{% endunless %}{% endfor %}{% endcapture %}
+  {% assign others = others | strip %}
+  {% if others != "" %}
+  <section class="people-group" aria-labelledby="others-title">
+    <h2 id="others-title">Members</h2>
+    <ul class="people">{{ others }}</ul>
+  </section>
+  {% endif %}
+
+  <section class="people-group" aria-labelledby="alumni-title">
+    <h2 id="alumni-title">Former members</h2>
+    <div class="alumni">
+      {% include alumni-group.html title="Postdocs" people=site.data.alumni_postdocs %}
+      {% include alumni-group.html title="PhD graduates" people=site.data.alumni_phd %}
+      {% include alumni-group.html title="Visitors" people=site.data.alumni_visitors %}
+      {% include alumni-group.html title="Master's students" people=site.data.alumni_msc %}
+    </div>
+  </section>
+
+  <p class="team__admin">For administrative matters, please contact our <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/contact/">administrative support</a>.</p>
+</div>

@@ -1,5 +1,9 @@
+# Group members, shown on the Team page.
+# Grouping is based on `info`: "Group Leader" is featured at the top, entries containing "PhD" are listed
+# under PhD students, "M.Sc" under Master's students. Photos: images/teampic/ (square crops in portraits/).
+
 - name: Dr. Mete Akgün
-  photo: mete.jpg
+  photo: portraits/mete.jpg
   info: Group Leader, started October 2021
   email: mete.akguen@uni-tuebingen.de
   number_educ: 3
@@ -8,71 +12,61 @@
   education3: Postdoc with <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/team/nico-pfeifer/">Nico Pfeifer</a> and  <a href="https://kohlbacherlab.org/oliver_kohlbacher/">Oliver Kohlbacher</a> at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
 
 - name: Şeyma Selcan Mağara
-  photo: seyma.jpg
+  photo: portraits/seyma.jpg
   info: PhD Student, started October 2022
   email: selcan.magara@uni-tuebingen.de
   number_educ: 1
   education1: M.Sc. with <a href="http://people.sabanciuniv.edu/~erkays/">Erkay Savaş</a> at <a href="https://www.sabanciuniv.edu/en">Sabancı University</a>
 
 - name: Cem Ata Baykara
-  photo: Cem.jpeg
+  photo: portraits/cem.jpg
   info:  PhD Student, started February 2023 
   email: cem.baykara@uni-tuebingen.de
   number_educ: 1
   education1: M.Sc. with <a href="https://www.ozyegin.edu.tr/tr/akademik-kadro/kubrakalkan">Kübra Kalkan Çakmakçı</a> at <a href="https://www.ozyegin.edu.tr/">Özyeğin University</a>
 
 - name: Hanru Zhang
-  photo: hanru.jpg
+  photo: portraits/hanru.jpg
   info:  PhD Student, started August 2025 
   email: hanru.zhang@uni-tuebingen.de
   number_educ: 1
   education1: M.Sc. at <a href="https://imprs-mmfd.tuebingen.mpg.de/">IMPRS MMFD</a>
 
 - name: Larissa Reichart
-  photo: larissa.jpg
+  photo: portraits/larissa.jpg
   info:  PhD Student, started January 2026
   email: larissa.reichart@uni-tuebingen.de
   number_educ: 1
   education1: M.Sc. with <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/about-us/our-team/">Mete Akgün</a> at <a href="https://uni-tuebingen.de/">University of Tübingen</a>
 
 - name: Sofiane Ouaari
-  photo: sofiane.jpg
+  photo: portraits/sofiane.jpg
   info:  PhD Student within a collaboration with the <a href="http://pfeiferlab.org/">Pfeifer Lab</a>
   email: sofiane.ouaari@uni-tuebingen.de
   number_educ: 1
   education1: M.Sc. at <a href="https://www.elte.hu/en/">Eötvös Loránd University (ELTE)</a>
 
 - name: Güliz Akkaya
-  photo: guliz.png
+  photo: portraits/guliz.jpg
   info: PhD Student within a collaboration with the <a href="https://ceng.iyte.edu.tr">İYTE</a>
   email: guliz.akkaya@iyte.edu.tr
   number_educ: 1
   education1: M.Sc. at <a href="https://ceng.iyte.edu.tr">İYTE</a>
 
 - name: Nadja Buttke
-  photo: nadja.jpeg
+  photo: portraits/nadja.jpg
   info: M.Sc Student 
   email: 
   number_educ: 0
 
 - name: Andreas Kotzur
-  photo: kotzur.jpeg
+  photo: portraits/kotzur.jpg
   info: M.Sc Student 
   email: 
   number_educ: 0
 
 - name: Johannes Haselberger
-  photo: johannes.jpeg
+  photo: portraits/johannes.jpg
   info: M.Sc Student
   email:
   number_educ: 0
-
-- name: "Want to join us?"
-  photo: placeholder.jpg
-  info: See <a href="https://mdppml.github.io/vacancies">openings</a> for more info
-  email: mete.akguen@uni-tuebingen.de
-  number_educ: 0
-  education1:
-  education2:
-  education3:
-  education4:

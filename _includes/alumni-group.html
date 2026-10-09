@@ -1,0 +1,12 @@
+{% comment %} Alumni list; entries are "Name, Year" in _data/alumni_*.yml {% endcomment %}
+{% if include.people and include.people.size > 0 %}
+<div>
+  <h3>{{ include.title }}</h3>
+  <ul>
+    {% for a in include.people %}
+    {% assign parts = a.name | split: ", " %}
+    <li>{{ parts | first }}{% if parts.size > 1 %} <span>{{ parts | last }}</span>{% endif %}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

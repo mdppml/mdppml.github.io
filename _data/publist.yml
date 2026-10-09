@@ -9,6 +9,7 @@
   authors: A Swaminathan, M Akgün
   venue: "arXiv preprint"
   year: 2026
+  themes: [ai-security]
   links:
     - url: https://arxiv.org/abs/2605.06380
       display: "arXiv:2605.06380 (2026)"
@@ -28,6 +29,7 @@
   authors: L Reichart, CA Baykara, AB Ünal, H Lee, M Akgün
   venue: "ICML"
   year: 2026
+  themes: [federated]
   links:
     - url: https://arxiv.org/abs/2510.08150
       display: "ICML (2026)"
@@ -46,6 +48,7 @@
   authors: A Swaminathan, A Hannemann
   venue: "ICML"
   year: 2026
+  themes: [ai-security]
   links:
     - url: https://www.techrxiv.org/doi/full/10.36227/techrxiv.177100996.69474432/v1
       display: "ICML (2026)"
@@ -57,6 +60,7 @@
   authors: A Swaminathan, M Akgün
   venue: "SaTML"
   year: 2026
+  themes: [ai-security]
   links:
     - url: https://arxiv.org/abs/2505.16313
       display: "SaTML 2026"
@@ -68,6 +72,7 @@
   authors: A Swaminathan, A Hannemann, AB Ünal, N Pfeifer, M Akgün
   venue: "Nature Communications"
   year: 2025
+  themes: [genomics]
   links:
     - url: https://www.nature.com/articles/s41467-025-66771-z
       display: "Nature Communications (2025)"
@@ -90,6 +95,7 @@
   authors: G Akkaya, N Erdoğmuş, M Akgün
   venue: "Bioinformatics"
   year: 2025
+  themes: [genomics]
   links:
     - url: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaf468/8240325?login=false
       display: "Bioinformatics (2025)"
@@ -101,6 +107,7 @@
   authors: CA Baykara, AB Ünal, N Pfeifer, M Akgün
   venue: "Bioinformatics"
   year: 2025
+  themes: [federated]
   links:
     - url: https://www.difuture.de/wp-content/uploads/2024/10/Ali-Burak-Uenal.pdf
       display: "Bioinformatics (2025)"
@@ -112,6 +119,7 @@
   authors: SS Magara, I Motorcu, ES Mektepli, CA Baykara, AB Ünal, M Akgün
   venue: "IEEE Access"
   year: 2025
+  themes: [mpc]
   links:
     - url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11126887
       display: "IEEE Access (2025)"
@@ -124,6 +132,7 @@
   authors: CA Baykara, AB Ünal, M Akgün
   venue: "IEEE TPS"
   year: 2025
+  themes: [evaluation]
   links:
     - url: https://arxiv.org/abs/2403.14428
       display: "IEEE TPS (2025)"
@@ -135,6 +144,7 @@
   authors: ŞS Mağara, Noah Dietrich, AB Ünal, M Akgün
   venue: "Journal of Biomedical Informatics"
   year: 2025
+  themes: [record-linkage]
   links:
     - url: https://www.sciencedirect.com/science/article/pii/S1532046425001492
       display: "Journal of Biomedical Informatics (2025)"
@@ -168,6 +178,7 @@
   authors: AB Ünal, N Pfeifer, M Akgün
   venue: "Patterns"
   year: 2024
+  themes: [mpc]
   links:
     - url: "https://doi.org/10.1016/j.patter.2024.101023"
       display: "Cell Patterns 101023 (2024)"
@@ -193,6 +204,7 @@
   authors: A Hannemann, AB Ünal, A Swaminathan, E Buchmann, M Akgün
   venue: "IEEE TPS"
   year: 2023
+  themes: [federated]
   links:
     - url: https://ieeexplore.ieee.org/document/10431639
       display: "IEEE TPS p82-90 (2023)"
@@ -204,6 +216,7 @@
   authors: AB Ünal, N Pfeifer, M Akgün
   venue: "arXiv preprint"
   year: 2022
+  themes: [mpc]
   links:
     - url: https://arxiv.org/pdf/2202.03023
       display: "arXiv:2202.03023 (2022)"
@@ -215,6 +228,7 @@
   authors: M Akgün, N Pfeifer, O Kohlbacher
   venue: "Bioinformatics"
   year: 2022
+  themes: [genomics]
   links:
     - url: https://academic.oup.com/bioinformatics/article/38/8/2202/6527622
       display: "Bioinformatics 38,8 (2022)"
@@ -226,6 +240,7 @@
   authors: AB Ünal, M Akgün, N Pfeifer
   venue: "AAAI"
   year: 2021
+  themes: [mpc]
   links:
     - url: https://doi.org/10.1609/aaai.v35i11.17199
       display: "AAAI 35, 11 (2021)"
@@ -237,6 +252,7 @@
   authors: AB Ünal, N Pfeifer, M Akgün
   venue: "arXiv preprint"
   year: 2021
+  themes: [evaluation]
   links:
     - url: https://arxiv.org/abs/2102.08788
       display: "arXiv:2102.08788 (2021)"
@@ -248,6 +264,7 @@
   authors: M Akgün, AB Ünal, B Ergüner, N Pfeifer, O Kohlbacher
   venue: "Bioinformatics"
   year: 2021
+  themes: [genomics]
   links:
     - url: https://doi.org/10.1093/bioinformatics/btaa641
       display: "Bioinformatics 36,21 (2021)"

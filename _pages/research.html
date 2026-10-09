@@ -1,0 +1,122 @@
+---
+title: "MDPPML - Research"
+layout: default
+excerpt: "Research of the MDPPML group: privacy-preserving machine learning and secure analysis of clinical and genomic data."
+sitemap: false
+permalink: /research/
+---
+{% comment %}
+  Content comes from data files:
+  - _data/research_areas.yml   the three areas (name, summary, figure)
+  - _data/research_themes.yml  themes within each area (name, description)
+  - _data/publist.yml          key papers: entries whose `themes` list contains a theme id
+{% endcomment %}
+
+<div class="wrap page-body research">
+
+  <header class="page-intro research__intro">
+    <h1>Research</h1>
+    <p class="lede">Large-scale clinical and genomic data could drive predictive, preventive, personalized and participatory (P4) medicine, but privacy concerns keep most of it inside individual institutions. We develop privacy-preserving technologies that let federations of hospitals and research labs analyze data together, balancing usability, scalability and data protection.</p>
+  </header>
+
+  <nav class="research-index" aria-label="Research areas">
+    {% for area in site.data.research_areas %}
+    <div class="research-index__area">
+      <h2 class="research-index__name"><a href="#{{ area.id }}">{{ area.name }}</a></h2>
+      <ul>
+        {% for theme in site.data.research_themes %}{% if theme.area == area.id %}
+        <li><a href="#{{ theme.id }}">{{ theme.name }}</a></li>
+        {% endif %}{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </nav>
+
+  {% for area in site.data.research_areas %}
+  {% assign fig_paper = site.data.publist | where: "title", area.figure_paper | first %}
+  <section class="area" id="{{ area.id }}" aria-labelledby="{{ area.id }}-title">
+    <header class="area__head">
+      <h2 id="{{ area.id }}-title">{{ area.name }}</h2>
+      <p>{{ area.summary }}</p>
+      {% if area.figure %}
+      <figure class="area__figure">
+        <img src="{{ site.baseurl }}{{ area.figure }}" alt="{{ area.figure_alt }}" loading="lazy" decoding="async">
+        {% if fig_paper %}<figcaption>Figure from <a href="{{ fig_paper.links[0].url }}">{{ fig_paper.title }}</a> ({{ fig_paper.venue }}, {{ fig_paper.year }})</figcaption>{% endif %}
+      </figure>
+      {% endif %}
+    </header>
+
+    <div class="area__themes">
+      {% for theme in site.data.research_themes %}{% if theme.area == area.id %}
+      {% assign theme_papers = site.data.publist | where_exp: "p", "p.themes contains theme.id" %}
+      <article class="rtheme" id="{{ theme.id }}">
+        <h3 class="rtheme__name">{{ theme.name }}</h3>
+        <p class="rtheme__text">{{ theme.description }}</p>
+        {% if theme_papers.size > 0 %}
+        <h4 class="rtheme__label">Key papers</h4>
+        <ul class="rtheme__papers">
+          {% for p in theme_papers limit:4 %}
+          <li><span class="venue">{{ p.venue }} {{ p.year }}</span> <a href="{{ p.links[0].url }}">{{ p.title }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </article>
+      {% endif %}{% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+
+  <section class="techniques" aria-labelledby="techniques-title">
+    <h2 id="techniques-title">Core techniques</h2>
+    <dl class="techniques__list">
+      <div>
+        <dt>Secure multi-party computation</dt>
+        <dd>Several parties compute a result together while each keeps its own input private.</dd>
+      </div>
+      <div>
+        <dt>Homomorphic encryption</dt>
+        <dd>Computation runs directly on encrypted data; only the key holders can read the result.</dd>
+      </div>
+      <div>
+        <dt>Differential privacy</dt>
+        <dd>Calibrated noise limits what any released result reveals about a single individual.</dd>
+      </div>
+      <div>
+        <dt>Federated learning</dt>
+        <dd>Models are trained where the data lives; only model updates leave each site.</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="projects" aria-labelledby="projects-title">
+    <h2 id="projects-title">Funded projects</h2>
+    <ul class="projects__list">
+      <li>
+        <p class="projects__name">PriRare</p>
+        <p>Exploring privacy-preserving solutions for rare disease analysis</p>
+        <p class="projects__funder">German Research Foundation (DFG)</p>
+      </li>
+      <li>
+        <p class="projects__name">PrivateAIM</p>
+        <p class="projects__funder">Federal Ministry of Education and Research (BMBF)</p>
+      </li>
+      <li>
+        <p class="projects__name">MDPPML</p>
+        <p class="projects__funder">Federal Ministry of Education and Research (BMBF)</p>
+      </li>
+    </ul>
+  </section>
+</div>
+
+<section class="join" aria-labelledby="research-join">
+  <div class="wrap join__inner">
+    <div>
+      <h2 id="research-join">Work with us</h2>
+      <p>We welcome applications from PhD students and postdocs, and collaborations with clinical and research partners.</p>
+    </div>
+    <p class="join__actions">
+      <a class="button button--primary" href="{{ site.baseurl }}/vacancies/">See open positions</a>
+      <a class="button" href="{{ site.baseurl }}/publications/">All publications</a>
+    </p>
+  </div>
+</section>
