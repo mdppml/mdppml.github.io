@@ -9,8 +9,8 @@
   figure_paper: "PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies"
 
 - id: secure-ml
-  name: Secure computation for machine learning
-  summary: Cryptographic protocols that train, run and evaluate machine learning models on data that no single party can see.
+  name: Applied cryptography and secure computation
+  summary: Cryptographic protocols that train, run and evaluate machine learning models on data that no single party can see, and hardware-based security for authentication and privacy.
   figure: /images/pubpic/logreg.png
   figure_alt: Three hospitals secret-share their data with two computing parties and a helper inside an MPC framework
   figure_paper: "Secure and Efficient Logistic Regression with Secret-Sharing MPC and Differential Privacy"

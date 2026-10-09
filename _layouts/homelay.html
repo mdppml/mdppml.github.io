@@ -50,9 +50,10 @@ layout: default
     <div>
       <h2>Recent papers</h2>
       <ol class="paper-list">
-        {% for publi in site.data.publist limit:4 %}
+        {% assign listed_pubs = site.data.publist | where: "highlight", 1 %}
+        {% for publi in listed_pubs limit:4 %}
         <li class="paper">
-          <h3 class="paper__title"><a href="{{ publi.links[0].url }}">{{ publi.title }}</a></h3>
+          <h3 class="paper__title">{% if publi.links[0].url %}<a href="{{ publi.links[0].url }}">{{ publi.title }}</a>{% else %}{{ publi.title }}{% endif %}</h3>
           <p class="paper__meta"><span class="venue">{% if publi.venue %}{{ publi.venue }} {{ publi.year }}{% else %}{{ publi.links[0].display }}{% endif %}</span> {{ publi.authors }}</p>
         </li>
         {% endfor %}

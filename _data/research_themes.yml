@@ -1,18 +1,18 @@
 # Research themes.
 # - Homepage ("What we work on") shows name + summary.
 # - Research page shows name + description, grouped by area (see research_areas.yml),
-#   with key papers taken from publist.yml entries whose `themes` list contains this theme's id.
-# Every theme is privacy-preserving, so names leave out the "Privacy-Preserving" prefix.
+#   with key papers taken from publist.yml entries whose `themes` list contains this theme's id (newest first).
 
 - id: genomics
   area: biomedical
-  name: Genomic data analysis
-  summary: Genome-wide association studies, variant queries and rare disease analysis across sites, without exposing anyone's genome.
+  name: Genomics and rare diseases
+  summary: Genome-wide association studies, variant queries and rare disease analysis across sites, without exposing patients' data.
   description: >
     Genomic data reveal information about individuals and their relatives, which makes sharing them across
     sites especially sensitive. We design privacy-preserving methods for genome-wide association studies that
-    scale with cohort size, for querying whole-genome variant databases, and for identifying disease-causing
-    variants in rare diseases across institutions.
+    scale with cohort size and for querying whole-genome variant databases, and we support rare disease
+    research across institutions: identifying disease-causing variants, analyzing rare disease variants under
+    homomorphic encryption and detecting disease-associated cell subsets in single-cell data.
 
 - id: patient-queries
   area: biomedical
@@ -29,37 +29,50 @@
   summary: Matching records of the same patient across sources to uncover new relationships between diseases.
   description: >
     Combining patient data from different sources can uncover new relationships between diseases and medical
-    indications. We improve privacy-preserving record linkage (PPRL) so that records of the same patient can be
-    matched efficiently and securely, without compromising privacy.
+    indications. We accelerate probabilistic privacy-preserving record linkage (PPRL) with three-party
+    computation, so that records of the same patient can be matched efficiently and securely across institutions.
 
 - id: mpc
   area: secure-ml
-  name: Secure multi-party computation
-  summary: CECILIA, our three-party framework, extends private machine learning beyond CNNs to RKNs, LSTMs and GANs.
+  name: Secure computation frameworks
+  summary: CECILIA, our three-party MPC framework, plus secure training, data imputation and fast randomized-encoding methods for medical data.
   description: >
-    We develop our own three-party computation framework, CECILIA, and extend privacy-preserving machine learning
-    beyond convolutional neural networks to recurrent kernel networks (RKNs), long short-term memory networks
-    (LSTMs) and generative adversarial networks (GANs), addressing the challenge of running these models
-    efficiently while the data stays secret-shared.
+    We build frameworks for computing on data that no single party can see. CECILIA, our three-party
+    computation framework, extends privacy-preserving machine learning beyond convolutional neural networks to
+    recurrent kernel networks (RKNs), long short-term memory networks (LSTMs) and generative adversarial
+    networks (GANs). We also develop secret-sharing protocols for training models such as logistic regression and
+    support vector machines and for imputing missing medical data, and randomized-encoding approaches that make
+    kernel computations on distributed medical and image data fast and scalable.
 
 - id: evaluation
   area: secure-ml
   name: Collaborative model evaluation
-  summary: Letting clients evaluate models on pooled test data without exposing that data to each other.
+  summary: Letting clients evaluate models on pooled test data, such as computing AUC, without exposing that data to each other.
   description: >
     We develop methods that let clients evaluate machine learning models on pooled test data without
-    compromising privacy. This matters for clients with limited data who need to assess models trained on
-    aggregated datasets, and it supports collaborative architectures such as federated learning.
+    compromising privacy, for example by computing ROC and precision-recall curves securely. This matters for
+    clients with limited data who need to assess models trained on aggregated datasets, and it supports
+    collaborative settings such as federated learning and the PHT-meDIC platform for distributed medical analytics.
+
+- id: hardware-security
+  area: secure-ml
+  name: Hardware-based security
+  summary: Authentication with physically unclonable functions, and privacy for smart grids with trusted execution environments.
+  description: >
+    We design security protocols that build on hardware: physically unclonable functions (PUFs) for
+    second-factor authentication and scalable RFID authentication, and trusted execution environments for a
+    privacy-preserving smart grid.
 
 - id: federated
   area: trustworthy
   name: Federated learning
-  summary: Keeping data and model updates protected throughout collaborative training on high-dimensional medical data.
+  summary: Training models across institutions without pooling data, from domain adaptation to seizure prediction and rare-syndrome diagnosis.
   description: >
-    We address the privacy challenges of federated learning, particularly with high-dimensional medical data,
-    and develop frameworks that keep model updates and data protected throughout collaborative training. Recent
-    work extends this to federated domain adaptation, where the data at different sites follow different
-    distributions.
+    We address the privacy challenges of federated learning with high-dimensional medical data and develop
+    frameworks that keep model updates and data protected throughout collaborative training. This includes
+    federated domain adaptation for sites whose data follow different distributions, and applications such as
+    epileptic seizure prediction from EEG data, diagnosis of rare genetic syndromes from facial images, age
+    prediction from DNA methylation data and the collective defense of IoT networks.
 
 - id: explainable
   area: trustworthy
@@ -73,8 +86,8 @@
 - id: ai-security
   area: trustworthy
   name: Secure and trustworthy AI
-  summary: How machine learning models can be attacked, and what it takes to make AI systems, including agentic ones, trustworthy.
+  summary: How machine learning models can be attacked and defended, and what makes AI systems, including agentic ones, trustworthy.
   description: >
-    We study how machine learning models can be attacked and what makes them trustworthy: targeted adversarial
-    attacks in black-box settings with few queries, the geometry of image classifiers' decision regions, and
-    protocol-level safeguards for agentic AI systems.
+    We study how machine learning models can be attacked and defended: targeted adversarial attacks in black-box
+    settings with few queries, defenses against model inversion attacks, and the geometry of image classifiers'
+    decision regions. We also work on protocol-level safeguards for trustworthy agentic AI systems.

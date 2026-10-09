@@ -1,3 +1,13 @@
+- title: "Privacy-Preserving Detection of Rare Disease-Associated Cell Subsets via Secure Multi-Party Computation"
+  authors: ŞS Mağara, E Havemann, D Jutz, AB Ünal, M Akgün
+  venue: "arXiv preprint"
+  year: 2026
+  themes: [genomics]
+  links:
+    - url: https://arxiv.org/abs/2608.20118
+      display: "arXiv:2608.20118 (2026)"
+  highlight: 1
+
 - title: "Empirical Evidence for Simply Connected Decision Regions in Image Classifiers"
   image: simply.png
   description: >
@@ -66,6 +76,16 @@
       display: "SaTML 2026"
   highlight: 1
 
+- title: "A Blockchain-Based Explainable Federated Learning System for the Trustworthy Collective Defense of IoT Networks in the European Union"
+  authors: I Şafak, T Frantti, M Akgün
+  venue: "Studies in Big Data (Springer)"
+  year: 2026
+  themes: [federated]
+  links:
+    - url: https://doi.org/10.1007/978-3-032-08890-1_15
+      display: "Cyber Security: Policy and Technology (2026)"
+  highlight: 1
+
 - title: "PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies"
   image: ppgwas.png
   description: We present a novel algorithm PP-GWAS designed to improve upon existing standards in terms of computational efficiency and scalability without sacrificing data privacy. This algorithm employs randomized encoding within a distributed architecture to perform stacked ridge regression on a Linear Mixed Model to ensure rigorous analysis. Experimental evaluation with real world and synthetic data indicates that PP-GWAS can achieve computational speeds twice as fast as similar state-of-the-art algorithms while using lesser computational resources, all while adhering to a robust security model that caters to an all-but-one semi-honest adversary setting. 
@@ -101,7 +121,7 @@
       display: "Bioinformatics (2025)"
   highlight: 1
 
-- title: "Privacy-Preserving Federated Unsupervised Domain Adaptation for Regression on Small-Scale and High-Dimensional Biological Data"
+- title: "Privacy-Preserving Federated Unsupervised Domain Adaptation with Application to Age Prediction from DNA Methylation Data"
   image: freda.png
   description: In this work, we propose freda, a privacy-preserving federated method for unsupervised domain adaptation in regression tasks. Unlike deep learning-based FDA approaches, freda is the first method to enable the federated training of Gaussian Processes to model complex feature relationships while ensuring complete data privacy through randomized encoding and secure aggregation. This allows for effective domain adaptation without direct access to raw data, making it wellsuited for applications involving high-dimensional, heterogeneous datasets.
   authors: CA Baykara, AB Ünal, N Pfeifer, M Akgün
@@ -109,7 +129,7 @@
   year: 2025
   themes: [federated]
   links:
-    - url: https://www.difuture.de/wp-content/uploads/2024/10/Ali-Burak-Uenal.pdf
+    - url: https://doi.org/10.1093/bioinformatics/btaf465
       display: "Bioinformatics (2025)"
   highlight: 1
 
@@ -130,7 +150,7 @@
   image: fhauc.png
   description: Current research on federated learning primarily focuses on preserving privacy during the training phase. However, model evaluation has not been adequately addressed, despite the potential for significant privacy leaks during this phase as well. In this paper, we demonstrate that the state-of-the-art AUC computation method for federated learning systems, which utilizes differential privacy, still leaks sensitive information about the test data while also requiring a trusted central entity to perform the computations. 
   authors: CA Baykara, AB Ünal, M Akgün
-  venue: "IEEE TPS"
+  venue: "IEEE TPS-ISA"
   year: 2025
   themes: [evaluation]
   links:
@@ -138,7 +158,7 @@
       display: "IEEE TPS (2025)"
   highlight: 1
 
-- title: "Accelerating Privacy-Preserving Medical Record Linkage: A Three-Party MPC Approach"
+- title: "Accelerating Probabilistic Privacy-Preserving Medical Record Linkage: A Three-Party MPC Approach"
   image: mpc_hospital.png
   description: This work addresses the critical challenge of securely linking medical records across institutions while preserving patient privacy. Integrating data from various sources in healthcare can provide comprehensive insights into disease progression and treatment outcomes. However, strict privacy regulations often limit the ability to share this data. To tackle this, we propose a three-party Multi-Party Computation (MPC) Record Linkage method that ensures sensitive data remains confidential throughout the linkage process. By eliminating the need for Bloom filters and using bigram-based string similarity computations in a three-party framework, the method not only enhances privacy but also achieves an impressive up to 14x faster performance compared to state-of-the-art solutions. This scalable approach offers a practical solution for large-scale, privacy-preserving healthcare data integration.
   authors: ŞS Mağara, Noah Dietrich, AB Ünal, M Akgün
@@ -159,6 +179,36 @@
   links:
     - url: https://openreview.net/forum?id=3jdI0aEW3k
       display: "TMLR"
+  highlight: 1
+
+- title: "Privacy-preserving AUC computation in distributed machine learning with PHT-meDIC"
+  authors: M Herr, CA Baykara, AB Ünal, N Pfeifer, M Akgün
+  venue: "PLOS Digital Health"
+  year: 2025
+  themes: [evaluation]
+  links:
+    - url: https://doi.org/10.1371/journal.pdig.0000753
+      display: "PLOS Digital Health (2025)"
+  highlight: 1
+
+- title: "Accurate and Private Diagnosis of Rare Genetic Syndromes from Facial Images with Federated Deep Learning"
+  authors: AB Ünal, CA Baykara, P Krawitz, M Akgün
+  venue: "arXiv preprint"
+  year: 2025
+  themes: [federated]
+  links:
+    - url: https://arxiv.org/abs/2509.10635
+      display: "arXiv:2509.10635 (2025)"
+  highlight: 1
+
+- title: "Federated Learning for Epileptic Seizure Prediction Across Heterogeneous EEG Datasets"
+  authors: CA Baykara, SR Pandey, AB Ünal, H Lee, M Akgün
+  venue: "arXiv preprint"
+  year: 2025
+  themes: [federated]
+  links:
+    - url: https://arxiv.org/abs/2508.08159
+      display: "arXiv:2508.08159 (2025)"
   highlight: 1
 
 - title: "Dynamic k-anonymity for Electronic Health Records: A Topological Framework"
@@ -192,22 +242,85 @@
   authors: A Hannemann*, A Swaminathan*, AB Ünal, M Akgün
   venue: "CIBB"
   year: 2024
+  themes: [mpc]
   links:
-    - url: "https://link.springer.com/book/10.1007/978-3-031-89704-7"
+    - url: "https://doi.org/10.1007/978-3-031-89704-7_7"
       display: "CIBB (2024)"
   highlight: 1
   
 
-- title: "A Privacy-Preserving Federated Learning Approach for Kernel methods"
+- title: "Privacy Preserving Data Imputation via Multi-party Computation for Medical Applications"
+  authors: J Jentsch, AB Ünal, ŞS Mağara, M Akgün
+  venue: "IEEE HealthCom"
+  year: 2024
+  themes: [mpc]
+  links:
+    - url: https://arxiv.org/abs/2405.18878
+      display: "IEEE HealthCom 2024"
+  highlight: 1
+
+- title: "Leveraging Multi-Color Spaces as a Defense Mechanism Against Model Inversion Attack"
+  authors: S Ouaari, AB Ünal, M Akgün, N Pfeifer
+  venue: "ICML Workshop"
+  year: 2024
+  themes: [ai-security]
+  links:
+    - url: https://icml.cc/virtual/2024/37498
+      display: "ICML 2024 Next Generation of AI Safety Workshop"
+  highlight: 1
+
+- title: "A Privacy-Preserving Framework for Collaborative Machine Learning with Kernel Methods"
   image: anika_fedker.png
   description: We've introduced FLAKE, a privacy-preserving Federated Learning Approach for Kernel methods on horizontally distributed data. By allowing data sources to mask their data, a centralized instance can generate a Gram matrix, preserving privacy while enabling the training of kernel-based algorithms like Support Vector Machines. We've established that FLAKE safeguards against semi-honest adversaries learning the input data or the number of features. Testing on clinical and synthetic data confirms FLAKE's superior accuracy and efficiency over similar methods. Its data masking and Gram matrix computation times are significantly less than SVM training times, making it highly applicable across various use cases.
   authors: A Hannemann, AB Ünal, A Swaminathan, E Buchmann, M Akgün
-  venue: "IEEE TPS"
+  venue: "IEEE TPS-ISA"
   year: 2023
   themes: [federated]
   links:
     - url: https://ieeexplore.ieee.org/document/10431639
       display: "IEEE TPS p82-90 (2023)"
+  highlight: 1
+
+- title: "ppAURORA: Privacy Preserving Area Under Receiver Operating Characteristic and Precision-Recall Curves with Secure 3-Party Computation"
+  image: ppaurora.png
+  description: In this paper, we propose an MPC-based framework, called PPAURORA with private merging of sorted lists and novel methods for comparing two secret-shared values, selecting between two secret-shared values, converting the modulus, and performing division to compute the exact AUC as one could obtain on the pooled original test samples.
+  authors: AB Ünal, N Pfeifer, M Akgün
+  venue: "NSS"
+  year: 2023
+  themes: [evaluation]
+  links:
+    - url: https://arxiv.org/abs/2102.08788
+      display: "NSS 2023"
+  highlight: 1
+
+- title: "A Privacy-Preserving Scheme for Smart Grid Using Trusted Execution Environment"
+  authors: M Akgün, EU Soykan, G Soykan
+  venue: "IEEE Access"
+  year: 2023
+  themes: [hardware-security]
+  links:
+    - url: https://doi.org/10.1109/ACCESS.2023.3237643
+      display: "IEEE Access 11 (2023)"
+  highlight: 1
+
+- title: "P/Key: PUF Based Second Factor Authentication"
+  authors: E Uysal, M Akgün
+  venue: "PLOS ONE"
+  year: 2023
+  themes: [hardware-security]
+  links:
+    - url: https://doi.org/10.1371/journal.pone.0280181
+      display: "PLOS ONE 18(2) (2023)"
+  highlight: 1
+
+- title: "Scalable RFID Authentication Protocol Based on Physically Unclonable Functions"
+  authors: I Kurt, F Alagöz, M Akgün
+  venue: "Computer Networks"
+  year: 2023
+  themes: [hardware-security]
+  links:
+    - url: https://doi.org/10.1016/j.comnet.2023.109793
+      display: "Computer Networks 230 (2023)"
   highlight: 1
 
 - title: "CECILIA: Comprehensive Secure Machine Learning Framework"
@@ -234,6 +347,15 @@
       display: "Bioinformatics 38,8 (2022)"
   highlight: 1
 
+- title: "Bringing the Algorithms to the Data: Secure Distributed Medical Analytics using the Personal Health Train (PHT-meDIC)"
+  authors: MAB Herr, M Graf, P Placzek, F König, F Bötte, T Stickel, D Hieber, L Zimmermann, M Slupina, C Mohr, S Biergans, M Akgün, N Pfeifer, O Kohlbacher
+  venue: "arXiv preprint"
+  year: 2022
+  links:
+    - url: https://arxiv.org/abs/2212.03481
+      display: "arXiv:2212.03481 (2022)"
+  highlight: 1
+
 - title: "Escaped: Efficient secure and private dot product framework for kernel-based machine learning algorithms with applications in healthcare"
   image: escaped.png
   description: We introduce ESCAPED, which stands for Efficient SeCure And PrivatE Dot product framework. ESCAPED enables the computation of the dot product of vectors from multiple sources on a third-party, which later trains kernel-based machine learning algorithms, while neither sacrificing privacy nor adding noise.
@@ -246,26 +368,60 @@
       display: "AAAI 35, 11 (2021)"
   highlight: 1
 
-- title: "ppAURORA: Privacy Preserving Area Under Receiver Operating Characteristic and Precision-Recall Curves with Secure 3-Party Computation"
-  image: ppaurora.png
-  description: In this paper, we propose an MPC-based framework, called PPAURORA with private merging of sorted lists and novel methods for comparing two secret-shared values, selecting between two secret-shared values, converting the modulus, and performing division to compute the exact AUC as one could obtain on the pooled original test samples.
-  authors: AB Ünal, N Pfeifer, M Akgün
-  venue: "arXiv preprint"
-  year: 2021
-  themes: [evaluation]
-  links:
-    - url: https://arxiv.org/abs/2102.08788
-      display: "arXiv:2102.08788 (2021)"
-  highlight: 1
-
 - title: "Identifying disease-causing mutations with privacy protection"
   image: idengen.png
   description: We present an approach to identify disease-associated variants and genes while ensuring patient privacy. The proposed method uses secure multi-party computation to find disease-causing mutations under specific inheritance models without sacrificing the privacy of individuals. It discloses only variants or genes obtained as a result of the analysis. Thus, the vast majority of patient data can be kept private.
   authors: M Akgün, AB Ünal, B Ergüner, N Pfeifer, O Kohlbacher
   venue: "Bioinformatics"
-  year: 2021
+  year: 2020
   themes: [genomics]
   links:
     - url: https://doi.org/10.1093/bioinformatics/btaa641
-      display: "Bioinformatics 36,21 (2021)"
+      display: "Bioinformatics 36,21 (2020)"
+  highlight: 1
+
+- title: "Privacy-preserving SVM on Outsourced Genomic Data via Secure Multi-party Computation"
+  authors: H Chen, AB Ünal, M Akgün, N Pfeifer
+  venue: "IWSPA"
+  year: 2020
+  themes: [mpc]
+  links:
+    - url: https://doi.org/10.1145/3375708.3380316
+      display: "IWSPA 2020"
+  highlight: 1
+
+- title: "Privacy Preserving Gaze Estimation using Synthetic Images via a Randomized Encoding Based Framework"
+  authors: E Bozkir, AB Ünal, M Akgün, E Kasneci, N Pfeifer
+  venue: "ACM ETRA"
+  year: 2020
+  themes: [mpc]
+  links:
+    - url: https://doi.org/10.1145/3379156.3391364
+      display: "ETRA 2020"
+  highlight: 1
+
+- title: "Eye Tracking Data Collection Protocol for VR for Remotely Located Subjects using Blockchain and Smart Contracts"
+  authors: E Bozkir, S Eivazi, M Akgün, E Kasneci
+  venue: "IEEE AIVR"
+  year: 2020
+  links:
+    - url: https://doi.org/10.1109/AIVR50618.2020.00083
+      display: "AIVR 2020"
+  highlight: 1
+
+- title: "A framework with randomized encoding for a fast privacy preserving calculation of non-linear kernels for machine learning applications in precision medicine"
+  authors: AB Ünal, M Akgün, N Pfeifer
+  venue: "CANS"
+  year: 2019
+  themes: [mpc]
+  links:
+    - url: https://doi.org/10.1007/978-3-030-31578-8_27
+      display: "CANS 2019"
+  highlight: 1
+
+- title: "An Active Genomic Data Recovery Attack"
+  authors: M Akgün
+  venue: "Balkan Journal of Electrical and Computer Engineering"
+  year: 2019
+  themes: [genomics]
   highlight: 1

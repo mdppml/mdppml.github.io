@@ -416,6 +416,7 @@ blockquote {
   border: 1px solid var(--rule);
   border-radius: var(--radius);
 }
+.pub__thumb--empty { border: 0; background: transparent; padding: 0; }
 @media (max-width: 639px) {
   .pub__thumb { display: none; }
 }
