@@ -210,7 +210,7 @@
   highlight: 1
 
 - title: "Efficient privacy-preserving whole-genome variant queries"
-  image: priefvar.pdf
+  image: priefvar.png
   description: Disease–gene association studies are of great importance. However, genomic data are very sensitive when compared to other data types and contains information about individuals and their relatives. We propose a method that uses secure multi-party computation to query genomic databases in a privacy-protected manner.
   authors: M Akgün, N Pfeifer, O Kohlbacher
   venue: "Bioinformatics"
