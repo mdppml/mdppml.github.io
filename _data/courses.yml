@@ -1,0 +1,60 @@
+# Courses on the Teaching page, in display order.
+# format: Lecture / Practical course / Seminar. `topics_label` is the heading above the bullet list.
+
+- code: INFO4451
+  title: Introduction to Cryptography
+  semester: Summer semester
+  format: Lecture
+  lecturers: Mete Akgün
+  tutors: Şeyma Selcan Mağara, Cem Ata Baykara
+  description: >
+    Cryptography is fundamental to the security of modern communications, data storage and confidential
+    computing. This introductory course covers the essential principles, methods and applications of
+    cryptography and gives students a foundation for understanding and applying cryptographic techniques in
+    security contexts.
+  topics_label: Topics
+  topics:
+    - Classical cryptographic systems
+    - Pseudo-random functions (PRF) and permutations (PRP)
+    - Block ciphers, including DES and AES
+    - Symmetric encryption techniques
+    - Message authentication codes (MACs)
+    - Authenticated encryption
+    - Hash functions
+    - Basic group theory concepts
+    - Diffie-Hellman key exchange
+    - Asymmetric encryption
+    - Digital signatures
+    - Secure multi-party computation
+
+- code: MEDZ4260
+  title: "Secure Processing of Medical Data: Privacy-Enhancing Technologies in Practice"
+  semester: Winter semester
+  format: Practical course
+  lecturers: Mete Akgün, Şeyma Selcan Mağara, Cem Ata Baykara
+  description: >
+    Students gain hands-on experience with privacy-enhancing technologies for medical data and genome
+    processing. Working in teams on mini research projects, they apply state-of-the-art privacy-preserving
+    techniques to computational challenges in medical data analysis, building practical skills and
+    theoretical knowledge in a collaborative setting.
+  topics_label: Course components
+  topics:
+    - Understanding and implementing privacy-enhancing methods
+    - Team projects on real-world medical data privacy problems
+    - Short team presentations of results
+
+- code: MEDZ4521
+  title: "Computer Science Methods for Privacy Preservation in Biomedical Studies: Data Privacy"
+  semester: Winter semester
+  format: Seminar
+  lecturers: Mete Akgün, Şeyma Selcan Mağara
+  description: >
+    A seminar on contemporary research in data privacy and its applications, including social network
+    privacy, machine learning privacy and biomedical data privacy. Students learn to communicate complex
+    research and to think critically about it.
+  topics_label: What students do
+  topics:
+    - Read, summarize and present state-of-the-art papers on data privacy
+    - Critically assess the contributions of research papers
+    - Present research results to peers and lead discussions
+    - Evaluate findings in oral presentations and written reports

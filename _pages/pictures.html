@@ -1,0 +1,83 @@
+---
+title: "MDPPML - Pictures"
+layout: default
+excerpt: "Photos from defences, visits and conferences of the MDPPML group."
+permalink: /pictures/
+---
+{% comment %} Galleries come from _data/galleries.yml {% endcomment %}
+<div class="wrap page-body gallery-page">
+
+  <header class="page-intro">
+    <h1>Pictures</h1>
+    <p class="lede">Defences, visits, conferences and dinners: moments from life in the group.</p>
+    <nav class="chip-nav" aria-label="Jump to gallery">
+      {% for g in site.data.galleries %}<a href="#{{ g.id }}">{{ g.title }}</a>{% endfor %}
+    </nav>
+  </header>
+
+  {% for g in site.data.galleries %}
+  <section class="album" id="{{ g.id }}" aria-labelledby="{{ g.id }}-title">
+    <h2 class="album__title" id="{{ g.id }}-title">{{ g.title }}</h2>
+    <ul class="album__grid">
+      {% for ph in g.photos %}
+      {% capture alt %}{% if ph.caption %}{{ ph.caption }}{% else %}Photo {{ forloop.index }} from {{ g.title }}{% endif %}{% endcapture %}
+      <li>
+        <a class="album__link" href="{{ site.baseurl }}/images/picpic/Gallery/{{ ph.image }}" data-caption="{% if ph.caption %}{{ ph.caption }}{% else %}{{ g.title }}{% endif %}">
+          <img src="{{ site.baseurl }}/images/picpic/Gallery/{{ ph.image }}" alt="{{ alt }}" loading="lazy" decoding="async">
+        </a>
+        {% if ph.caption %}<p class="album__caption">{{ ph.caption }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
+
+<dialog class="viewer" id="viewer" aria-label="Photo viewer">
+  <figure class="viewer__figure">
+    <img class="viewer__img" alt="">
+    <figcaption class="viewer__caption"></figcaption>
+  </figure>
+  <button type="button" class="viewer__btn viewer__close" aria-label="Close">Close</button>
+  <button type="button" class="viewer__btn viewer__prev" aria-label="Previous photo">Previous</button>
+  <button type="button" class="viewer__btn viewer__next" aria-label="Next photo">Next</button>
+</dialog>
+
+<script>
+  (function () {
+    var dlg = document.getElementById('viewer');
+    if (!dlg || typeof dlg.showModal !== 'function') return; // without <dialog>, links just open the photo
+    var img = dlg.querySelector('.viewer__img');
+    var cap = dlg.querySelector('.viewer__caption');
+    var links = [], index = 0;
+
+    function show(i) {
+      index = (i + links.length) % links.length;
+      var a = links[index];
+      img.src = a.getAttribute('href');
+      img.alt = a.querySelector('img').alt;
+      cap.textContent = a.getAttribute('data-caption') + ' (' + (index + 1) + ' of ' + links.length + ')';
+    }
+
+    document.querySelectorAll('.album').forEach(function (album) {
+      var albumLinks = Array.prototype.slice.call(album.querySelectorAll('.album__link'));
+      albumLinks.forEach(function (a, i) {
+        a.addEventListener('click', function (e) {
+          e.preventDefault();
+          links = albumLinks;
+          show(i);
+          dlg.showModal();
+        });
+      });
+    });
+
+    dlg.querySelector('.viewer__close').addEventListener('click', function () { dlg.close(); });
+    dlg.querySelector('.viewer__prev').addEventListener('click', function () { show(index - 1); });
+    dlg.querySelector('.viewer__next').addEventListener('click', function () { show(index + 1); });
+    dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+    dlg.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft') show(index - 1);
+      if (e.key === 'ArrowRight') show(index + 1);
+    });
+  })();
+</script>

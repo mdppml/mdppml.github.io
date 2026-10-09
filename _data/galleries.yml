@@ -1,0 +1,56 @@
+# Photo galleries on the Pictures page, shown in this order.
+# Photos live in images/picpic/Gallery/. Before adding a photo, resize it to about 1600px on the long side
+# and remove its location metadata (most phone photos contain GPS coordinates).
+# `caption` is optional.
+
+- id: tubingen
+  title: Tübingen
+  photos:
+    - image: debora.jpg
+    - image: bella_roma_dinner.jpg
+      caption: Group dinner at Bella Roma, Tübingen
+
+- id: ieeehealthcom2024
+  title: IEEE HealthCom 2024
+  photos:
+    - image: ieee_healthcom_1.jpg
+    - image: ieee_healthcom_2.jpg
+
+- id: alisgraduation
+  title: Ali's PhD defence
+  photos:
+    - image: ali_group.jpeg
+    - image: ali_hat.jpg
+    - image: ali_nico.jpeg
+
+- id: deborasgraduation
+  title: Debora's Master's defence
+  photos:
+    - image: debora1.jpg
+    - image: debora2.jpg
+
+- id: noahsgraduation
+  title: Noah's Master's defence
+  photos:
+    - image: noah1.jpg
+    - image: noah2.jpg
+    - image: noah3.jpg
+
+- id: harlinsvisit
+  title: Harlin's visit
+  photos:
+    - image: harlin1.jpg
+    - image: harlin2.jpg
+
+- id: larissasgraduation
+  title: Larissa's Master's defence
+  photos:
+    - image: larissa1.jpg
+    - image: larissa3.jpg
+    - image: larissa2.jpg
+
+- id: eurips2025
+  title: EURIPS 2025
+  photos:
+    - image: eurips20251.jpg
+    - image: eurips20252.jpg

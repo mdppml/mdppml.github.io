@@ -1,0 +1,39 @@
+---
+title: "MDPPML - Teaching"
+layout: default
+excerpt: "Courses taught by the MDPPML group at the University of Tübingen: cryptography and privacy-enhancing technologies."
+sitemap: false
+permalink: /teaching/
+---
+{% comment %} Courses come from _data/courses.yml {% endcomment %}
+<div class="wrap page-body teaching">
+
+  <header class="page-intro">
+    <h1>Teaching</h1>
+    <p class="lede">We teach cryptography and privacy-enhancing technologies at the University of Tübingen, from an introductory lecture to a hands-on practical course and a research seminar.</p>
+  </header>
+
+  {% for c in site.data.courses %}
+  <article class="course" id="{{ c.code | downcase }}" aria-labelledby="{{ c.code | downcase }}-title">
+    <dl class="course__meta">
+      <div><dt>Course</dt><dd class="course__code">{{ c.code }}</dd></div>
+      <div><dt>When</dt><dd>{{ c.semester }}</dd></div>
+      <div><dt>Format</dt><dd>{{ c.format }}</dd></div>
+      {% if c.lecturers %}<div><dt>{% if c.lecturers contains "," %}Lecturers{% else %}Lecturer{% endif %}</dt><dd>{{ c.lecturers }}</dd></div>{% endif %}
+      {% if c.tutors %}<div><dt>Tutors</dt><dd>{{ c.tutors }}</dd></div>{% endif %}
+    </dl>
+    <div class="course__body">
+      <h2 class="course__title" id="{{ c.code | downcase }}-title">{{ c.title }}</h2>
+      <p>{{ c.description }}</p>
+      {% if c.topics %}
+      <h3 class="course__label">{{ c.topics_label | default: "Topics" }}</h3>
+      <ul class="course__topics{% if c.topics.size > 6 %} course__topics--cols{% endif %}">
+        {% for t in c.topics %}<li>{{ t }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+
+  <p class="teaching__note">Looking for a Master's project or thesis? See <a href="{{ site.baseurl }}/vacancies/#route-msc">Master's projects</a>.</p>
+</div>
