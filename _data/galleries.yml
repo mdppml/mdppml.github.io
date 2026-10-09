@@ -3,6 +3,32 @@
 # and remove its location metadata (most phone photos contain GPS coordinates).
 # `caption` is optional.
 
+- id: arjhunsgraduation
+  title: Arjhun's PhD defence
+  photos:
+    - image: arjhun1.jpg
+      caption: Arjhun Swaminathan defending his thesis on 17 July 2026
+    - image: arjhun2.jpg
+      caption: After the defence
+
+- id: icml2026
+  title: ICML 2026
+  photos:
+    - image: icml2026_1.jpg
+      caption: At ICML 2026 in Seoul
+    - image: icml2026_2.jpg
+      caption: Presenting our paper on multi-source federated domain adaptation (GALA)
+    - image: icml2026_3.jpg
+      caption: Sightseeing in Seoul
+
+- id: esthersgraduation
+  title: Esther's Master's defence
+  photos:
+    - image: esther1.jpg
+      caption: Esther Havemann's thesis on privacy-preserving CNN training for single-cell data
+    - image: esther2.jpg
+      caption: Esther presenting her thesis
+
 - id: tubingen
   title: Tübingen
   photos:

@@ -14,15 +14,6 @@
     research across institutions: identifying disease-causing variants, analyzing rare disease variants under
     homomorphic encryption and detecting disease-associated cell subsets in single-cell data.
 
-- id: patient-queries
-  area: biomedical
-  name: Similar patient queries
-  summary: Finding patients with similar profiles across institutions' biomedical data, without revealing who they are.
-  description: >
-    We develop methods for querying similar patients across diverse biomedical data types while preserving
-    individual privacy. Finding comparable patients in other cohorts helps to understand treatment responses
-    and disease progression, especially when working with large patient cohorts.
-
 - id: record-linkage
   area: biomedical
   name: Medical record linkage
