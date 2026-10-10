@@ -1,7 +1,15 @@
-# Photo galleries on the Pictures page, shown in this order.
+# Photo galleries on the Pictures page, shown in this order (newest first).
 # Photos live in images/picpic/Gallery/. Before adding a photo, resize it to about 1600px on the long side
 # and remove its location metadata (most phone photos contain GPS coordinates).
 # `caption` is optional.
+
+- id: esthersgraduation
+  title: Esther's Master's defence
+  photos:
+    - image: esther1.jpg
+      caption: Esther Havemann's thesis on privacy-preserving CNN training for single-cell data
+    - image: esther2.jpg
+      caption: Esther presenting her thesis
 
 - id: arjhunsgraduation
   title: Arjhun's PhD defence
@@ -21,20 +29,31 @@
     - image: icml2026_3.jpg
       caption: Sightseeing in Seoul
 
-- id: esthersgraduation
-  title: Esther's Master's defence
+- id: eurips2025
+  title: EURIPS 2025
   photos:
-    - image: esther1.jpg
-      caption: Esther Havemann's thesis on privacy-preserving CNN training for single-cell data
-    - image: esther2.jpg
-      caption: Esther presenting her thesis
+    - image: eurips20251.jpg
+    - image: eurips20252.jpg
 
-- id: tubingen
-  title: Tübingen
+- id: larissasgraduation
+  title: Larissa's Master's defence
   photos:
-    - image: debora.jpg
-    - image: bella_roma_dinner.jpg
-      caption: Group dinner at Bella Roma, Tübingen
+    - image: larissa1.jpg
+    - image: larissa3.jpg
+    - image: larissa2.jpg
+
+- id: harlinsvisit
+  title: Harlin's visit
+  photos:
+    - image: harlin1.jpg
+    - image: harlin2.jpg
+
+- id: noahsgraduation
+  title: Noah's Master's defence
+  photos:
+    - image: noah1.jpg
+    - image: noah2.jpg
+    - image: noah3.jpg
 
 - id: ieeehealthcom2024
   title: IEEE HealthCom 2024
@@ -55,28 +74,9 @@
     - image: debora1.jpg
     - image: debora2.jpg
 
-- id: noahsgraduation
-  title: Noah's Master's defence
+- id: tubingen
+  title: Tübingen
   photos:
-    - image: noah1.jpg
-    - image: noah2.jpg
-    - image: noah3.jpg
-
-- id: harlinsvisit
-  title: Harlin's visit
-  photos:
-    - image: harlin1.jpg
-    - image: harlin2.jpg
-
-- id: larissasgraduation
-  title: Larissa's Master's defence
-  photos:
-    - image: larissa1.jpg
-    - image: larissa3.jpg
-    - image: larissa2.jpg
-
-- id: eurips2025
-  title: EURIPS 2025
-  photos:
-    - image: eurips20251.jpg
-    - image: eurips20252.jpg
+    - image: debora.jpg
+    - image: bella_roma_dinner.jpg
+      caption: Group dinner at Bella Roma, Tübingen
