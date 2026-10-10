@@ -6,6 +6,15 @@
   links:
     - url: https://arxiv.org/abs/2608.20118
       display: "arXiv:2608.20118 (2026)"
+  bibtex: |
+    @misc{magara2026privacy,
+      title         = {Privacy-Preserving Detection of Rare Disease-Associated Cell Subsets via Secure Multi-Party Computation},
+      author        = {Ma{\u{g}}ara, {\c{S}}eyma Selcan and Havemann, Esther and Jutz, Debora and {\"U}nal, Ali Burak and Akg{\"u}n, Mete},
+      year          = {2026},
+      eprint        = {2608.20118},
+      archivePrefix = {arXiv},
+      url           = {https://arxiv.org/abs/2608.20118}
+    }
   highlight: 1
 
 - title: "Empirical Evidence for Simply Connected Decision Regions in Image Classifiers"
@@ -23,6 +32,18 @@
   links:
     - url: https://arxiv.org/abs/2605.06380
       display: "arXiv:2605.06380 (2026)"
+    - url: https://github.com/mdppml/contractible-class-regions
+      display: "Code"
+  bibtex: |
+    @misc{swaminathan2026empirical,
+      title         = {Empirical Evidence for Simply Connected Decision Regions in Image Classifiers},
+      author        = {Swaminathan, Arjhun and Akg{\"u}n, Mete},
+      year          = {2026},
+      eprint        = {2605.06380},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.CV},
+      url           = {https://arxiv.org/abs/2605.06380}
+    }
   highlight: 1
 
 - title: "Unsupervised Multi-Source Federated Domain Adaptation under Domain Diversity through Group-Wise Discrepancy Minimization"
@@ -43,6 +64,15 @@
   links:
     - url: https://arxiv.org/abs/2510.08150
       display: "ICML (2026)"
+    - url: https://github.com/mdppml/GALA
+      display: "Code"
+  bibtex: |
+    @inproceedings{reichart2026unsupervised,
+      title     = {Unsupervised Multi-Source Federated Domain Adaptation under Domain Diversity through Group-Wise Discrepancy Minimization},
+      author    = {Reichart, Larissa and Baykara, Cem Ata and {\"U}nal, Ali Burak and Lee, Harlin and Akg{\"u}n, Mete},
+      booktitle = {Proceedings of the 43rd International Conference on Machine Learning (ICML)},
+      year      = {2026}
+    }
   highlight: 1
 
 - title: "Position: Trustworthy Model Context Protocol Enables Responsible Agentic AI!"
@@ -62,6 +92,13 @@
   links:
     - url: https://www.techrxiv.org/doi/full/10.36227/techrxiv.177100996.69474432/v1
       display: "ICML (2026)"
+  bibtex: |
+    @inproceedings{swaminathan2026position,
+      title     = {Position: Trustworthy Model Context Protocol Enables Responsible Agentic AI!},
+      author    = {Swaminathan, Arjhun and Hannemann, Anika},
+      booktitle = {Proceedings of the 43rd International Conference on Machine Learning (ICML)},
+      year      = {2026}
+    }
   highlight: 1
 
 - title: "Accelerating Targeted Hard-Label Adversarial Attacks in Low-Query Black-Box Settings"
@@ -74,6 +111,16 @@
   links:
     - url: https://arxiv.org/abs/2505.16313
       display: "SaTML 2026"
+    - url: https://github.com/mdppml/TEA
+      display: "Code"
+  bibtex: |
+    @inproceedings{swaminathan2026accelerating,
+      title     = {Accelerating Targeted Hard-Label Adversarial Attacks in Low-Query Black-Box Settings},
+      author    = {Swaminathan, Arjhun and Akg{\"u}n, Mete},
+      booktitle = {2026 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)},
+      pages     = {756--767},
+      year      = {2026}
+    }
   highlight: 1
 
 - title: "A Blockchain-Based Explainable Federated Learning System for the Trustworthy Collective Defense of IoT Networks in the European Union"
@@ -84,6 +131,19 @@
   links:
     - url: https://doi.org/10.1007/978-3-032-08890-1_15
       display: "Cyber Security: Policy and Technology (2026)"
+  bibtex: |
+    @incollection{safak2026blockchain,
+      title     = {A Blockchain-Based Explainable Federated Learning System for the Trustworthy Collective Defense of IoT Networks in the European Union},
+      author    = {{\c{S}}afak, Ilg{\i}n and Frantti, Tapio and Akg{\"u}n, Mete},
+      booktitle = {Cyber Security: Policy and Technology},
+      editor    = {Lehto, Martti and Neittaanm{\"a}ki, Pekka},
+      series    = {Studies in Big Data},
+      volume    = {83},
+      pages     = {359--384},
+      publisher = {Springer Nature Switzerland},
+      year      = {2026},
+      doi       = {10.1007/978-3-032-08890-1_15}
+    }
   highlight: 1
 
 - title: "PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies"
@@ -96,6 +156,16 @@
   links:
     - url: https://www.nature.com/articles/s41467-025-66771-z
       display: "Nature Communications (2025)"
+    - url: https://github.com/mdppml/PP-GWAS
+      display: "Code"
+  bibtex: |
+    @article{swaminathan2025ppgwas,
+      title   = {{PP-GWAS}: Privacy Preserving Multi-Site Genome-wide Association Studies},
+      author  = {Swaminathan, Arjhun and Hannemann, Anika and {\"U}nal, Ali Burak and Pfeifer, Nico and Akg{\"u}n, Mete},
+      journal = {Nature Communications},
+      year    = {2025},
+      doi     = {10.1038/s41467-025-66771-z}
+    }
   highlight: 1
 
 - title: "Robust Representation Learning for Privacy-Preserving Machine Learning: A Multi-Objective Autoencoder Approach"
@@ -107,6 +177,15 @@
   links:
     - url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11142865
       display: "IEEE Access (2025)"
+  bibtex: |
+    @article{ouaari2025robust,
+      title   = {Robust Representation Learning for Privacy-Preserving Machine Learning: A Multi-Objective Autoencoder Approach},
+      author  = {Ouaari, Sofiane and {\"U}nal, Ali Burak and Akg{\"u}n, Mete and Pfeifer, Nico},
+      journal = {IEEE Access},
+      volume  = {13},
+      year    = {2025},
+      doi     = {10.1109/ACCESS.2025.3603429}
+    }
   highlight: 1
 
 - title: "PRISM: Privacy-preserving Rare Disease Analysis using Fully Homomorphic Encryption"
@@ -119,6 +198,19 @@
   links:
     - url: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaf468/8240325?login=false
       display: "Bioinformatics (2025)"
+    - url: https://github.com/mdppml/PRISM
+      display: "Code"
+  bibtex: |
+    @article{akkaya2025prism,
+      title   = {{PRISM}: Privacy-preserving Rare Disease Analysis using Fully Homomorphic Encryption},
+      author  = {Akkaya, G{\"u}liz and Erdo{\u{g}}mu{\c{s}}, Nesli and Akg{\"u}n, Mete},
+      journal = {Bioinformatics},
+      volume  = {41},
+      number  = {10},
+      pages   = {btaf468},
+      year    = {2025},
+      doi     = {10.1093/bioinformatics/btaf468}
+    }
   highlight: 1
 
 - title: "Privacy-Preserving Federated Unsupervised Domain Adaptation with Application to Age Prediction from DNA Methylation Data"
@@ -131,6 +223,21 @@
   links:
     - url: https://doi.org/10.1093/bioinformatics/btaf465
       display: "Bioinformatics (2025)"
+    - url: https://github.com/mdppml/FREDA
+      display: "Code"
+    - url: https://github.com/mdppml/FREDA-CV
+      display: "Code (FREDA-CV)"
+  bibtex: |
+    @article{baykara2025privacy,
+      title   = {Privacy-Preserving Federated Unsupervised Domain Adaptation with Application to Age Prediction from {DNA} Methylation Data},
+      author  = {Baykara, Cem Ata and {\"U}nal, Ali Burak and Pfeifer, Nico and Akg{\"u}n, Mete},
+      journal = {Bioinformatics},
+      volume  = {41},
+      number  = {10},
+      pages   = {btaf465},
+      year    = {2025},
+      doi     = {10.1093/bioinformatics/btaf465}
+    }
   highlight: 1
 
 - title: "Secure and Efficient Logistic Regression with Secret-Sharing MPC and Differential Privacy"
@@ -143,6 +250,17 @@
   links:
     - url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11126887
       display: "IEEE Access (2025)"
+    - url: https://github.com/mdppml/DPLR
+      display: "Code"
+  bibtex: |
+    @article{magara2025secure,
+      title   = {Secure and Efficient Logistic Regression With Secret-Sharing {MPC} and Differential Privacy},
+      author  = {Ma{\u{g}}ara, {\c{S}}eyma Selcan and Motorcu, {\.I}pek and Mektepli, Emin {\c{S}}ahin and Baykara, Cem Ata and {\"U}nal, Ali Burak and Akg{\"u}n, Mete},
+      journal = {IEEE Access},
+      volume  = {13},
+      year    = {2025},
+      doi     = {10.1109/ACCESS.2025.3599456}
+    }
   highlight: 1
 
 
@@ -156,6 +274,13 @@
   links:
     - url: https://arxiv.org/abs/2403.14428
       display: "IEEE TPS (2025)"
+  bibtex: |
+    @inproceedings{baykara2025enabling,
+      title     = {Enabling Privacy-preserving Model Evaluation in Federated Learning via Fully Homomorphic Encryption},
+      author    = {Baykara, Cem Ata and {\"U}nal, Ali Burak and Akg{\"u}n, Mete},
+      booktitle = {2025 IEEE 7th International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (TPS-ISA)},
+      year      = {2025}
+    }
   highlight: 1
 
 - title: "Accelerating Probabilistic Privacy-Preserving Medical Record Linkage: A Three-Party MPC Approach"
@@ -168,6 +293,18 @@
   links:
     - url: https://www.sciencedirect.com/science/article/pii/S1532046425001492
       display: "Journal of Biomedical Informatics (2025)"
+    - url: https://github.com/mdppml/PPRL
+      display: "Code"
+  bibtex: |
+    @article{magara2025accelerating,
+      title   = {Accelerating Probabilistic Privacy-Preserving Medical Record Linkage: A Three-Party {MPC} Approach},
+      author  = {Ma{\u{g}}ara, {\c{S}}eyma Selcan and Dietrich, Noah and {\"U}nal, Ali Burak and Akg{\"u}n, Mete},
+      journal = {Journal of Biomedical Informatics},
+      volume  = {171},
+      pages   = {104920},
+      year    = {2025},
+      doi     = {10.1016/j.jbi.2025.104920}
+    }
   highlight: 1
 
 - title: "Distributed and Secure Kernel-Based Quantum Machine Learning"
@@ -179,6 +316,17 @@
   links:
     - url: https://openreview.net/forum?id=3jdI0aEW3k
       display: "TMLR"
+    - url: https://github.com/mdppml/distributed-secure-kernel-based-QML
+      display: "Code"
+  bibtex: |
+    @article{swaminathan2025distributed,
+      title   = {Distributed and Secure Kernel-Based Quantum Machine Learning},
+      author  = {Swaminathan, Arjhun and Akg{\"u}n, Mete},
+      journal = {Transactions on Machine Learning Research},
+      issn    = {2835-8856},
+      year    = {2025},
+      url     = {https://openreview.net/forum?id=3jdI0aEW3k}
+    }
   highlight: 1
 
 - title: "Privacy-preserving AUC computation in distributed machine learning with PHT-meDIC"
@@ -189,6 +337,17 @@
   links:
     - url: https://doi.org/10.1371/journal.pdig.0000753
       display: "PLOS Digital Health (2025)"
+  bibtex: |
+    @article{herr2025privacy,
+      title   = {Privacy-preserving {AUC} computation in distributed machine learning with {PHT-meDIC}},
+      author  = {de Arruda Botelho Herr, Marius and Baykara, Cem Ata and {\"U}nal, Ali Burak and Pfeifer, Nico and Akg{\"u}n, Mete},
+      journal = {PLOS Digital Health},
+      volume  = {4},
+      number  = {11},
+      pages   = {e0000753},
+      year    = {2025},
+      doi     = {10.1371/journal.pdig.0000753}
+    }
   highlight: 1
 
 - title: "Accurate and Private Diagnosis of Rare Genetic Syndromes from Facial Images with Federated Deep Learning"
@@ -199,6 +358,17 @@
   links:
     - url: https://arxiv.org/abs/2509.10635
       display: "arXiv:2509.10635 (2025)"
+    - url: https://github.com/mdppml/Federated_GestaltMatcher_Service
+      display: "Code"
+  bibtex: |
+    @misc{unal2025accurate,
+      title         = {Accurate and Private Diagnosis of Rare Genetic Syndromes from Facial Images with Federated Deep Learning},
+      author        = {{\"U}nal, Ali Burak and Baykara, Cem Ata and Krawitz, Peter and Akg{\"u}n, Mete},
+      year          = {2025},
+      eprint        = {2509.10635},
+      archivePrefix = {arXiv},
+      url           = {https://arxiv.org/abs/2509.10635}
+    }
   highlight: 1
 
 - title: "Federated Learning for Epileptic Seizure Prediction Across Heterogeneous EEG Datasets"
@@ -209,6 +379,15 @@
   links:
     - url: https://arxiv.org/abs/2508.08159
       display: "arXiv:2508.08159 (2025)"
+  bibtex: |
+    @misc{baykara2025federated,
+      title         = {Federated Learning for Epileptic Seizure Prediction Across Heterogeneous {EEG} Datasets},
+      author        = {Baykara, Cem Ata and Pandey, Saurav Raj and {\"U}nal, Ali Burak and Lee, Harlin and Akg{\"u}n, Mete},
+      year          = {2025},
+      eprint        = {2508.08159},
+      archivePrefix = {arXiv},
+      url           = {https://arxiv.org/abs/2508.08159}
+    }
   highlight: 1
 
 - title: "Dynamic k-anonymity for Electronic Health Records: A Topological Framework"
@@ -220,6 +399,20 @@
   links:
     - url: https://link.springer.com/chapter/10.1007/978-3-031-82349-7_10
       display: "DPM 2024"
+    - url: https://github.com/mdppml/dynamic-topological-k-anonymity
+      display: "Code"
+  bibtex: |
+    @inproceedings{swaminathan2024dynamic,
+      title     = {Dynamic k-Anonymity for Electronic Health Records: A Topological Framework},
+      author    = {Swaminathan, Arjhun and Akg{\"u}n, Mete},
+      booktitle = {Computer Security. ESORICS 2024 International Workshops (DPM)},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {15263},
+      pages     = {137--152},
+      publisher = {Springer},
+      year      = {2024},
+      doi       = {10.1007/978-3-031-82349-7_10}
+    }
   highlight: 1
   
 - title: "A privacy-preserving approach for cloud-based protein fold recognition"
@@ -233,7 +426,18 @@
     - url: "https://doi.org/10.1016/j.patter.2024.101023"
       display: "Cell Patterns 101023 (2024)"
     - url: "https://github.com/mdppml/RKN-as-a-Service"
-      display: "GitHub Repository"
+      display: "Code"
+  bibtex: |
+    @article{unal2024privacy,
+      title   = {A privacy-preserving approach for cloud-based protein fold recognition},
+      author  = {{\"U}nal, Ali Burak and Pfeifer, Nico and Akg{\"u}n, Mete},
+      journal = {Patterns},
+      volume  = {5},
+      number  = {9},
+      pages   = {101023},
+      year    = {2024},
+      doi     = {10.1016/j.patter.2024.101023}
+    }
   highlight: 1
 
 - title: "Private, Efficient and Scalable Kernel Learning for Medical Image Analysis"
@@ -246,6 +450,17 @@
   links:
     - url: "https://doi.org/10.1007/978-3-031-89704-7_7"
       display: "CIBB (2024)"
+  bibtex: |
+    @inproceedings{hannemann2024private,
+      title     = {Private, Efficient and Scalable Kernel Learning for Medical Image Analysis},
+      author    = {Hannemann, Anika and Swaminathan, Arjhun and {\"U}nal, Ali Burak and Akg{\"u}n, Mete},
+      booktitle = {Computational Intelligence Methods for Bioinformatics and Biostatistics (CIBB 2024)},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {15276},
+      publisher = {Springer},
+      year      = {2024},
+      doi       = {10.1007/978-3-031-89704-7_7}
+    }
   highlight: 1
   
 
@@ -257,6 +472,13 @@
   links:
     - url: https://arxiv.org/abs/2405.18878
       display: "IEEE HealthCom 2024"
+  bibtex: |
+    @inproceedings{jentsch2024privacy,
+      title     = {Privacy Preserving Data Imputation via Multi-party Computation for Medical Applications},
+      author    = {Jentsch, Julia and {\"U}nal, Ali Burak and Ma{\u{g}}ara, {\c{S}}eyma Selcan and Akg{\"u}n, Mete},
+      booktitle = {2024 IEEE International Conference on E-health Networking, Application \& Services (HealthCom)},
+      year      = {2024}
+    }
   highlight: 1
 
 - title: "Leveraging Multi-Color Spaces as a Defense Mechanism Against Model Inversion Attack"
@@ -267,6 +489,14 @@
   links:
     - url: https://icml.cc/virtual/2024/37498
       display: "ICML 2024 Next Generation of AI Safety Workshop"
+  bibtex: |
+    @inproceedings{ouaari2024leveraging,
+      title     = {Leveraging Multi-Color Spaces as a Defense Mechanism Against Model Inversion Attack},
+      author    = {Ouaari, Sofiane and {\"U}nal, Ali Burak and Akg{\"u}n, Mete and Pfeifer, Nico},
+      booktitle = {ICML 2024 Workshop on the Next Generation of AI Safety},
+      year      = {2024},
+      url       = {https://icml.cc/virtual/2024/37498}
+    }
   highlight: 1
 
 - title: "A Privacy-Preserving Framework for Collaborative Machine Learning with Kernel Methods"
@@ -279,9 +509,18 @@
   links:
     - url: https://ieeexplore.ieee.org/document/10431639
       display: "IEEE TPS p82-90 (2023)"
+  bibtex: |
+    @inproceedings{hannemann2023privacy,
+      title     = {A Privacy-Preserving Framework for Collaborative Machine Learning with Kernel Methods},
+      author    = {Hannemann, Anika and {\"U}nal, Ali Burak and Swaminathan, Arjhun and Buchmann, Erik and Akg{\"u}n, Mete},
+      booktitle = {2023 5th IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications (TPS-ISA)},
+      pages     = {82--90},
+      year      = {2023},
+      doi       = {10.1109/TPS-ISA58951.2023.00020}
+    }
   highlight: 1
 
-- title: "ppAURORA: Privacy Preserving Area Under Receiver Operating Characteristic and Precision-Recall Curves with Secure 3-Party Computation"
+- title: "ppAURORA: Privacy Preserving Area Under Receiver Operating Characteristic and Precision-Recall Curves"
   image: ppaurora.png
   description: In this paper, we propose an MPC-based framework, called PPAURORA with private merging of sorted lists and novel methods for comparing two secret-shared values, selecting between two secret-shared values, converting the modulus, and performing division to compute the exact AUC as one could obtain on the pooled original test samples.
   authors: AB Ünal, N Pfeifer, M Akgün
@@ -291,6 +530,18 @@
   links:
     - url: https://arxiv.org/abs/2102.08788
       display: "NSS 2023"
+    - url: https://github.com/mdppml/ppAURORA
+      display: "Code"
+  bibtex: |
+    @inproceedings{unal2023ppaurora,
+      title     = {{ppAURORA}: Privacy Preserving Area Under Receiver Operating Characteristic and Precision-Recall Curves},
+      author    = {{\"U}nal, Ali Burak and Pfeifer, Nico and Akg{\"u}n, Mete},
+      booktitle = {Network and System Security (NSS 2023)},
+      series    = {Lecture Notes in Computer Science},
+      pages     = {265--280},
+      publisher = {Springer},
+      year      = {2023}
+    }
   highlight: 1
 
 - title: "A Privacy-Preserving Scheme for Smart Grid Using Trusted Execution Environment"
@@ -301,6 +552,16 @@
   links:
     - url: https://doi.org/10.1109/ACCESS.2023.3237643
       display: "IEEE Access 11 (2023)"
+  bibtex: |
+    @article{akgun2023privacy,
+      title   = {A Privacy-Preserving Scheme for Smart Grid Using Trusted Execution Environment},
+      author  = {Akg{\"u}n, Mete and Soykan, Elif Ustundag and Soykan, Gurkan},
+      journal = {IEEE Access},
+      volume  = {11},
+      pages   = {9182--9196},
+      year    = {2023},
+      doi     = {10.1109/ACCESS.2023.3237643}
+    }
   highlight: 1
 
 - title: "P/Key: PUF Based Second Factor Authentication"
@@ -311,6 +572,17 @@
   links:
     - url: https://doi.org/10.1371/journal.pone.0280181
       display: "PLOS ONE 18(2) (2023)"
+  bibtex: |
+    @article{uysal2023pkey,
+      title   = {{P/Key}: {PUF} based second factor authentication},
+      author  = {Uysal, Ertan and Akg{\"u}n, Mete},
+      journal = {PLOS ONE},
+      volume  = {18},
+      number  = {2},
+      pages   = {e0280181},
+      year    = {2023},
+      doi     = {10.1371/journal.pone.0280181}
+    }
   highlight: 1
 
 - title: "Scalable RFID Authentication Protocol Based on Physically Unclonable Functions"
@@ -321,6 +593,16 @@
   links:
     - url: https://doi.org/10.1016/j.comnet.2023.109793
       display: "Computer Networks 230 (2023)"
+  bibtex: |
+    @article{kurt2023scalable,
+      title   = {Scalable {RFID} authentication protocol based on physically unclonable functions},
+      author  = {Kurt, Isil and Alag{\"o}z, Fatih and Akg{\"u}n, Mete},
+      journal = {Computer Networks},
+      volume  = {230},
+      pages   = {109793},
+      year    = {2023},
+      doi     = {10.1016/j.comnet.2023.109793}
+    }
   highlight: 1
 
 - title: "CECILIA: Comprehensive Secure Machine Learning Framework"
@@ -333,6 +615,17 @@
   links:
     - url: https://arxiv.org/pdf/2202.03023
       display: "arXiv:2202.03023 (2022)"
+    - url: https://github.com/mdppml/CECILIA-Simple
+      display: "Code"
+  bibtex: |
+    @misc{unal2022cecilia,
+      title         = {{CECILIA}: Comprehensive Secure Machine Learning Framework},
+      author        = {{\"U}nal, Ali Burak and Pfeifer, Nico and Akg{\"u}n, Mete},
+      year          = {2022},
+      eprint        = {2202.03023},
+      archivePrefix = {arXiv},
+      url           = {https://arxiv.org/abs/2202.03023}
+    }
   highlight: 1
 
 - title: "Efficient privacy-preserving whole-genome variant queries"
@@ -345,6 +638,16 @@
   links:
     - url: https://academic.oup.com/bioinformatics/article/38/8/2202/6527622
       display: "Bioinformatics 38,8 (2022)"
+  bibtex: |
+    @article{akgun2022efficient,
+      title   = {Efficient privacy-preserving whole-genome variant queries},
+      author  = {Akg{\"u}n, Mete and Pfeifer, Nico and Kohlbacher, Oliver},
+      journal = {Bioinformatics},
+      volume  = {38},
+      number  = {8},
+      pages   = {2202--2210},
+      year    = {2022}
+    }
   highlight: 1
 
 - title: "Bringing the Algorithms to the Data: Secure Distributed Medical Analytics using the Personal Health Train (PHT-meDIC)"
@@ -354,6 +657,15 @@
   links:
     - url: https://arxiv.org/abs/2212.03481
       display: "arXiv:2212.03481 (2022)"
+  bibtex: |
+    @misc{herr2022bringing,
+      title         = {Bringing the Algorithms to the Data -- Secure Distributed Medical Analytics using the Personal Health Train ({PHT-meDIC})},
+      author        = {de Arruda Botelho Herr, Marius and Graf, Michael and Placzek, Peter and K{\"o}nig, Florian and B{\"o}tte, Felix and Stickel, Tyra and Hieber, David and Zimmermann, Lukas and Slupina, Michael and Mohr, Christopher and Biergans, Stephanie and Akg{\"u}n, Mete and Pfeifer, Nico and Kohlbacher, Oliver},
+      year          = {2022},
+      eprint        = {2212.03481},
+      archivePrefix = {arXiv},
+      url           = {https://arxiv.org/abs/2212.03481}
+    }
   highlight: 1
 
 - title: "Escaped: Efficient secure and private dot product framework for kernel-based machine learning algorithms with applications in healthcare"
@@ -366,6 +678,19 @@
   links:
     - url: https://doi.org/10.1609/aaai.v35i11.17199
       display: "AAAI 35, 11 (2021)"
+    - url: https://github.com/mdppml/ESCAPED
+      display: "Code"
+  bibtex: |
+    @inproceedings{unal2021escaped,
+      title     = {{ESCAPED}: Efficient Secure and Private Dot Product Framework for Kernel-based Machine Learning Algorithms with Applications in Healthcare},
+      author    = {{\"U}nal, Ali Burak and Akg{\"u}n, Mete and Pfeifer, Nico},
+      booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+      volume    = {35},
+      number    = {11},
+      pages     = {9988--9996},
+      year      = {2021},
+      doi       = {10.1609/aaai.v35i11.17199}
+    }
   highlight: 1
 
 - title: "Identifying disease-causing mutations with privacy protection"
@@ -378,6 +703,17 @@
   links:
     - url: https://doi.org/10.1093/bioinformatics/btaa641
       display: "Bioinformatics 36,21 (2020)"
+  bibtex: |
+    @article{akgun2020identifying,
+      title   = {Identifying disease-causing mutations with privacy protection},
+      author  = {Akg{\"u}n, Mete and {\"U}nal, Ali Burak and Erg{\"u}ner, B. and Pfeifer, Nico and Kohlbacher, Oliver},
+      journal = {Bioinformatics},
+      volume  = {36},
+      number  = {21},
+      pages   = {5205--5213},
+      year    = {2020},
+      doi     = {10.1093/bioinformatics/btaa641}
+    }
   highlight: 1
 
 - title: "Privacy-preserving SVM on Outsourced Genomic Data via Secure Multi-party Computation"
@@ -388,6 +724,16 @@
   links:
     - url: https://doi.org/10.1145/3375708.3380316
       display: "IWSPA 2020"
+  bibtex: |
+    @inproceedings{chen2020privacy,
+      title     = {Privacy-preserving {SVM} on Outsourced Genomic Data via Secure Multi-party Computation},
+      author    = {Chen, H. and {\"U}nal, Ali Burak and Akg{\"u}n, Mete and Pfeifer, Nico},
+      booktitle = {Proceedings of the Sixth International Workshop on Security and Privacy Analytics (IWSPA '20)},
+      pages     = {61--69},
+      publisher = {ACM},
+      year      = {2020},
+      doi       = {10.1145/3375708.3380316}
+    }
   highlight: 1
 
 - title: "Privacy Preserving Gaze Estimation using Synthetic Images via a Randomized Encoding Based Framework"
@@ -398,6 +744,16 @@
   links:
     - url: https://doi.org/10.1145/3379156.3391364
       display: "ETRA 2020"
+  bibtex: |
+    @inproceedings{bozkir2020privacy,
+      title     = {Privacy Preserving Gaze Estimation using Synthetic Images via a Randomized Encoding Based Framework},
+      author    = {Bozkir, Efe and {\"U}nal, Ali Burak and Akg{\"u}n, Mete and Kasneci, Enkelejda and Pfeifer, Nico},
+      booktitle = {ACM Symposium on Eye Tracking Research and Applications (ETRA '20)},
+      pages     = {1--5},
+      publisher = {ACM},
+      year      = {2020},
+      doi       = {10.1145/3379156.3391364}
+    }
   highlight: 1
 
 - title: "Eye Tracking Data Collection Protocol for VR for Remotely Located Subjects using Blockchain and Smart Contracts"
@@ -407,6 +763,14 @@
   links:
     - url: https://doi.org/10.1109/AIVR50618.2020.00083
       display: "AIVR 2020"
+  bibtex: |
+    @inproceedings{bozkir2020eye,
+      title     = {Eye Tracking Data Collection Protocol for {VR} for Remotely Located Subjects using Blockchain and Smart Contracts},
+      author    = {Bozkir, Efe and Eivazi, Shahram and Akg{\"u}n, Mete and Kasneci, Enkelejda},
+      booktitle = {2020 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)},
+      year      = {2020},
+      doi       = {10.1109/AIVR50618.2020.00083}
+    }
   highlight: 1
 
 - title: "A framework with randomized encoding for a fast privacy preserving calculation of non-linear kernels for machine learning applications in precision medicine"
@@ -417,6 +781,17 @@
   links:
     - url: https://doi.org/10.1007/978-3-030-31578-8_27
       display: "CANS 2019"
+  bibtex: |
+    @inproceedings{unal2019framework,
+      title     = {A framework with randomized encoding for a fast privacy preserving calculation of non-linear kernels for machine learning applications in precision medicine},
+      author    = {{\"U}nal, Ali Burak and Akg{\"u}n, Mete and Pfeifer, Nico},
+      booktitle = {Cryptology and Network Security (CANS 2019)},
+      series    = {Lecture Notes in Computer Science},
+      pages     = {493--511},
+      publisher = {Springer},
+      year      = {2019},
+      doi       = {10.1007/978-3-030-31578-8_27}
+    }
   highlight: 1
 
 - title: "An Active Genomic Data Recovery Attack"
@@ -424,4 +799,14 @@
   venue: "Balkan Journal of Electrical and Computer Engineering"
   year: 2019
   themes: [genomics]
+  bibtex: |
+    @article{akgun2019active,
+      title   = {An Active Genomic Data Recovery Attack},
+      author  = {Akg{\"u}n, Mete},
+      journal = {Balkan Journal of Electrical and Computer Engineering},
+      volume  = {7},
+      number  = {4},
+      pages   = {417--423},
+      year    = {2019}
+    }
   highlight: 1

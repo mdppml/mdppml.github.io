@@ -43,3 +43,41 @@ permalink: /publications/
   </ol>
 </section>
 {% endif %}
+
+<script>
+  (function () {
+    // Abstract / BibTeX toggles: one panel open per publication at a time
+    document.querySelectorAll('.pub__toggle').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var panel = document.getElementById(btn.getAttribute('aria-controls'));
+        var open = btn.getAttribute('aria-expanded') === 'true';
+        btn.closest('.pub').querySelectorAll('.pub__toggle').forEach(function (other) {
+          other.setAttribute('aria-expanded', 'false');
+          var p = document.getElementById(other.getAttribute('aria-controls'));
+          if (p) p.classList.remove('is-open');
+        });
+        if (!open) { btn.setAttribute('aria-expanded', 'true'); panel.classList.add('is-open'); }
+      });
+    });
+
+    // Copy BibTeX to the clipboard
+    document.querySelectorAll('.pub__copy').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var code = document.getElementById(btn.getAttribute('data-copy')).querySelector('code');
+        var text = code.textContent;
+        var done = function () {
+          btn.textContent = 'Copied';
+          setTimeout(function () { btn.textContent = 'Copy'; }, 1500);
+        };
+        if (navigator.clipboard && window.isSecureContext) {
+          navigator.clipboard.writeText(text).then(done);
+        } else {
+          var range = document.createRange(); range.selectNodeContents(code);
+          var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range);
+          try { document.execCommand('copy'); done(); } catch (e) {}
+          sel.removeAllRanges();
+        }
+      });
+    });
+  })();
+</script>

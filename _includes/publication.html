@@ -1,4 +1,5 @@
 {% assign p = include.publi %}
+{% assign pid = p.title | slugify | truncate: 48, "" %}
 <li class="pub">
   {% if p.image %}<img class="pub__thumb" src="{{ site.baseurl }}/images/pubpic/{{ p.image }}" alt="" loading="lazy" decoding="async" width="168" height="112">{% else %}<span class="pub__thumb pub__thumb--empty" aria-hidden="true"></span>{% endif %}
   <div class="pub__body">
@@ -6,14 +7,24 @@
     <p class="pub__meta"><span class="venue">{% if p.venue %}{{ p.venue }}{% else %}{{ p.links[0].display }}{% endif %}</span> {{ p.authors }}</p>
     {% if p.news1 and p.news1 != "" %}<p class="pub__note">{{ p.news1 }}</p>{% endif %}
     {% if p.news2 and p.news2 != "" %}<p class="pub__note pub__note--secondary">{{ p.news2 }}</p>{% endif %}
-    {% if p.description %}
-    <details class="pub__abstract">
-      <summary>Abstract</summary>
-      <div class="pub__abstract-text">{{ p.description | markdownify }}</div>
-    </details>
-    {% endif %}
-    <p class="pub__links{% unless p.description %} pub__links--plain{% endunless %}">
+
+    <p class="pub__actions">
+      {% if p.description %}<button type="button" class="pub__toggle" aria-expanded="false" aria-controls="abs-{{ pid }}">Abstract</button>{% endif %}
+      {% if p.bibtex %}<button type="button" class="pub__toggle" aria-expanded="false" aria-controls="bib-{{ pid }}">BibTeX</button>{% endif %}
       {% for link in p.links %}<a href="{{ link.url }}">{% if forloop.first %}Paper{% else %}{{ link.display }}{% endif %}</a>{% endfor %}
     </p>
+
+    {% if p.description %}
+    <div class="pub__panel pub__abstract-text" id="abs-{{ pid }}">
+      <p class="pub__panel-label">Abstract</p>
+      {{ p.description | markdownify }}
+    </div>
+    {% endif %}
+    {% if p.bibtex %}
+    <div class="pub__panel pub__bibtex" id="bib-{{ pid }}">
+      <p class="pub__panel-label">BibTeX <button type="button" class="pub__copy" data-copy="bib-{{ pid }}">Copy</button></p>
+      <pre><code>{{ p.bibtex | strip | escape }}</code></pre>
+    </div>
+    {% endif %}
   </div>
 </li>
